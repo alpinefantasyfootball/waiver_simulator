@@ -12,7 +12,15 @@ on:
       seasons:
         description: "Comma-separated seasons to pull"
         required: true
-        default: "2025,2026"
+        default: "2025"
+      sections:
+        description: "Which probes to run: league, pool, activity"
+        required: true
+        default: "pool,activity"
+      scoring_period:
+        description: "Week to ask the pool about (0 = current)"
+        required: false
+        default: "0"
 
 jobs:
   inspect:
@@ -30,6 +38,8 @@ jobs:
         env:
           ESPN_LEAGUE_ID: ${{ inputs.league_id }}
           ESPN_SEASONS: ${{ inputs.seasons }}
+          ESPN_SECTIONS: ${{ inputs.sections }}
+          ESPN_SCORING_PERIOD: ${{ inputs.scoring_period }}
           # Empty for the public friends league. When the private work
           # league gets added, these come from repository secrets and
           # never appear in the log or in any committed file.
