@@ -363,116 +363,101 @@ def probe_activity(season):
 # ---------------------------------------------------------------------------
 
 
+CANDIDATE_TYPES = [
+    "WAIVER", "FREEAGENT", "TRADE_ACCEPT", "TRADE_PROPOSAL",
+    "TRADE_UPHOLD", "TRADE_DECLINE", "TRADE_VETO", "TRADE_ERROR",
+    "ROSTER", "DRAFT", "LINEUP", "FUTURE_ROSTER", "RETRO_ROSTER",
+    "WAIVER_ERROR", "IR",
+]
+
+
 def probe_transactions(season):
     """
-    The activity feed 404'd and mTransactions2 was first requested with no
-    filter header at all. Rather than guess again, try several documented-by-
-    reverse-engineering shapes in one run and report which ones return data.
+    The 400 from the last run was ESPN rejecting one enum value, not the
+    filter shape. So ask it which values it accepts -- send each candidate
+    on its own and let the API sort valid from invalid -- then do a real
+    pull with the survivors.
     """
     banner("TRANSACTIONS  season {}".format(season))
-
     league = league_url(season, ["mTransactions2"])
-    comm_base = ("{base}/seasons/{season}/segments/0/leagues/{league}"
-                 "/communication").format(
-        base=BASE, season=season, league=LEAGUE_ID)
 
-    attempts = [
-        ("A  mTransactions2 + full filter", league, {
+    valid, invalid = [], []
+    print("Probing filterType values one at a time:\n")
+    for candidate in CANDIDATE_TYPES:
+        data, error = get(league, {
             "transactions": {
-                "filterType": {"value": ["WAIVER", "FREEAGENT", "TRADE",
-                                         "ROSTER", "DRAFT"]},
-                "limit": 1000, "offset": 0,
-                "sortDate": {"sortPriority": 1, "sortAsc": False},
+                "filterType": {"value": [candidate]},
+                "limit": 5, "offset": 0,
             }
-        }),
-        ("B  mTransactions2 + minimal filter", league, {
-            "transactions": {"limit": 1000, "offset": 0}
-        }),
-        ("C  communication, no trailing slash",
-         comm_base + "?view=kona_league_communication", {
-             "topics": {
-                 "filterType": {"value": ["ACTIVITY_TRANSACTIONS"]},
-                 "limit": 100, "offset": 0,
-             }
-         }),
-        ("D  communication + messageTypeIds",
-         comm_base + "/?view=kona_league_communication", {
-             "topics": {
-                 "filterType": {"value": ["ACTIVITY_TRANSACTIONS"]},
-                 "limit": 100,
-                 "limitPerMessageSet": {"value": 100},
-                 "offset": 0,
-                 "sortMessageDate": {"sortPriority": 1, "sortAsc": False},
-                 "filterIncludeMessageTypeIds": {
-                     "value": [178, 180, 179, 239, 181, 244]},
-             }
-         }),
-    ]
-
-    winner = None
-    for label, url, fantasy_filter in attempts:
-        print("\n{}".format(label))
-        data, error = get(url, fantasy_filter)
+        })
         if error:
-            print("  FAILED: {}".format(error[:220]))
+            if "HTTP 400" in error:
+                invalid.append(candidate)
+                print("  {:<16} rejected".format(candidate))
+            else:
+                print("  {:<16} error: {}".format(candidate, error[:90]))
             continue
-
-        keys = sorted(data.keys())
-        print("  OK. top-level keys: {}".format(", ".join(keys)))
-
         rows = data.get("transactions")
-        if rows is not None:
-            print("  transactions: {} entries".format(len(rows)))
-            if rows:
-                keys_of(rows[0], "a transaction")
-                types = {}
-                for row in rows:
-                    types[row.get("type")] = types.get(row.get("type"), 0) + 1
-                print("  types: " + ", ".join(
-                    "{}={}".format(k, v) for k, v in sorted(types.items(), key=str)))
-                winner = winner or (label, data)
-            continue
+        valid.append(candidate)
+        if rows is None:
+            print("  {:<16} ACCEPTED, but no transactions key".format(candidate))
+        else:
+            print("  {:<16} ACCEPTED, {} rows".format(candidate, len(rows)))
 
-        topics = data.get("topics")
-        if topics is not None:
-            total = sum(len(t.get("messages") or []) for t in topics)
-            print("  topics: {}   messages: {}".format(len(topics), total))
-            if total:
-                for topic in topics:
-                    for message in (topic.get("messages") or []):
-                        keys_of(message, "a message")
-                        print("  sample: {}".format(json.dumps(message)[:200]))
-                        break
-                    break
-                winner = winner or (label, data)
-            continue
+    print("\n  valid:   {}".format(", ".join(valid) or "(none)"))
+    print("  invalid: {}".format(", ".join(invalid) or "(none)"))
 
-        print("  neither 'transactions' nor 'topics' present")
+    if not valid:
+        print("\nNo accepted values. mTransactions2 is a dead end for this league.")
+        return
 
+    # Real pull with everything ESPN accepted.
     print()
     line("=")
-    if winner:
-        print("WORKING SHAPE: {}".format(winner[0]))
-        save("espn_transactions_{}_{}.json".format(LEAGUE_ID, season), winner[1])
-    else:
-        print("No shape returned transaction data.")
-        print("Falling back to transactionCounter, printed below.")
+    print("FULL PULL with {} accepted value(s)".format(len(valid)))
     line("=")
-
-    # Always pull the fallback signal so one run answers both questions.
-    print("\ntransactionCounter per team (the fallback for activity rates):")
-    data, error = get(league_url(season, ["mTeam"]))
+    data, error = get(league, {
+        "transactions": {
+            "filterType": {"value": valid},
+            "limit": 2000, "offset": 0,
+            "sortDate": {"sortPriority": 1, "sortAsc": False},
+        }
+    })
     if error:
-        print("  FAILED: {}".format(error))
+        print("  FAILED: {}".format(error[:250]))
         return
-    teams = data.get("teams") or []
-    for team in teams:
-        counter = team.get("transactionCounter") or {}
-        flat = {k: v for k, v in counter.items()
-                if not isinstance(v, (dict, list))}
-        print("  {:>3}  {:<24} {}".format(
-            team.get("id"), team_name(team)[:24],
-            ", ".join("{}={}".format(k, flat[k]) for k in sorted(flat))))
+
+    rows = data.get("transactions") or []
+    print("  {} transactions returned".format(len(rows)))
+    if not rows:
+        print("  (accepted the filter but returned nothing)")
+        return
+
+    keys_of(rows[0], "a transaction")
+
+    types, statuses, by_team = {}, {}, {}
+    for row in rows:
+        types[row.get("type")] = types.get(row.get("type"), 0) + 1
+        statuses[row.get("status")] = statuses.get(row.get("status"), 0) + 1
+        team = row.get("teamId")
+        by_team[team] = by_team.get(team, 0) + 1
+
+    print("\n  types:    " + ", ".join(
+        "{}={}".format(k, v) for k, v in sorted(types.items(), key=str)))
+    print("  statuses: " + ", ".join(
+        "{}={}".format(k, v) for k, v in sorted(statuses.items(), key=str)))
+    print("  by teamId: " + ", ".join(
+        "{}={}".format(k, by_team[k]) for k in sorted(by_team, key=str)))
+
+    dates = [r.get("proposedDate") for r in rows if r.get("proposedDate")]
+    if dates:
+        print("  date range (epoch ms): {} .. {}".format(min(dates), max(dates)))
+
+    print("\n  first 5 transactions raw:")
+    for row in rows[:5]:
+        print("    {}".format(json.dumps(row)[:230]))
+
+    save("espn_transactions_{}_{}.json".format(LEAGUE_ID, season), data)
     print()
 
 
