@@ -44,7 +44,7 @@ BASE = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl"
 OUT = pathlib.Path("out")
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; alpine-waiver-sim/0.3)",
+    "User-Agent": "Mozilla/5.0 (compatible; alpine-waiver-sim/0.4)",
     "Accept": "application/json",
 }
 
@@ -470,8 +470,26 @@ PROBES = {
 
 
 def main():
-    print("league {}   seasons {}   sections {}\n".format(
+    print("league {}   seasons {}   sections {}".format(
         LEAGUE_ID, SEASONS, SECTIONS))
+
+    # Report the auth state without ever printing the values themselves.
+    # A silent skip made a failed auth test look identical to a successful
+    # one that changed nothing -- don't repeat that.
+    if ESPN_S2 and SWID:
+        print("auth: SENDING cookies "
+              "(espn_s2 {} chars, SWID {} chars, braces={})".format(
+                  len(ESPN_S2), len(SWID),
+                  SWID.startswith("{") and SWID.endswith("}")))
+        if len(ESPN_S2) < 50:
+            print("      WARNING: espn_s2 looks far too short -- the real "
+                  "value runs to several hundred characters, so this is "
+                  "probably a truncated copy")
+    else:
+        missing = [n for n, v in (("ESPN_S2", ESPN_S2), ("SWID", SWID)) if not v]
+        print("auth: ANONYMOUS -- no cookie header sent "
+              "(empty or unset: {})".format(", ".join(missing)))
+    print()
 
     unknown = [s for s in SECTIONS if s not in PROBES]
     if unknown:
