@@ -33,7 +33,7 @@ import urllib.request
 LEAGUE_ID = os.environ.get("ESPN_LEAGUE_ID", "65142363")
 SEASONS = [int(s) for s in os.environ.get("ESPN_SEASONS", "2025").split(",")]
 SECTIONS = [s.strip() for s in
-            os.environ.get("ESPN_SECTIONS", "pool,activity").split(",")]
+            os.environ.get("ESPN_SECTIONS", "transactions").split(",")]
 
 # Which week to ask the pool about. 0 means "whatever ESPN considers current".
 SCORING_PERIOD = int(os.environ.get("ESPN_SCORING_PERIOD", "0"))
@@ -44,7 +44,7 @@ BASE = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl"
 OUT = pathlib.Path("out")
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; alpine-waiver-sim/0.2)",
+    "User-Agent": "Mozilla/5.0 (compatible; alpine-waiver-sim/0.3)",
     "Accept": "application/json",
 }
 
@@ -255,6 +255,22 @@ def probe_pool(season):
         print("    none found (expected on a completed season -- nothing")
         print("    is actively on waivers once the year is over)")
 
+    ownership = (first.get("player") or {}).get("ownership")
+    keys_of(ownership, "the ownership object")
+
+    stats = (first.get("player") or {}).get("stats") or []
+    print("\n  stats entries on first player: {}".format(len(stats)))
+    if stats:
+        keys_of(stats[0], "a stats entry")
+        combos = {}
+        for entry in stats:
+            key = (entry.get("statSourceId"), entry.get("statSplitTypeId"))
+            combos[key] = combos.get(key, 0) + 1
+        print("  (statSourceId, statSplitTypeId) counts:")
+        for key in sorted(combos, key=str):
+            print("    {} x{}   (sourceId 0=actual, 1=projected)".format(
+                key, combos[key]))
+
     print("\n  first 10 by percent owned:")
     for entry in players[:10]:
         player = entry.get("player") or {}
@@ -347,8 +363,122 @@ def probe_activity(season):
 # ---------------------------------------------------------------------------
 
 
+def probe_transactions(season):
+    """
+    The activity feed 404'd and mTransactions2 was first requested with no
+    filter header at all. Rather than guess again, try several documented-by-
+    reverse-engineering shapes in one run and report which ones return data.
+    """
+    banner("TRANSACTIONS  season {}".format(season))
+
+    league = league_url(season, ["mTransactions2"])
+    comm_base = ("{base}/seasons/{season}/segments/0/leagues/{league}"
+                 "/communication").format(
+        base=BASE, season=season, league=LEAGUE_ID)
+
+    attempts = [
+        ("A  mTransactions2 + full filter", league, {
+            "transactions": {
+                "filterType": {"value": ["WAIVER", "FREEAGENT", "TRADE",
+                                         "ROSTER", "DRAFT"]},
+                "limit": 1000, "offset": 0,
+                "sortDate": {"sortPriority": 1, "sortAsc": False},
+            }
+        }),
+        ("B  mTransactions2 + minimal filter", league, {
+            "transactions": {"limit": 1000, "offset": 0}
+        }),
+        ("C  communication, no trailing slash",
+         comm_base + "?view=kona_league_communication", {
+             "topics": {
+                 "filterType": {"value": ["ACTIVITY_TRANSACTIONS"]},
+                 "limit": 100, "offset": 0,
+             }
+         }),
+        ("D  communication + messageTypeIds",
+         comm_base + "/?view=kona_league_communication", {
+             "topics": {
+                 "filterType": {"value": ["ACTIVITY_TRANSACTIONS"]},
+                 "limit": 100,
+                 "limitPerMessageSet": {"value": 100},
+                 "offset": 0,
+                 "sortMessageDate": {"sortPriority": 1, "sortAsc": False},
+                 "filterIncludeMessageTypeIds": {
+                     "value": [178, 180, 179, 239, 181, 244]},
+             }
+         }),
+    ]
+
+    winner = None
+    for label, url, fantasy_filter in attempts:
+        print("\n{}".format(label))
+        data, error = get(url, fantasy_filter)
+        if error:
+            print("  FAILED: {}".format(error[:220]))
+            continue
+
+        keys = sorted(data.keys())
+        print("  OK. top-level keys: {}".format(", ".join(keys)))
+
+        rows = data.get("transactions")
+        if rows is not None:
+            print("  transactions: {} entries".format(len(rows)))
+            if rows:
+                keys_of(rows[0], "a transaction")
+                types = {}
+                for row in rows:
+                    types[row.get("type")] = types.get(row.get("type"), 0) + 1
+                print("  types: " + ", ".join(
+                    "{}={}".format(k, v) for k, v in sorted(types.items(), key=str)))
+                winner = winner or (label, data)
+            continue
+
+        topics = data.get("topics")
+        if topics is not None:
+            total = sum(len(t.get("messages") or []) for t in topics)
+            print("  topics: {}   messages: {}".format(len(topics), total))
+            if total:
+                for topic in topics:
+                    for message in (topic.get("messages") or []):
+                        keys_of(message, "a message")
+                        print("  sample: {}".format(json.dumps(message)[:200]))
+                        break
+                    break
+                winner = winner or (label, data)
+            continue
+
+        print("  neither 'transactions' nor 'topics' present")
+
+    print()
+    line("=")
+    if winner:
+        print("WORKING SHAPE: {}".format(winner[0]))
+        save("espn_transactions_{}_{}.json".format(LEAGUE_ID, season), winner[1])
+    else:
+        print("No shape returned transaction data.")
+        print("Falling back to transactionCounter, printed below.")
+    line("=")
+
+    # Always pull the fallback signal so one run answers both questions.
+    print("\ntransactionCounter per team (the fallback for activity rates):")
+    data, error = get(league_url(season, ["mTeam"]))
+    if error:
+        print("  FAILED: {}".format(error))
+        return
+    teams = data.get("teams") or []
+    for team in teams:
+        counter = team.get("transactionCounter") or {}
+        flat = {k: v for k, v in counter.items()
+                if not isinstance(v, (dict, list))}
+        print("  {:>3}  {:<24} {}".format(
+            team.get("id"), team_name(team)[:24],
+            ", ".join("{}={}".format(k, flat[k]) for k in sorted(flat))))
+    print()
+
+
 PROBES = {
     "league": probe_league,
+    "transactions": probe_transactions,
     "pool": probe_pool,
     "activity": probe_activity,
 }
