@@ -1,0 +1,46 @@
+name: Inspect ESPN league
+
+# Manual only for now. Nothing runs on a schedule until we know the
+# reader works and what it should be writing.
+on:
+  workflow_dispatch:
+    inputs:
+      league_id:
+        description: "ESPN league id"
+        required: true
+        default: "65142363"
+      seasons:
+        description: "Comma-separated seasons to pull"
+        required: true
+        default: "2025,2026"
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch and summarize
+        env:
+          ESPN_LEAGUE_ID: ${{ inputs.league_id }}
+          ESPN_SEASONS: ${{ inputs.seasons }}
+          # Empty for the public friends league. When the private work
+          # league gets added, these come from repository secrets and
+          # never appear in the log or in any committed file.
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+        run: python scripts/fetch_espn.py
+
+      - name: Upload raw JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: espn-raw-json
+          path: out/
+          if-no-files-found: warn
+          retention-days: 14
