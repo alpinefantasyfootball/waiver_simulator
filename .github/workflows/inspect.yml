@@ -14,9 +14,9 @@ on:
         required: true
         default: "2025"
       sections:
-        description: "Which probes to run: league, pool, activity"
+        description: "Which probes to run: league, pool, activity, transactions"
         required: true
-        default: "pool,activity"
+        default: "transactions"
       scoring_period:
         description: "Week to ask the pool about (0 = current)"
         required: false
