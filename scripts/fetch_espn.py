@@ -44,7 +44,7 @@ BASE = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl"
 OUT = pathlib.Path("out")
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; alpine-waiver-sim/0.4)",
+    "User-Agent": "Mozilla/5.0 (compatible; alpine-waiver-sim/0.5)",
     "Accept": "application/json",
 }
 
@@ -167,6 +167,36 @@ def probe_league(season):
     print("  name: {}   size: {}".format(
         settings.get("name"), settings.get("size")))
     print("  scoringPeriodId: {}".format(data.get("scoringPeriodId")))
+    print("  isPublic: {}   restrictionType: {}".format(
+        settings.get("isPublic"), settings.get("restrictionType")))
+
+    # Waiver format detection -- this is what tells the engine which of
+    # the two ESPN order modes a league runs.
+    acquisition = settings.get("acquisitionSettings") or {}
+    if acquisition:
+        print("\n  acquisitionSettings:")
+        for key in sorted(acquisition.keys()):
+            print("    {}: {}".format(key, acquisition[key]))
+
+    scoring = settings.get("scoringSettings") or {}
+    if scoring:
+        print("\n  playerRankType: {}   scoringType: {}".format(
+            scoring.get("playerRankType"), scoring.get("scoringType")))
+        # statId 53 is receptions -- 1.0 is full PPR, 0.5 is half.
+        for item in scoring.get("scoringItems", []):
+            if item.get("statId") == 53:
+                print("    reception value (statId 53): {}".format(
+                    item.get("points")))
+
+    roster = settings.get("rosterSettings") or {}
+    slots = roster.get("lineupSlotCounts") or {}
+    if slots:
+        print("\n  lineupSlotCounts (non-zero):")
+        print("    " + ", ".join(
+            "{}x{}".format(k, v)
+            for k, v in sorted(slots.items(), key=lambda kv: int(kv[0])) if v))
+    if roster.get("positionLimits"):
+        print("  positionLimits: {}".format(roster["positionLimits"]))
 
     teams = data.get("teams") or []
     print("\n  {:>4}  {:<26} {:>7}  {:>6}".format(
