@@ -8,15 +8,15 @@ on:
       league_id:
         description: "ESPN league id"
         required: true
-        default: "65142363"
+        default: "854943363"
       seasons:
         description: "Comma-separated seasons to pull"
         required: true
-        default: "2025"
+        default: "2026"
       sections:
         description: "Which probes to run: league, pool, activity, transactions"
         required: true
-        default: "transactions"
+        default: "league"
       scoring_period:
         description: "Week to ask the pool about (0 = current)"
         required: false
