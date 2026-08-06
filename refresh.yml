@@ -1,0 +1,55 @@
+name: Refresh league data
+
+# Manual for now. The daily schedule turns on once the season starts --
+# see the commented block below.
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Season to pull"
+        required: true
+        default: "2026"
+
+  # Uncomment from Week 1. Times are UTC; GitHub cron has no timezone.
+  # Waivers process at hour 11 six days a week, so the board has to be
+  # current before that window and the result captured after it.
+  # schedule:
+  #   - cron: "0 11 * * *"   # 06:00 CT -- before processing
+  #   - cron: "0 18 * * *"   # 13:00 CT -- capture what cleared
+  #   - cron: "0 1  * * *"   # 20:00 CT -- evening news and drops
+
+# The job commits back to the repo, so it needs write access.
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Normalize leagues
+        env:
+          ESPN_SEASON: ${{ inputs.season || '2026' }}
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+        run: python scripts/build_leagues.py
+
+      - name: Commit data and snapshots
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Nothing changed -- no commit."
+          else
+            git commit -m "Refresh league data ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+            echo "Committed."
+          fi
