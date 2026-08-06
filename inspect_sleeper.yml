@@ -1,0 +1,45 @@
+name: Inspect Sleeper
+
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Season to probe (2025 has real completed weeks)"
+        required: true
+        default: "2025"
+      week:
+        description: "Week to pull stats and projections for"
+        required: true
+        default: "8"
+      save_players:
+        description: "Also upload the full player dump as an artifact"
+        required: false
+        default: "0"
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Probe Sleeper
+        env:
+          SLEEPER_SEASON: ${{ inputs.season }}
+          SLEEPER_WEEK: ${{ inputs.week }}
+          SLEEPER_SAVE: ${{ inputs.save_players }}
+        run: python scripts/probe_sleeper.py
+
+      - name: Upload samples
+        if: ${{ inputs.save_players == '1' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: sleeper-raw
+          path: out/
+          if-no-files-found: warn
+          retention-days: 7
