@@ -1,0 +1,621 @@
+{
+  "generated_at": "2026-08-06T13:14:59+00:00",
+  "season": 2026,
+  "leagues": [
+    {
+      "key": "dtown",
+      "platform": "espn",
+      "platform_league_id": "65142363",
+      "season": 2026,
+      "name": "D-Town Boogie",
+      "size": 10,
+      "is_public": true,
+      "current_week": 0,
+      "scoring": {
+        "flavour": "full_ppr",
+        "reception_value": 1.0,
+        "rank_type": "PPR",
+        "scoring_type": "H2H_POINTS",
+        "items": {
+          "38": 4.0,
+          "56": 2.0,
+          "121": 0.0,
+          "134": 0.0,
+          "25": 6.0,
+          "53": 1.0,
+          "72": -2.0,
+          "135": 0.0,
+          "136": 0.0,
+          "43": 6.0,
+          "102": 6.0,
+          "24": 0.1,
+          "103": 6.0,
+          "101": 6.0,
+          "104": 6.0,
+          "128": 0.0,
+          "129": 0.0,
+          "86": 1.0,
+          "132": 0.0,
+          "125": 0.0,
+          "42": 0.1,
+          "130": 0.0,
+          "88": -1.0,
+          "4": 6.0,
+          "124": 0.0,
+          "131": 0.0,
+          "89": 0.0,
+          "90": 0.0,
+          "206": 2.0,
+          "98": 0.0,
+          "209": 1.0,
+          "95": 0.0,
+          "92": 0.0,
+          "93": 6.0,
+          "16": 2.0,
+          "91": 0.0,
+          "96": 0.0,
+          "97": 0.0,
+          "19": 2.0,
+          "20": -2.0,
+          "63": 6.0,
+          "80": 3.0,
+          "26": 2.0,
+          "77": 4.0,
+          "99": 0.0,
+          "36": 2.0,
+          "37": 2.0,
+          "57": 4.0,
+          "44": 2.0,
+          "46": 2.0,
+          "3": 0.05,
+          "201": 6.0,
+          "198": 5.0
+        }
+      },
+      "lineup": {
+        "slots": {
+          "QB": 1,
+          "RB": 2,
+          "WR": 2,
+          "TE": 1,
+          "DST": 1,
+          "K": 1,
+          "BENCH": 5,
+          "IR": 1,
+          "FLEX": 1
+        },
+        "starting_spots": 9,
+        "bench_spots": 5,
+        "ir_spots": 1,
+        "roster_size": 14,
+        "position_limits": {
+          "QB": 3,
+          "RB": 6,
+          "WR": 6,
+          "TE": 3,
+          "K": 2,
+          "DST": 2
+        }
+      },
+      "waivers": {
+        "mode": "rolling",
+        "order_resets": false,
+        "uses_budget": false,
+        "process_days": [
+          "THURSDAY",
+          "MONDAY",
+          "WEDNESDAY",
+          "SATURDAY",
+          "SUNDAY",
+          "FRIDAY"
+        ],
+        "process_hour": 11,
+        "waiver_hours": 24,
+        "acquisition_limit": -1
+      },
+      "teams": [
+        {
+          "team_id": 1,
+          "name": "Bobby Boucher Jr.",
+          "abbrev": "BOBY",
+          "owner_id": "{98392D47-D5D1-439A-91A3-B339033756E9}",
+          "waiver_rank": 10,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 2,
+          "name": "Team Hanahan",
+          "abbrev": "HANA",
+          "owner_id": "{C5CE0FC4-3AD4-4D13-8E0F-C43AD4CD131C}",
+          "waiver_rank": 1,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 3,
+          "name": "Team Braden",
+          "abbrev": "KB",
+          "owner_id": "{F893961C-CFC8-487C-BFE9-B6BF15806FC4}",
+          "waiver_rank": 2,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 4,
+          "name": "Team Heston",
+          "abbrev": "HEST",
+          "owner_id": "{05C7CAB1-4829-4A3E-87CA-B148295A3EB4}",
+          "waiver_rank": 4,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 5,
+          "name": "Team Trap",
+          "abbrev": "TT",
+          "owner_id": "{4ADD4E81-98CB-4997-9D4E-8198CB6997AB}",
+          "waiver_rank": 3,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 6,
+          "name": "CWALK2THIS \ud83d\udca9",
+          "abbrev": "CWLk",
+          "owner_id": "{97BB7CD7-DF19-48C3-B58E-6107512A86C4}",
+          "waiver_rank": 6,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 7,
+          "name": "Who Else Want Some?",
+          "abbrev": "D-Bo",
+          "owner_id": "{A5A90C25-2E3E-4DDD-A90C-252E3E5DDD97}",
+          "waiver_rank": 9,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 8,
+          "name": "Boom Shaka laka",
+          "abbrev": "BACK",
+          "owner_id": "{AA6148E2-0F15-42C8-B63B-3EE823017748}",
+          "waiver_rank": 7,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 9,
+          "name": "Season Over Already",
+          "abbrev": "CC",
+          "owner_id": "{C6FFA11F-20B2-4F69-821C-F8A50F46298E}",
+          "waiver_rank": 8,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 10,
+          "name": "Sicko  Mode",
+          "abbrev": "KNIG",
+          "owner_id": "{0613A4ED-8C59-4FCC-B8C3-76207F66B756}",
+          "waiver_rank": 5,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        }
+      ],
+      "captured_at": "2026-08-06T13:14:59+00:00"
+    },
+    {
+      "key": "alpine",
+      "platform": "espn",
+      "platform_league_id": "854943363",
+      "season": 2026,
+      "name": "ALPINE 2026",
+      "size": 10,
+      "is_public": false,
+      "current_week": 0,
+      "scoring": {
+        "flavour": "half_ppr",
+        "reception_value": 0.5,
+        "rank_type": "PPR",
+        "scoring_type": "H2H_POINTS",
+        "items": {
+          "89": 0.0,
+          "90": 0.0,
+          "123": 0.0,
+          "206": 2.0,
+          "25": 6.0,
+          "209": 1.0,
+          "72": -2.0,
+          "95": 0.0,
+          "93": 6.0,
+          "98": 0.0,
+          "91": 0.0,
+          "96": 0.0,
+          "97": 0.0,
+          "19": 2.0,
+          "43": 6.0,
+          "20": -2.0,
+          "102": 6.0,
+          "24": 0.1,
+          "53": 0.5,
+          "103": 6.0,
+          "63": 6.0,
+          "101": 6.0,
+          "80": 3.0,
+          "26": 2.0,
+          "104": 6.0,
+          "77": 4.0,
+          "92": 0.0,
+          "99": 0.0,
+          "125": 0.0,
+          "85": -1.0,
+          "3": 0.04,
+          "124": 0.0,
+          "86": 1.0,
+          "42": 0.1,
+          "44": 2.0,
+          "4": 5.0,
+          "201": 6.0,
+          "198": 5.0
+        }
+      },
+      "lineup": {
+        "slots": {
+          "QB": 1,
+          "RB": 2,
+          "WR": 2,
+          "TE": 1,
+          "DST": 1,
+          "K": 1,
+          "BENCH": 5,
+          "IR": 1,
+          "FLEX": 1
+        },
+        "starting_spots": 9,
+        "bench_spots": 5,
+        "ir_spots": 1,
+        "roster_size": 14,
+        "position_limits": {
+          "QB": 4,
+          "RB": 8,
+          "WR": 8,
+          "TE": 3,
+          "K": 3,
+          "DST": 3
+        }
+      },
+      "waivers": {
+        "mode": "weekly_reset",
+        "order_resets": true,
+        "uses_budget": false,
+        "process_days": [
+          "MONDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ],
+        "process_hour": 11,
+        "waiver_hours": 24,
+        "acquisition_limit": -1
+      },
+      "teams": [
+        {
+          "team_id": 1,
+          "name": "Return of The Snek",
+          "abbrev": "RTS",
+          "owner_id": "{A08B7CA8-2652-4D3B-93B7-6E463A288EE0}",
+          "waiver_rank": 1,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 2,
+          "name": "Labenjamin's Team",
+          "abbrev": "BBT",
+          "owner_id": "{5794125A-9977-426C-9412-5A9977126C26}",
+          "waiver_rank": 2,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 3,
+          "name": "The Gumes",
+          "abbrev": "GUME",
+          "owner_id": "{8A3EA0F4-796D-4374-BEA0-F4796D037407}",
+          "waiver_rank": 3,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 4,
+          "name": "Dak, Dak, Goose",
+          "abbrev": "DDG",
+          "owner_id": "{2A01469A-34DD-4F25-BD41-2C5F580A56FF}",
+          "waiver_rank": 4,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 5,
+          "name": "Team 5",
+          "abbrev": "TM5",
+          "owner_id": null,
+          "waiver_rank": 5,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 6,
+          "name": "Team 6",
+          "abbrev": "TM6",
+          "owner_id": null,
+          "waiver_rank": 6,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 7,
+          "name": "Team 7",
+          "abbrev": "TM7",
+          "owner_id": null,
+          "waiver_rank": 7,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 8,
+          "name": "Team 8",
+          "abbrev": "TM8",
+          "owner_id": null,
+          "waiver_rank": 8,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 9,
+          "name": "To Infinity and Bijan",
+          "abbrev": "TIB",
+          "owner_id": "{C6FFA11F-20B2-4F69-821C-F8A50F46298E}",
+          "waiver_rank": 9,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        },
+        {
+          "team_id": 10,
+          "name": "Team 10",
+          "abbrev": "TM10",
+          "owner_id": null,
+          "waiver_rank": 10,
+          "playoff_seed": 0,
+          "record": {
+            "wins": 0,
+            "losses": 0,
+            "ties": 0,
+            "points_for": 0.0
+          },
+          "activity": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "roster": []
+        }
+      ],
+      "captured_at": "2026-08-06T13:14:59+00:00"
+    }
+  ]
+}
