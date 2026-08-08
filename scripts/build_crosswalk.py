@@ -169,6 +169,7 @@ def fetch_sleeper_players():
 
 def build_indexes(sleeper):
     by_espn_id = {}
+    by_def_team = {}
     by_name_pos = {}
     by_name_pos_team = {}
     by_last_pos_team = {}
@@ -194,6 +195,15 @@ def build_indexes(sleeper):
         if espn_id:
             by_espn_id[str(espn_id)] = record
 
+        # Sleeper keys defenses by team code and gives them no
+        # conventional full name, so they can never match on name.
+        # They join on the team abbreviation instead.
+        if position == "DEF":
+            code = record["team"] or normalize_team(player_id)
+            if code:
+                by_def_team.setdefault(code, []).append(record)
+            continue
+
         name = normalize_name(player.get("full_name"))
         if not name:
             continue
@@ -209,6 +219,7 @@ def build_indexes(sleeper):
     return {
         "considered": considered,
         "by_espn_id": by_espn_id,
+        "by_def_team": by_def_team,
         "by_name_pos": by_name_pos,
         "by_name_pos_team": by_name_pos_team,
         "by_last_pos_team": by_last_pos_team,
@@ -232,6 +243,11 @@ def match_one(espn_player, index):
     name = normalize_name(espn_player["name"])
     position = espn_player["position"]
     team = espn_player["team"]
+
+    if position == "DEF":
+        found = only(index["by_def_team"].get(team))
+        if found:
+            return found, "def_team"
 
     found = index["by_espn_id"].get(espn_id)
     if found:
@@ -297,8 +313,8 @@ def main():
     print("  with an espn_id: {:,}\n".format(len(index["by_espn_id"])))
 
     crosswalk, unmatched = {}, []
-    tiers = {"espn_id": 0, "name_pos": 0, "name_pos_team": 0,
-             "last_pos_team": 0}
+    tiers = {"def_team": 0, "espn_id": 0, "name_pos": 0,
+             "name_pos_team": 0, "last_pos_team": 0}
 
     for player in espn_players:
         found, tier = match_one(player, index)
@@ -319,7 +335,8 @@ def main():
     print("=" * 68)
     print("COVERAGE")
     print("=" * 68)
-    for tier in ("espn_id", "name_pos", "name_pos_team", "last_pos_team"):
+    for tier in ("def_team", "espn_id", "name_pos", "name_pos_team",
+                 "last_pos_team"):
         count = tiers[tier]
         share = 0 if not total else round(100.0 * count / total, 1)
         print("  {:<16} {:>6}   {:>5}%".format(tier, count, share))
@@ -361,6 +378,29 @@ def main():
         "map": crosswalk,
     }, indent=2))
     print("\nwrote {} ({:,} bytes)".format(path, path.stat().st_size))
+
+    # Small companion file: everything worth reading, none of the bulk.
+    report_path = DATA / "crosswalk_report.json"
+    report_path.write_text(json.dumps({
+        "season": SEASON,
+        "espn_players": total,
+        "matched": matched,
+        "unmatched_count": len(unmatched),
+        "match_rate_pct": 0 if not total else round(100.0 * matched / total, 1),
+        "tiers": tiers,
+        "unmatched": [
+            {
+                "espn_id": p["espn_id"],
+                "name": p["name"],
+                "position": p["position"],
+                "team": p["team"],
+                "percent_owned": p["percent_owned"],
+            }
+            for p in sorted(unmatched, key=lambda p: -p["percent_owned"])
+        ],
+    }, indent=2))
+    print("wrote {} ({:,} bytes) -- this is the one to read".format(
+        report_path, report_path.stat().st_size))
 
 
 if __name__ == "__main__":
