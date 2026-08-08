@@ -1,0 +1,5851 @@
+{
+  "season": 2026,
+  "espn_players": 1026,
+  "matched": 973,
+  "tiers": {
+    "espn_id": 319,
+    "name_pos": 649,
+    "name_pos_team": 1,
+    "last_pos_team": 4
+  },
+  "map": {
+    "4429795": {
+      "sleeper_id": "9221",
+      "name": "Jahmyr Gibbs",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4426515": {
+      "sleeper_id": "9493",
+      "name": "Puka Nacua",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4374302": {
+      "sleeper_id": "7547",
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4362628": {
+      "sleeper_id": "7564",
+      "name": "Ja'Marr Chase",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4430807": {
+      "sleeper_id": "9509",
+      "name": "Bijan Robinson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4430878": {
+      "sleeper_id": "9488",
+      "name": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3117251": {
+      "sleeper_id": "4034",
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4241389": {
+      "sleeper_id": "6786",
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3918298": {
+      "sleeper_id": "4984",
+      "name": "Josh Allen",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4262921": {
+      "sleeper_id": "6794",
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4242335": {
+      "sleeper_id": "6813",
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4379399": {
+      "sleeper_id": "8138",
+      "name": "James Cook III",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4432665": {
+      "sleeper_id": "11604",
+      "name": "Brock Bowers",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4361307": {
+      "sleeper_id": "8130",
+      "name": "Trey McBride",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4429160": {
+      "sleeper_id": "9226",
+      "name": "De'Von Achane",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3929630": {
+      "sleeper_id": "4866",
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3953687": {
+      "sleeper_id": "11533",
+      "name": "Brandon Aubrey",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "3043078": {
+      "sleeper_id": "3198",
+      "name": "Derrick Henry",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4890973": {
+      "sleeper_id": "12527",
+      "name": "Ashton Jeanty",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3916387": {
+      "sleeper_id": "4881",
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4426354": {
+      "sleeper_id": "8137",
+      "name": "George Pickens",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4426502": {
+      "sleeper_id": "8112",
+      "name": "Drake London",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4258173": {
+      "sleeper_id": "7569",
+      "name": "Nico Collins",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4047646": {
+      "sleeper_id": "5859",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4567048": {
+      "sleeper_id": "8151",
+      "name": "Kenneth Walker III",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4047365": {
+      "sleeper_id": "5850",
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4723086": {
+      "sleeper_id": "12517",
+      "name": "Colston Loveland",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4362081": {
+      "sleeper_id": "8259",
+      "name": "Cameron Dicker",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4685382": {
+      "sleeper_id": "12507",
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4428331": {
+      "sleeper_id": "10229",
+      "name": "Rashee Rice",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4431452": {
+      "sleeper_id": "11564",
+      "name": "Drake Maye",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4431459": {
+      "sleeper_id": "12518",
+      "name": "Tyler Warren",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4870808": {
+      "sleeper_id": "13287",
+      "name": "Jeremiyah Love",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4241478": {
+      "sleeper_id": "7525",
+      "name": "DeVonta Smith",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4362238": {
+      "sleeper_id": "9224",
+      "name": "Chase Brown",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4426348": {
+      "sleeper_id": "11566",
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4361370": {
+      "sleeper_id": "8144",
+      "name": "Chris Olave",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4569618": {
+      "sleeper_id": "8146",
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4595348": {
+      "sleeper_id": "11632",
+      "name": "Malik Nabers",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685472": {
+      "sleeper_id": "12526",
+      "name": "Tetairoa McMillan",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4427366": {
+      "sleeper_id": "8155",
+      "name": "Breece Hall",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4696981": {
+      "sleeper_id": "12481",
+      "name": "Cam Skattebo",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "16800": {
+      "sleeper_id": "2133",
+      "name": "Davante Adams",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4429615": {
+      "sleeper_id": "9997",
+      "name": "Zay Flowers",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361579": {
+      "sleeper_id": "7588",
+      "name": "Javonte Williams",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4430737": {
+      "sleeper_id": "8150",
+      "name": "Kyren Williams",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "2473037": {
+      "sleeper_id": "2747",
+      "name": "Jason Myers",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4040715": {
+      "sleeper_id": "6904",
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4567750": {
+      "sleeper_id": "12514",
+      "name": "Emeka Egbuka",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3915511": {
+      "sleeper_id": "6770",
+      "name": "Joe Burrow",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4239996": {
+      "sleeper_id": "7543",
+      "name": "Travis Etienne Jr.",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4239993": {
+      "sleeper_id": "6801",
+      "name": "Tee Higgins",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4612826": {
+      "sleeper_id": "11635",
+      "name": "Ladd McConkey",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4360248": {
+      "sleeper_id": "7553",
+      "name": "Kyle Pitts Sr.",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4596448": {
+      "sleeper_id": "11584",
+      "name": "Bucky Irving",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4372016": {
+      "sleeper_id": "7526",
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685702": {
+      "sleeper_id": "12512",
+      "name": "Quinshon Judkins",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3121422": {
+      "sleeper_id": "5927",
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4430027": {
+      "sleeper_id": "10859",
+      "name": "Sam LaPorta",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4426388": {
+      "sleeper_id": "8148",
+      "name": "Jameson Williams",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4871023": {
+      "sleeper_id": "13279",
+      "name": "Carnell Tate",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4689114": {
+      "sleeper_id": "12508",
+      "name": "Jaxson Dart",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "12483": {
+      "sleeper_id": "421",
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "2971573": {
+      "sleeper_id": "3451",
+      "name": "Ka'imi Fairbairn",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "5083076": {
+      "sleeper_id": "12506",
+      "name": "Harold Fannin Jr.",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3915416": {
+      "sleeper_id": "4983",
+      "name": "DJ Moore",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4432710": {
+      "sleeper_id": "12529",
+      "name": "TreVeyon Henderson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4431299": {
+      "sleeper_id": "11620",
+      "name": "Rome Odunze",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4574716": {
+      "sleeper_id": "12015",
+      "name": "Harrison Mevis",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4259545": {
+      "sleeper_id": "6790",
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4035538": {
+      "sleeper_id": "5892",
+      "name": "David Montgomery",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4685278": {
+      "sleeper_id": "12519",
+      "name": "Luther Burden III",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4047650": {
+      "sleeper_id": "5846",
+      "name": "DK Metcalf",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4685512": {
+      "sleeper_id": "13286",
+      "name": "Jadarian Price",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3040151": {
+      "sleeper_id": "4217",
+      "name": "George Kittle",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "2577417": {
+      "sleeper_id": "3294",
+      "name": "Dak Prescott",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4431611": {
+      "sleeper_id": "11560",
+      "name": "Caleb Williams",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "3128429": {
+      "sleeper_id": "5045",
+      "name": "Courtland Sutton",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4882093": {
+      "sleeper_id": "12490",
+      "name": "Bhayshul Tuten",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4035687": {
+      "sleeper_id": "6819",
+      "name": "Michael Pittman Jr.",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3121023": {
+      "sleeper_id": "5022",
+      "name": "Dallas Goedert",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "15847": {
+      "sleeper_id": "1466",
+      "name": "Travis Kelce",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4432708": {
+      "sleeper_id": "11628",
+      "name": "Marvin Harrison Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "16737": {
+      "sleeper_id": "2216",
+      "name": "Mike Evans",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4686361": {
+      "sleeper_id": "11786",
+      "name": "Cam Little",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "3916148": {
+      "sleeper_id": "5967",
+      "name": "Tony Pollard",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4426338": {
+      "sleeper_id": "11563",
+      "name": "Bo Nix",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4360310": {
+      "sleeper_id": "7523",
+      "name": "Trevor Lawrence",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4572680": {
+      "sleeper_id": "9484",
+      "name": "Tucker Kraft",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3139477": {
+      "sleeper_id": "4046",
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4242355": {
+      "sleeper_id": "8110",
+      "name": "Jake Ferguson",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4038941": {
+      "sleeper_id": "6797",
+      "name": "Justin Herbert",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4360078": {
+      "sleeper_id": "8142",
+      "name": "Alec Pierce",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361741": {
+      "sleeper_id": "8183",
+      "name": "Brock Purdy",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4569987": {
+      "sleeper_id": "8228",
+      "name": "Jaylen Warren",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4241416": {
+      "sleeper_id": "7594",
+      "name": "Chuba Hubbard",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4248528": {
+      "sleeper_id": "8167",
+      "name": "Christian Watson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4038815": {
+      "sleeper_id": "7021",
+      "name": "Rico Dowdle",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4880281": {
+      "sleeper_id": "13281",
+      "name": "Jordyn Tyson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4432773": {
+      "sleeper_id": "11631",
+      "name": "Brian Thomas Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4432620": {
+      "sleeper_id": "9487",
+      "name": "Parker Washington",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4360761": {
+      "sleeper_id": "10232",
+      "name": "Michael Wilson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4870795": {
+      "sleeper_id": "13294",
+      "name": "Makai Lemon",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4569173": {
+      "sleeper_id": "7611",
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4701936": {
+      "sleeper_id": "12501",
+      "name": "Matthew Golden",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3042519": {
+      "sleeper_id": "4199",
+      "name": "Aaron Jones Sr.",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3916433": {
+      "sleeper_id": "5947",
+      "name": "Jakobi Meyers",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4569587": {
+      "sleeper_id": "8126",
+      "name": "Wan'Dale Robinson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4241985": {
+      "sleeper_id": "6806",
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4371733": {
+      "sleeper_id": "7567",
+      "name": "Kenny Gainwell",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4034949": {
+      "sleeper_id": "5189",
+      "name": "Eddy Pineiro",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4568490": {
+      "sleeper_id": "12489",
+      "name": "RJ Harvey",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4361050": {
+      "sleeper_id": "8131",
+      "name": "Isaiah Likely",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3116365": {
+      "sleeper_id": "5012",
+      "name": "Mark Andrews",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4608686": {
+      "sleeper_id": "12534",
+      "name": "Kyle Monangai",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4697815": {
+      "sleeper_id": "8136",
+      "name": "Rachaad White",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4429205": {
+      "sleeper_id": "9756",
+      "name": "Jordan Addison",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4688813": {
+      "sleeper_id": "9500",
+      "name": "Josh Downs",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4429096": {
+      "sleeper_id": "11586",
+      "name": "Blake Corum",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3116165": {
+      "sleeper_id": "4037",
+      "name": "Chris Godwin Jr.",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4683062": {
+      "sleeper_id": "11624",
+      "name": "Xavier Worthy",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4678008": {
+      "sleeper_id": "11583",
+      "name": "Jonathon Brooks",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4373678": {
+      "sleeper_id": "8134",
+      "name": "Khalil Shakir",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4429025": {
+      "sleeper_id": "9754",
+      "name": "Quentin Johnston",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3055899": {
+      "sleeper_id": "4227",
+      "name": "Harrison Butker",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4685415": {
+      "sleeper_id": "12530",
+      "name": "Travis Hunter",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4689936": {
+      "sleeper_id": "11539",
+      "name": "Jake Bates",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "5083315": {
+      "sleeper_id": "13330",
+      "name": "Kenyon Sadiq",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4362249": {
+      "sleeper_id": "10222",
+      "name": "Jayden Reed",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4575131": {
+      "sleeper_id": "12533",
+      "name": "Jacory Croskey-Merritt",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4036133": {
+      "sleeper_id": "5844",
+      "name": "T.J. Hockenson",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4870653": {
+      "sleeper_id": "13298",
+      "name": "KC Concepcion",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361432": {
+      "sleeper_id": "8121",
+      "name": "Romeo Doubs",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4426385": {
+      "sleeper_id": "9753",
+      "name": "Zach Charbonnet",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4429059": {
+      "sleeper_id": "12474",
+      "name": "Woody Marks",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4385690": {
+      "sleeper_id": "10236",
+      "name": "Dalton Kincaid",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3046779": {
+      "sleeper_id": "3163",
+      "name": "Jared Goff",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "3126486": {
+      "sleeper_id": "5872",
+      "name": "Deebo Samuel Sr.",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3054850": {
+      "sleeper_id": "4035",
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4360569": {
+      "sleeper_id": "8408",
+      "name": "Jordan Mason",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3917315": {
+      "sleeper_id": "5849",
+      "name": "Kyler Murray",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "3046439": {
+      "sleeper_id": "3214",
+      "name": "Hunter Henry",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4361529": {
+      "sleeper_id": "8205",
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4697745": {
+      "sleeper_id": "12711",
+      "name": "Tyler Loop",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "2976212": {
+      "sleeper_id": "2449",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4428209": {
+      "sleeper_id": "11638",
+      "name": "Ricky Pearsall",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3052587": {
+      "sleeper_id": "4892",
+      "name": "Baker Mayfield",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4360689": {
+      "sleeper_id": "12545",
+      "name": "Tyler Shough",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4695883": {
+      "sleeper_id": "11646",
+      "name": "Jalen Coker",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4428557": {
+      "sleeper_id": "9508",
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "17372": {
+      "sleeper_id": "1945",
+      "name": "Chris Boswell",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4032473": {
+      "sleeper_id": "8676",
+      "name": "Rashid Shaheed",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4877706": {
+      "sleeper_id": "12484",
+      "name": "Jayden Higgins",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "17427": {
+      "sleeper_id": "2020",
+      "name": "Cairo Santos",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4567104": {
+      "sleeper_id": "11792",
+      "name": "Will Reichard",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4241463": {
+      "sleeper_id": "6783",
+      "name": "Jerry Jeudy",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3917792": {
+      "sleeper_id": "5870",
+      "name": "Daniel Jones",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4036378": {
+      "sleeper_id": "6804",
+      "name": "Jordan Love",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "3929645": {
+      "sleeper_id": "7002",
+      "name": "Juwan Johnson",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3925357": {
+      "sleeper_id": "4981",
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4723820": {
+      "sleeper_id": "13276",
+      "name": "Omar Cooper Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4430834": {
+      "sleeper_id": "11618",
+      "name": "Jalen McMillan",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3150744": {
+      "sleeper_id": "6650",
+      "name": "Chase McLaughlin",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4373626": {
+      "sleeper_id": "8132",
+      "name": "Tyler Allgeier",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4362619": {
+      "sleeper_id": "10219",
+      "name": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3912547": {
+      "sleeper_id": "4943",
+      "name": "Sam Darnold",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4432577": {
+      "sleeper_id": "9758",
+      "name": "C.J. Stroud",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4832800": {
+      "sleeper_id": "13346",
+      "name": "Denzel Boston",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4360516": {
+      "sleeper_id": "11655",
+      "name": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4430539": {
+      "sleeper_id": "9480",
+      "name": "Brenton Strange",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4429013": {
+      "sleeper_id": "9225",
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4241474": {
+      "sleeper_id": "8154",
+      "name": "Brian Robinson Jr.",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4366031": {
+      "sleeper_id": "9502",
+      "name": "Tank Dell",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4837248": {
+      "sleeper_id": "13269",
+      "name": "Fernando Mendoza",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4428718": {
+      "sleeper_id": "10213",
+      "name": "Tre Tucker",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4360234": {
+      "sleeper_id": "7839",
+      "name": "Evan McPherson",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4570037": {
+      "sleeper_id": "12487",
+      "name": "Terrance Ferguson",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4242512": {
+      "sleeper_id": "8161",
+      "name": "Malik Willis",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "3116406": {
+      "sleeper_id": "3321",
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3117256": {
+      "sleeper_id": "5001",
+      "name": "Dalton Schultz",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4688380": {
+      "sleeper_id": "12522",
+      "name": "Cam Ward",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4595342": {
+      "sleeper_id": "12493",
+      "name": "Oronde Gadsden",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3886598": {
+      "sleeper_id": "7049",
+      "name": "Jauan Jennings",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4360635": {
+      "sleeper_id": "8210",
+      "name": "Chig Okonkwo",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4710714": {
+      "sleeper_id": "13417",
+      "name": "De'Zhaun Stribling",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685261": {
+      "sleeper_id": "13274",
+      "name": "Germie Bernard",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361411": {
+      "sleeper_id": "7600",
+      "name": "Pat Freiermuth",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "2977187": {
+      "sleeper_id": "4039",
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4040655": {
+      "sleeper_id": "7090",
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3050478": {
+      "sleeper_id": "4195",
+      "name": "Jake Elliott",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "3045147": {
+      "sleeper_id": "4137",
+      "name": "James Conner",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4685720": {
+      "sleeper_id": "9228",
+      "name": "Bryce Young",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4382466": {
+      "sleeper_id": "8180",
+      "name": "Jalen Nailor",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "5081432": {
+      "sleeper_id": "13301",
+      "name": "Antonio Williams",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4686658": {
+      "sleeper_id": "13305",
+      "name": "Mike Washington Jr.",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4597500": {
+      "sleeper_id": "11625",
+      "name": "Adonai Mitchell",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685247": {
+      "sleeper_id": "11576",
+      "name": "Braelon Allen",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4596334": {
+      "sleeper_id": "9511",
+      "name": "Keaton Mitchell",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4360438": {
+      "sleeper_id": "6803",
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4576297": {
+      "sleeper_id": "11603",
+      "name": "AJ Barner",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4429501": {
+      "sleeper_id": "11575",
+      "name": "Ray Davis",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4869461": {
+      "sleeper_id": "13545",
+      "name": "Trey Smack",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "5081397": {
+      "sleeper_id": "12469",
+      "name": "Dylan Sampson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4038441": {
+      "sleeper_id": "5995",
+      "name": "Justice Hill",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4360939": {
+      "sleeper_id": "7571",
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4870612": {
+      "sleeper_id": "13320",
+      "name": "Zachariah Branch",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "8439": {
+      "sleeper_id": "96",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "5123663": {
+      "sleeper_id": "12535",
+      "name": "Isaac TeSlaa",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2985659": {
+      "sleeper_id": "3678",
+      "name": "Wil Lutz",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "10621": {
+      "sleeper_id": "650",
+      "name": "Nick Folk",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4870847": {
+      "sleeper_id": "13293",
+      "name": "Ja'Kobi Lane",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3123076": {
+      "sleeper_id": "4033",
+      "name": "David Njoku",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4869961": {
+      "sleeper_id": "13311",
+      "name": "Chris Bell",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4429835": {
+      "sleeper_id": "12048",
+      "name": "George Holani",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4569603": {
+      "sleeper_id": "11610",
+      "name": "Malik Washington",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4686728": {
+      "sleeper_id": "12502",
+      "name": "Gunnar Helm",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4569923": {
+      "sleeper_id": "12713",
+      "name": "Andy Borregales",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4702555": {
+      "sleeper_id": "13345",
+      "name": "Jonah Coleman",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "16733": {
+      "sleeper_id": "2078",
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4259147": {
+      "sleeper_id": "8698",
+      "name": "Jake Tonges",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4367209": {
+      "sleeper_id": "8172",
+      "name": "Greg Dulcich",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4686612": {
+      "sleeper_id": "12509",
+      "name": "Tre' Harris",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3051876": {
+      "sleeper_id": "4066",
+      "name": "Evan Engram",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "5083754": {
+      "sleeper_id": "11783",
+      "name": "Ryan Flournoy",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4429022": {
+      "sleeper_id": "9504",
+      "name": "Kayshon Boutte",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2578570": {
+      "sleeper_id": "3257",
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4429023": {
+      "sleeper_id": "11581",
+      "name": "MarShawn Lloyd",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4685397": {
+      "sleeper_id": "12467",
+      "name": "Jordan James",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "15864": {
+      "sleeper_id": "1373",
+      "name": "Geno Smith",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4243331": {
+      "sleeper_id": "8111",
+      "name": "Cade Otton",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4432762": {
+      "sleeper_id": "12524",
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4912218": {
+      "sleeper_id": "13413",
+      "name": "Cyrus Allen",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3917232": {
+      "sleeper_id": "7042",
+      "name": "Tyler Bass",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4685555": {
+      "sleeper_id": "13288",
+      "name": "Nicholas Singleton",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4832955": {
+      "sleeper_id": "13337",
+      "name": "Emmett Johnson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4603186": {
+      "sleeper_id": "12483",
+      "name": "Jack Bech",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3116164": {
+      "sleeper_id": "4993",
+      "name": "Mike Gesicki",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4696044": {
+      "sleeper_id": "13414",
+      "name": "Kaelon Black",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4685279": {
+      "sleeper_id": "12457",
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3895856": {
+      "sleeper_id": "4950",
+      "name": "Christian Kirk",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3116389": {
+      "sleeper_id": "4147",
+      "name": "Samaje Perine",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4430034": {
+      "sleeper_id": "11626",
+      "name": "Xavier Legette",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4635008": {
+      "sleeper_id": "11637",
+      "name": "Keon Coleman",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4241479": {
+      "sleeper_id": "6768",
+      "name": "Tua Tagovailoa",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4430968": {
+      "sleeper_id": "11647",
+      "name": "Kimani Vidal",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4431280": {
+      "sleeper_id": "11627",
+      "name": "Troy Franklin",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4586312": {
+      "sleeper_id": "12536",
+      "name": "Jaylin Noel",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4242557": {
+      "sleeper_id": "6865",
+      "name": "Colby Parkinson",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "5208518": {
+      "sleeper_id": "11653",
+      "name": "Charlie Smyth",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4430802": {
+      "sleeper_id": "9479",
+      "name": "Darnell Washington",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "14880": {
+      "sleeper_id": "1166",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4597703": {
+      "sleeper_id": "12497",
+      "name": "Tory Horton",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4428850": {
+      "sleeper_id": "9486",
+      "name": "Dontayvion Wicks",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4600981": {
+      "sleeper_id": "12492",
+      "name": "Pat Bryant",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4431268": {
+      "sleeper_id": "12540",
+      "name": "Chimere Dike",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685246": {
+      "sleeper_id": "13405",
+      "name": "Kaytron Allen",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3916945": {
+      "sleeper_id": "6149",
+      "name": "Darius Slayton",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3124679": {
+      "sleeper_id": "5119",
+      "name": "Jason Sanders",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "3122840": {
+      "sleeper_id": "4017",
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4431574": {
+      "sleeper_id": "13349",
+      "name": "Eli Stowers",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4430841": {
+      "sleeper_id": "13272",
+      "name": "Carson Beck",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4569559": {
+      "sleeper_id": "11834",
+      "name": "Devaughn Vele",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4832846": {
+      "sleeper_id": "13347",
+      "name": "Demond Claiborne",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4682745": {
+      "sleeper_id": "11643",
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4433970": {
+      "sleeper_id": "11565",
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4249087": {
+      "sleeper_id": "6083",
+      "name": "Matt Gay",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4887558": {
+      "sleeper_id": "11435",
+      "name": "Emanuel Wilson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4682648": {
+      "sleeper_id": "13285",
+      "name": "Malachi Fields",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4869645": {
+      "sleeper_id": "13296",
+      "name": "Caleb Douglas",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4259619": {
+      "sleeper_id": "11058",
+      "name": "Blake Grupe",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4711533": {
+      "sleeper_id": "12495",
+      "name": "Ollie Gordon II",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3915411": {
+      "sleeper_id": "6039",
+      "name": "Ty Johnson",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4360423": {
+      "sleeper_id": "11559",
+      "name": "Michael Penix Jr.",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4249417": {
+      "sleeper_id": "8117",
+      "name": "Jalen Tolbert",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4429148": {
+      "sleeper_id": "11597",
+      "name": "Theo Johnson",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "5220680": {
+      "sleeper_id": "13317",
+      "name": "Ted Hurst III",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3930086": {
+      "sleeper_id": "5906",
+      "name": "Dawson Knox",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3676833": {
+      "sleeper_id": "8917",
+      "name": "KaVontae Turpin",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4258595": {
+      "sleeper_id": "6826",
+      "name": "Cole Kmet",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "5088338": {
+      "sleeper_id": "13268",
+      "name": "Elijah Sarratt",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4683153": {
+      "sleeper_id": "13402",
+      "name": "Skyler Bell",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685526": {
+      "sleeper_id": "13302",
+      "name": "Adam Randall",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4429086": {
+      "sleeper_id": "9482",
+      "name": "Michael Mayer",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4819231": {
+      "sleeper_id": "12504",
+      "name": "Kaleb Johnson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4686472": {
+      "sleeper_id": "9494",
+      "name": "Marvin Mims Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685522": {
+      "sleeper_id": "13275",
+      "name": "Ty Simpson",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4241372": {
+      "sleeper_id": "5848",
+      "name": "Hollywood Brown",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4568263": {
+      "sleeper_id": "12961",
+      "name": "Ryan Fitzgerald",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4372066": {
+      "sleeper_id": "10937",
+      "name": "Jake Moody",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4362887": {
+      "sleeper_id": "7591",
+      "name": "Justin Fields",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4368003": {
+      "sleeper_id": "10226",
+      "name": "Andrei Iosivas",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4430871": {
+      "sleeper_id": "9506",
+      "name": "Sean Tucker",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4429275": {
+      "sleeper_id": "11589",
+      "name": "Trey Benson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "15818": {
+      "sleeper_id": "1479",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3149687": {
+      "sleeper_id": "11370",
+      "name": "Chris Brooks",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4911851": {
+      "sleeper_id": "12544",
+      "name": "LeQuint Allen Jr.",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4362478": {
+      "sleeper_id": "11199",
+      "name": "Emari Demercado",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4362921": {
+      "sleeper_id": "8188",
+      "name": "Tyquan Thornton",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685350": {
+      "sleeper_id": "12531",
+      "name": "Trevor Etienne",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "5091739": {
+      "sleeper_id": "13353",
+      "name": "Chris Brazzell II",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4431487": {
+      "sleeper_id": "12482",
+      "name": "Savion Williams",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4240603": {
+      "sleeper_id": "8800",
+      "name": "Malik Davis",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "15683": {
+      "sleeper_id": "1264",
+      "name": "Justin Tucker",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4040761": {
+      "sleeper_id": "6130",
+      "name": "Devin Singletary",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "5082424": {
+      "sleeper_id": "13833",
+      "name": "Dominic Zvada",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4678006": {
+      "sleeper_id": "12521",
+      "name": "Elijah Arroyo",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4874509": {
+      "sleeper_id": "12471",
+      "name": "DJ Giddens",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4808766": {
+      "sleeper_id": "12498",
+      "name": "Mason Taylor",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4431588": {
+      "sleeper_id": "11600",
+      "name": "Ja'Tavion Sanders",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4695404": {
+      "sleeper_id": "11571",
+      "name": "Isaiah Davis",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4361409": {
+      "sleeper_id": "8119",
+      "name": "Jahan Dotson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4427095": {
+      "sleeper_id": "9501",
+      "name": "DeMario Douglas",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3043234": {
+      "sleeper_id": "4233",
+      "name": "Zane Gonzalez",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4686468": {
+      "sleeper_id": "13424",
+      "name": "Seth McGowan",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3116385": {
+      "sleeper_id": "4018",
+      "name": "Joe Mixon",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4431545": {
+      "sleeper_id": "11577",
+      "name": "Will Shipley",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4831959": {
+      "sleeper_id": "13421",
+      "name": "Eli Raridon",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3124084": {
+      "sleeper_id": "6528",
+      "name": "Joey Slye",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4258620": {
+      "sleeper_id": "11261",
+      "name": "Andre Szmyt",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "2573401": {
+      "sleeper_id": "3271",
+      "name": "Tyler Higbee",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4613202": {
+      "sleeper_id": "12547",
+      "name": "Kyle Williams",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4869748": {
+      "sleeper_id": "13411",
+      "name": "Zavion Thomas",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361577": {
+      "sleeper_id": "7587",
+      "name": "Dyami Brown",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "11122": {
+      "sleeper_id": "17",
+      "name": "Matt Prater",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4363538": {
+      "sleeper_id": "10955",
+      "name": "Chad Ryland",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4566158": {
+      "sleeper_id": "13066",
+      "name": "Ben Sauls",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4241464": {
+      "sleeper_id": "7527",
+      "name": "Mac Jones",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4596602": {
+      "sleeper_id": "12455",
+      "name": "Brashard Smith",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "2969939": {
+      "sleeper_id": "2306",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4883647": {
+      "sleeper_id": "12499",
+      "name": "Elic Ayomanor",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "11252": {
+      "sleeper_id": "19",
+      "name": "Joe Flacco",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "5529": {
+      "sleeper_id": "331",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "3929785": {
+      "sleeper_id": "7496",
+      "name": "Nick Westbrook-Ikhine",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4429084": {
+      "sleeper_id": "9229",
+      "name": "Anthony Richardson Sr.",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4429299": {
+      "sleeper_id": "12543",
+      "name": "Tahj Brooks",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "2991662": {
+      "sleeper_id": "4177",
+      "name": "Mack Hollins",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4833029": {
+      "sleeper_id": "13278",
+      "name": "Max Klare",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4240472": {
+      "sleeper_id": "7828",
+      "name": "Noah Gray",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4426948": {
+      "sleeper_id": "11650",
+      "name": "Luke McCaffrey",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4808839": {
+      "sleeper_id": "12503",
+      "name": "Isaiah Bond",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685553": {
+      "sleeper_id": "13380",
+      "name": "Brenen Thompson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4702559": {
+      "sleeper_id": "13319",
+      "name": "Oscar Delp",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4608810": {
+      "sleeper_id": "12485",
+      "name": "Tez Johnson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4714771": {
+      "sleeper_id": "13289",
+      "name": "Drew Allar",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "5081508": {
+      "sleeper_id": "13423",
+      "name": "Eli Heidenreich",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4360797": {
+      "sleeper_id": "7562",
+      "name": "Tutu Atwell",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4879276": {
+      "sleeper_id": "13420",
+      "name": "Bryce Lance",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4243389": {
+      "sleeper_id": "8125",
+      "name": "Calvin Austin III",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3049899": {
+      "sleeper_id": "4666",
+      "name": "Younghoe Koo",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4242433": {
+      "sleeper_id": "7670",
+      "name": "Joshua Palmer",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2973405": {
+      "sleeper_id": "3634",
+      "name": "Kalif Raymond",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4599739": {
+      "sleeper_id": "9757",
+      "name": "Kendre Miller",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "12460": {
+      "sleeper_id": "503",
+      "name": "Graham Gano",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "3128720": {
+      "sleeper_id": "4988",
+      "name": "Nick Chubb",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4372561": {
+      "sleeper_id": "11651",
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4241457": {
+      "sleeper_id": "7528",
+      "name": "Najee Harris",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4431492": {
+      "sleeper_id": "11630",
+      "name": "Roman Wilson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4372780": {
+      "sleeper_id": "7694",
+      "name": "Tommy Tremble",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4360698": {
+      "sleeper_id": "11557",
+      "name": "Joe Milton III",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4432734": {
+      "sleeper_id": "12510",
+      "name": "Jalen Milroe",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4567156": {
+      "sleeper_id": "8135",
+      "name": "Treylon Burks",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4429955": {
+      "sleeper_id": "12511",
+      "name": "Will Howard",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "3917914": {
+      "sleeper_id": "6271",
+      "name": "Olamide Zaccheaus",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4428085": {
+      "sleeper_id": "9481",
+      "name": "Luke Musgrave",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4362748": {
+      "sleeper_id": "8208",
+      "name": "Tyler Badie",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "5082630": {
+      "sleeper_id": "12505",
+      "name": "Jalen Royals",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4369863": {
+      "sleeper_id": "10444",
+      "name": "Cedric Tillman",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685413": {
+      "sleeper_id": "13303",
+      "name": "Cade Klubnik",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4036131": {
+      "sleeper_id": "5857",
+      "name": "Noah Fant",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "16339": {
+      "sleeper_id": "1433",
+      "name": "Brandon McManus",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "3059915": {
+      "sleeper_id": "4098",
+      "name": "Kareem Hunt",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4569382": {
+      "sleeper_id": "11623",
+      "name": "Jordan Whittington",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4432775": {
+      "sleeper_id": "12541",
+      "name": "Dont'e Thornton Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685307": {
+      "sleeper_id": "13338",
+      "name": "Kevin Coleman Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4240391": {
+      "sleeper_id": "11292",
+      "name": "Tommy DeVito",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4682652": {
+      "sleeper_id": "12476",
+      "name": "Devin Neal",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4372096": {
+      "sleeper_id": "10871",
+      "name": "Luke Schoonmaker",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3045523": {
+      "sleeper_id": "4454",
+      "name": "Kendrick Bourne",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "14993": {
+      "sleeper_id": "1266",
+      "name": "Greg Zuerlein",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "3120348": {
+      "sleeper_id": "4040",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4605951": {
+      "sleeper_id": "13270",
+      "name": "CJ Daniels",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2576980": {
+      "sleeper_id": "2307",
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4602667": {
+      "sleeper_id": "12641",
+      "name": "Jaylin Lane",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4434153": {
+      "sleeper_id": "11256",
+      "name": "Tyson Bagent",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4912052": {
+      "sleeper_id": "13400",
+      "name": "Justin Joly",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4889929": {
+      "sleeper_id": "12500",
+      "name": "Quinn Ewers",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "15835": {
+      "sleeper_id": "1339",
+      "name": "Zach Ertz",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "14163": {
+      "sleeper_id": "827",
+      "name": "Tyrod Taylor",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4427834": {
+      "sleeper_id": "11592",
+      "name": "Erick All Jr.",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4571557": {
+      "sleeper_id": "12185",
+      "name": "Spencer Shrader",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4696882": {
+      "sleeper_id": "11629",
+      "name": "Devontez Walker",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "5160110": {
+      "sleeper_id": "13079",
+      "name": "Jahdae Walker",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4372019": {
+      "sleeper_id": "8143",
+      "name": "Jerome Ford",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4698597": {
+      "sleeper_id": "13533",
+      "name": "Barion Brown",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4426844": {
+      "sleeper_id": "10231",
+      "name": "Elijah Higgins",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "5150247": {
+      "sleeper_id": "13329",
+      "name": "Malik Benson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4427728": {
+      "sleeper_id": "8122",
+      "name": "Bam Knight",
+      "position": "RB",
+      "matched_by": "last_pos_team"
+    },
+    "3043275": {
+      "sleeper_id": "3202",
+      "name": "Austin Hooper",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3930066": {
+      "sleeper_id": "6853",
+      "name": "Van Jefferson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4565185": {
+      "sleeper_id": "12496",
+      "name": "Tai Felton",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4037235": {
+      "sleeper_id": "5970",
+      "name": "Greg Dortch",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4695193": {
+      "sleeper_id": "12542",
+      "name": "Efton Chism III",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4240703": {
+      "sleeper_id": "8160",
+      "name": "Kenny Pickett",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "15965": {
+      "sleeper_id": "1348",
+      "name": "Dustin Hopkins",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4685504": {
+      "sleeper_id": "13322",
+      "name": "Sam Roush",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3921690": {
+      "sleeper_id": "5973",
+      "name": "Josh Oliver",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4690013": {
+      "sleeper_id": "11570",
+      "name": "Rasheen Ali",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4708486": {
+      "sleeper_id": "12523",
+      "name": "Jimmy Horn Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4360405": {
+      "sleeper_id": "10867",
+      "name": "Jake Bobo",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4686422": {
+      "sleeper_id": "10218",
+      "name": "Xavier Hutchinson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4426386": {
+      "sleeper_id": "10235",
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4242392": {
+      "sleeper_id": "7891",
+      "name": "Brock Wright",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "5092508": {
+      "sleeper_id": "13477",
+      "name": "Colbie Young",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3116407": {
+      "sleeper_id": "4972",
+      "name": "Mason Rudolph",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4710341": {
+      "sleeper_id": "11569",
+      "name": "Jarquez Hunter",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4429939": {
+      "sleeper_id": "11588",
+      "name": "Jawhar Jordan",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4710855": {
+      "sleeper_id": "12718",
+      "name": "Konata Mumpfield",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4426339": {
+      "sleeper_id": "11562",
+      "name": "Spencer Rattler",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4690923": {
+      "sleeper_id": "11596",
+      "name": "Ben Sinnott",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4685201": {
+      "sleeper_id": "9230",
+      "name": "Tanner McKee",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4683423": {
+      "sleeper_id": "12470",
+      "name": "Riley Leonard",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4880236": {
+      "sleeper_id": "13434",
+      "name": "Will Kacmarek",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4567096": {
+      "sleeper_id": "8147",
+      "name": "John Metchie III",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4430191": {
+      "sleeper_id": "8168",
+      "name": "Skyy Moore",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "16728": {
+      "sleeper_id": "2152",
+      "name": "Teddy Bridgewater",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "2468609": {
+      "sleeper_id": "4381",
+      "name": "Taysom Hill",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4259305": {
+      "sleeper_id": "8204",
+      "name": "Bo Melton",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "15795": {
+      "sleeper_id": "1426",
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4386544": {
+      "sleeper_id": "11168",
+      "name": "Xavier Smith",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3043116": {
+      "sleeper_id": "3286",
+      "name": "Demarcus Robinson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4690070": {
+      "sleeper_id": "11068",
+      "name": "Mitchell Tinsley",
+      "position": "WR",
+      "matched_by": "last_pos_team"
+    },
+    "3115293": {
+      "sleeper_id": "5127",
+      "name": "Kyle Allen",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "3924327": {
+      "sleeper_id": "5854",
+      "name": "Drew Lock",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4366963": {
+      "sleeper_id": "11574",
+      "name": "Dylan Laube",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4039505": {
+      "sleeper_id": "7204",
+      "name": "Reggie Gilliam",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4431325": {
+      "sleeper_id": "13306",
+      "name": "Taylen Green",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4683243": {
+      "sleeper_id": "12473",
+      "name": "Mitchell Evans",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3892775": {
+      "sleeper_id": "6136",
+      "name": "Jarrett Stidham",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4570688": {
+      "sleeper_id": "13149",
+      "name": "Caden Davis",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4243371": {
+      "sleeper_id": "7922",
+      "name": "Riley Patterson",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "3127310": {
+      "sleeper_id": "6001",
+      "name": "Drew Sample",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3911853": {
+      "sleeper_id": "6869",
+      "name": "Adam Trautman",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3051738": {
+      "sleeper_id": "5086",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3068267": {
+      "sleeper_id": "4663",
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4569371": {
+      "sleeper_id": "11608",
+      "name": "Isaiah Williams",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4383351": {
+      "sleeper_id": "7610",
+      "name": "Trey Lance",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4426485": {
+      "sleeper_id": "10225",
+      "name": "Jonathan Mingo",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4426496": {
+      "sleeper_id": "11599",
+      "name": "Cade Stover",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4430656": {
+      "sleeper_id": "13075",
+      "name": "Myles Price",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4035656": {
+      "sleeper_id": "7757",
+      "name": "Ben Skowronek",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4430870": {
+      "sleeper_id": "12670",
+      "name": "KeAndre Lambert-Smith",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4035671": {
+      "sleeper_id": "7083",
+      "name": "Tyler Huntley",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4594749": {
+      "sleeper_id": "13401",
+      "name": "Michael Trigg",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4428963": {
+      "sleeper_id": "8258",
+      "name": "Cade York",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4240657": {
+      "sleeper_id": "7607",
+      "name": "Michael Carter",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4685477": {
+      "sleeper_id": "13403",
+      "name": "Jam Miller",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3886812": {
+      "sleeper_id": "6111",
+      "name": "Jake Browning",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4038524": {
+      "sleeper_id": "6011",
+      "name": "Gardner Minshew II",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "5081338": {
+      "sleeper_id": "13491",
+      "name": "Kaden Wetjen",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4039057": {
+      "sleeper_id": "5938",
+      "name": "Lil'Jordan Humphrey",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4573699": {
+      "sleeper_id": "12658",
+      "name": "Jackson Hawes",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4239934": {
+      "sleeper_id": "6828",
+      "name": "AJ Dillon",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4383429": {
+      "sleeper_id": "11237",
+      "name": "Jacob Saylors",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4035537": {
+      "sleeper_id": "7720",
+      "name": "Kene Nwangwu",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4242546": {
+      "sleeper_id": "7585",
+      "name": "Davis Mills",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4361516": {
+      "sleeper_id": "8225",
+      "name": "Daniel Bellinger",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4427238": {
+      "sleeper_id": "12486",
+      "name": "Dillon Gabriel",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4259553": {
+      "sleeper_id": "10857",
+      "name": "Stetson Bennett IV",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "14012": {
+      "sleeper_id": "829",
+      "name": "Andy Dalton",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4695705": {
+      "sleeper_id": "13307",
+      "name": "Marlin Klein",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4431562": {
+      "sleeper_id": "12738",
+      "name": "Phil Mafah",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3125107": {
+      "sleeper_id": "6323",
+      "name": "Andrew Beck",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4722893": {
+      "sleeper_id": "11439",
+      "name": "Jaleel McLaughlin",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "2998565": {
+      "sleeper_id": "4054",
+      "name": "Mo Alie-Cox",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4686248": {
+      "sleeper_id": "13299",
+      "name": "Nate Boerkircher",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4569682": {
+      "sleeper_id": "11579",
+      "name": "Audric Estime",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "2576925": {
+      "sleeper_id": "2505",
+      "name": "Darren Waller",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4360967": {
+      "sleeper_id": "11593",
+      "name": "Brevyn Spann-Ford",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4061956": {
+      "sleeper_id": "6427",
+      "name": "Ashton Dulin",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4683151": {
+      "sleeper_id": "13333",
+      "name": "Deion Burks",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4257188": {
+      "sleeper_id": "10228",
+      "name": "Charlie Jones",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3915486": {
+      "sleeper_id": "5094",
+      "name": "Tyler Conklin",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4241476": {
+      "sleeper_id": "11377",
+      "name": "Tyrell Shavers",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3059989": {
+      "sleeper_id": "4464",
+      "name": "Nick Mullens",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "3127586": {
+      "sleeper_id": "4219",
+      "name": "Jeremy McNichols",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3051909": {
+      "sleeper_id": "5095",
+      "name": "Daniel Carlson",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "3039707": {
+      "sleeper_id": "3976",
+      "name": "Mitchell Trubisky",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "14881": {
+      "sleeper_id": "1234",
+      "name": "Russell Wilson",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "3054212": {
+      "sleeper_id": "4144",
+      "name": "Jonnu Smith",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4715355": {
+      "sleeper_id": "13150",
+      "name": "Darius Cooper",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4568024": {
+      "sleeper_id": "12787",
+      "name": "Josh Williams",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3052897": {
+      "sleeper_id": "5008",
+      "name": "Durham Smythe",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4257364": {
+      "sleeper_id": "11299",
+      "name": "Zavier Scott",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4243003": {
+      "sleeper_id": "8195",
+      "name": "Ronnie Rivers",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3123075": {
+      "sleeper_id": "5121",
+      "name": "Braxton Berrios",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4372414": {
+      "sleeper_id": "7596",
+      "name": "Elijah Moore",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2975863": {
+      "sleeper_id": "4189",
+      "name": "Eric Saubert",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4690143": {
+      "sleeper_id": "12699",
+      "name": "LaJohntay Wester",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4432260": {
+      "sleeper_id": "13324",
+      "name": "Matthew Hibner",
+      "position": "TE",
+      "matched_by": "last_pos_team"
+    },
+    "4035004": {
+      "sleeper_id": "5917",
+      "name": "Mecole Hardman Jr.",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3914397": {
+      "sleeper_id": "6290",
+      "name": "Scotty Miller",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4567747": {
+      "sleeper_id": "13404",
+      "name": "Garrett Nussmeier",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4565859": {
+      "sleeper_id": "13435",
+      "name": "Joe Royer",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "2573079": {
+      "sleeper_id": "3161",
+      "name": "Carson Wentz",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4426875": {
+      "sleeper_id": "8162",
+      "name": "Sam Howell",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4869132": {
+      "sleeper_id": "13297",
+      "name": "Reggie Virgil",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4601080": {
+      "sleeper_id": "12472",
+      "name": "Raheim Sanders",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4361372": {
+      "sleeper_id": "8145",
+      "name": "Jeremy Ruckert",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4361418": {
+      "sleeper_id": "9999",
+      "name": "Will Levis",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4036032": {
+      "sleeper_id": "8423",
+      "name": "Brittain Brown",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4429202": {
+      "sleeper_id": "9227",
+      "name": "Israel Abanikanda",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3126997": {
+      "sleeper_id": "6588",
+      "name": "Tom Kennedy",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4427600": {
+      "sleeper_id": "12412",
+      "name": "Terrell Jennings",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4241263": {
+      "sleeper_id": "8127",
+      "name": "Charlie Kolar",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3051392": {
+      "sleeper_id": "3164",
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4241374": {
+      "sleeper_id": "8177",
+      "name": "Grant Calcaterra",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4429805": {
+      "sleeper_id": "11573",
+      "name": "Frank Gore Jr.",
+      "position": "RB",
+      "matched_by": "name_pos_team"
+    },
+    "16460": {
+      "sleeper_id": "1689",
+      "name": "Adam Thielen",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4249836": {
+      "sleeper_id": "8116",
+      "name": "Pierre Strong Jr.",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4372716": {
+      "sleeper_id": "11320",
+      "name": "Nikko Remigio",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4245661": {
+      "sleeper_id": "8932",
+      "name": "Lucas Havrisik",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4212909": {
+      "sleeper_id": "4274",
+      "name": "David Moore",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "2976499": {
+      "sleeper_id": "2309",
+      "name": "Amari Cooper",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4696736": {
+      "sleeper_id": "11145",
+      "name": "Tanner Brown",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "15168": {
+      "sleeper_id": "1737",
+      "name": "Case Keenum",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4613104": {
+      "sleeper_id": "11617",
+      "name": "Malachi Corley",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361259": {
+      "sleeper_id": "7538",
+      "name": "Zach Wilson",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "11394": {
+      "sleeper_id": "260",
+      "name": "Josh Johnson",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4240631": {
+      "sleeper_id": "6931",
+      "name": "DeeJay Dallas",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4912274": {
+      "sleeper_id": "11729",
+      "name": "Sione Vaki",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4048228": {
+      "sleeper_id": "7716",
+      "name": "John Bates",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4429105": {
+      "sleeper_id": "12539",
+      "name": "Arian Smith",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3118892": {
+      "sleeper_id": "5374",
+      "name": "Justin Watson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4429684": {
+      "sleeper_id": "11762",
+      "name": "Anthony Gould",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3123052": {
+      "sleeper_id": "5230",
+      "name": "Michael Badgley",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "3843945": {
+      "sleeper_id": "5985",
+      "name": "Foster Moreau",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4040612": {
+      "sleeper_id": "7842",
+      "name": "Luke Farrell",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4360086": {
+      "sleeper_id": "10212",
+      "name": "Josh Whyle",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "2576336": {
+      "sleeper_id": "2359",
+      "name": "Ameer Abdullah",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "5097554": {
+      "sleeper_id": "11994",
+      "name": "Kameron Johnson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2576414": {
+      "sleeper_id": "2749",
+      "name": "Raheem Mostert",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "2531358": {
+      "sleeper_id": "3048",
+      "name": "Chris Manhertz",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4372505": {
+      "sleeper_id": "10227",
+      "name": "Payne Durham",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4360238": {
+      "sleeper_id": "8129",
+      "name": "Dameon Pierce",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4362477": {
+      "sleeper_id": "10234",
+      "name": "Derius Davis",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4917427": {
+      "sleeper_id": "13408",
+      "name": "Tanner Koziol",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "16757": {
+      "sleeper_id": "2028",
+      "name": "Derek Carr",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "16760": {
+      "sleeper_id": "1837",
+      "name": "Jimmy Garoppolo",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4573697": {
+      "sleeper_id": "11895",
+      "name": "Mason Tipton",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4696700": {
+      "sleeper_id": "11716",
+      "name": "Tip Reiman",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4879194": {
+      "sleeper_id": "13394",
+      "name": "Josh Cameron",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4692835": {
+      "sleeper_id": "11034",
+      "name": "Jalen Brooks",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4430637": {
+      "sleeper_id": "11619",
+      "name": "Ja'Lynn Polk",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2577327": {
+      "sleeper_id": "2374",
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3134353": {
+      "sleeper_id": "4351",
+      "name": "Tim Patrick",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4242540": {
+      "sleeper_id": "6920",
+      "name": "Isaiah Hodgins",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4050373": {
+      "sleeper_id": "6927",
+      "name": "Quez Watkins",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3116593": {
+      "sleeper_id": "4029",
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4429435": {
+      "sleeper_id": "12538",
+      "name": "Brady Cook",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4036335": {
+      "sleeper_id": "5113",
+      "name": "Cedrick Wilson Jr.",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4243315": {
+      "sleeper_id": "6918",
+      "name": "Salvon Ahmed",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4362018": {
+      "sleeper_id": "11201",
+      "name": "Blake Whiteheart",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3821683": {
+      "sleeper_id": "6219",
+      "name": "Austin Seibert",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4573398": {
+      "sleeper_id": "12775",
+      "name": "Max Brosmer",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4241555": {
+      "sleeper_id": "7561",
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4051167": {
+      "sleeper_id": "8670",
+      "name": "Parker Romo",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "3926231": {
+      "sleeper_id": "8414",
+      "name": "Britain Covey",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4039050": {
+      "sleeper_id": "6847",
+      "name": "Devin Duvernay",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "16731": {
+      "sleeper_id": "2197",
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4575665": {
+      "sleeper_id": "11616",
+      "name": "Jacob Cowing",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3052096": {
+      "sleeper_id": "4314",
+      "name": "Johnny Mundt",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4692590": {
+      "sleeper_id": "9497",
+      "name": "Jalin Hyatt",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4260394": {
+      "sleeper_id": "10866",
+      "name": "Aidan O'Connell",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4373273": {
+      "sleeper_id": "12171",
+      "name": "British Brooks",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4426553": {
+      "sleeper_id": "10214",
+      "name": "Davis Allen",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4596545": {
+      "sleeper_id": "12984",
+      "name": "CJ Dippre",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "2972515": {
+      "sleeper_id": "4574",
+      "name": "Cooper Rush",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4242431": {
+      "sleeper_id": "8230",
+      "name": "Ty Chandler",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3050481": {
+      "sleeper_id": "5409",
+      "name": "Tanner Hudson",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4879250": {
+      "sleeper_id": "13335",
+      "name": "Cole Payton",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4426689": {
+      "sleeper_id": "12826",
+      "name": "Ulysses Bentley IV",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "5092436": {
+      "sleeper_id": "12385",
+      "name": "Jude McAtamney",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4365395": {
+      "sleeper_id": "11371",
+      "name": "Julian Hill",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4242526": {
+      "sleeper_id": "11467",
+      "name": "John Samuel Shenker",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4242536": {
+      "sleeper_id": "8089",
+      "name": "Sal Cannella",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4367567": {
+      "sleeper_id": "8254",
+      "name": "Julius Chestnut",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4240600": {
+      "sleeper_id": "7606",
+      "name": "Kadarius Toney",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4566192": {
+      "sleeper_id": "11789",
+      "name": "Joshua Karty",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "15807": {
+      "sleeper_id": "1535",
+      "name": "Cordarrelle Patterson",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4683159": {
+      "sleeper_id": "13541",
+      "name": "Lewis Bond",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4570561": {
+      "sleeper_id": "10223",
+      "name": "Eric Gray",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4431466": {
+      "sleeper_id": "12634",
+      "name": "Jordan Watkins",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "5178972": {
+      "sleeper_id": "12935",
+      "name": "Jakobie Keeney-James",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4570738": {
+      "sleeper_id": "12971",
+      "name": "Ke'Shawn Williams",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4708049": {
+      "sleeper_id": "12700",
+      "name": "Gavin Bartholomew",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4239086": {
+      "sleeper_id": "8159",
+      "name": "Desmond Ridder",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4876132": {
+      "sleeper_id": "13273",
+      "name": "Josh Cuevas",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4429676": {
+      "sleeper_id": "8207",
+      "name": "Tyler Goodson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3045138": {
+      "sleeper_id": "4068",
+      "name": "Mike Williams",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "2975674": {
+      "sleeper_id": "4602",
+      "name": "Robert Tonyan",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4057082": {
+      "sleeper_id": "7436",
+      "name": "Mason Kinsey",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4698191": {
+      "sleeper_id": "11963",
+      "name": "Chris Collier",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4360294": {
+      "sleeper_id": "6945",
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4808830": {
+      "sleeper_id": "12462",
+      "name": "Damien Martinez",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4241424": {
+      "sleeper_id": "7595",
+      "name": "Tylan Wallace",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4427985": {
+      "sleeper_id": "11748",
+      "name": "Bub Means",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2310331": {
+      "sleeper_id": "6960",
+      "name": "Tyler Johnson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4722908": {
+      "sleeper_id": "8489",
+      "name": "Drew Ogletree",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4034704": {
+      "sleeper_id": "8076",
+      "name": "Michael Bandy",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4245645": {
+      "sleeper_id": "7529",
+      "name": "Gary Brightwell",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4698253": {
+      "sleeper_id": "12969",
+      "name": "Lan Larison",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4034862": {
+      "sleeper_id": "7946",
+      "name": "Jack Stoll",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3051889": {
+      "sleeper_id": "3155",
+      "name": "Laquon Treadwell",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4045163": {
+      "sleeper_id": "6151",
+      "name": "Miles Sanders",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4045305": {
+      "sleeper_id": "4995",
+      "name": "Ian Thomas",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4424106": {
+      "sleeper_id": "6699",
+      "name": "Gunner Olszewski",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4360637": {
+      "sleeper_id": "11911",
+      "name": "Jeshaun Jones",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4035020": {
+      "sleeper_id": "7075",
+      "name": "Charlie Woerner",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4360799": {
+      "sleeper_id": "11567",
+      "name": "Jordan Travis",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4373030": {
+      "sleeper_id": "11082",
+      "name": "Ben Sims",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4360763": {
+      "sleeper_id": "11157",
+      "name": "Brycen Tremayne",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3975763": {
+      "sleeper_id": "5272",
+      "name": "Greg Joseph",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4241983": {
+      "sleeper_id": "7039",
+      "name": "Cody White",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4401805": {
+      "sleeper_id": "8527",
+      "name": "Dareke Young",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4240021": {
+      "sleeper_id": "6938",
+      "name": "Cam Akers",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3916566": {
+      "sleeper_id": "7066",
+      "name": "K.J. Osborn",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4426535": {
+      "sleeper_id": "12860",
+      "name": "Theo Wease Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2976592": {
+      "sleeper_id": "3200",
+      "name": "Sterling Shepard",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4037457": {
+      "sleeper_id": "6012",
+      "name": "Travis Homer",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3122168": {
+      "sleeper_id": "5154",
+      "name": "Trent Sherfield",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4685039": {
+      "sleeper_id": "11561",
+      "name": "Michael Pratt",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "2579604": {
+      "sleeper_id": "2334",
+      "name": "Phillip Dorsett II",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4035886": {
+      "sleeper_id": "7608",
+      "name": "Khalil Herbert",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3044720": {
+      "sleeper_id": "4179",
+      "name": "Joshua Dobbs",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4429262": {
+      "sleeper_id": "11605",
+      "name": "Jaheim Bell",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "9614": {
+      "sleeper_id": "111",
+      "name": "Marcedes Lewis",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4240858": {
+      "sleeper_id": "9998",
+      "name": "Hendon Hooker",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4431353": {
+      "sleeper_id": "12520",
+      "name": "Xavier Restrepo",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361653": {
+      "sleeper_id": "11556",
+      "name": "Devin Leary",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4361665": {
+      "sleeper_id": "11146",
+      "name": "Christopher Dunn",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4431465": {
+      "sleeper_id": "13295",
+      "name": "Behren Morton",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4372071": {
+      "sleeper_id": "8123",
+      "name": "Hassan Haskins",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4685441": {
+      "sleeper_id": "13412",
+      "name": "Kendrick Law",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4240911": {
+      "sleeper_id": "11900",
+      "name": "Jacob Kibodi",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4374033": {
+      "sleeper_id": "7599",
+      "name": "Jermar Jefferson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4361765": {
+      "sleeper_id": "11949",
+      "name": "Brayden Narveson",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "4361777": {
+      "sleeper_id": "8139",
+      "name": "Zamir White",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "2983509": {
+      "sleeper_id": "4718",
+      "name": "Dare Ogunbowale",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4685381": {
+      "sleeper_id": "13313",
+      "name": "Emmanuel Henderson Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4431509": {
+      "sleeper_id": "12721",
+      "name": "Kaden Prather",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4431536": {
+      "sleeper_id": "12515",
+      "name": "Donovan Edwards",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "16140": {
+      "sleeper_id": "1550",
+      "name": "Ryan Griffin",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "5085024": {
+      "sleeper_id": "13554",
+      "name": "CJ Williams",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4714365": {
+      "sleeper_id": "11582",
+      "name": "Carson Steele",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4241410": {
+      "sleeper_id": "8219",
+      "name": "Jelani Woods",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4605841": {
+      "sleeper_id": "12897",
+      "name": "Nathan Carter",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4243537": {
+      "sleeper_id": "6943",
+      "name": "Gabe Davis",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "2576399": {
+      "sleeper_id": "3258",
+      "name": "Nick Vannett",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4433971": {
+      "sleeper_id": "12494",
+      "name": "Kyle McCord",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "2574511": {
+      "sleeper_id": "3357",
+      "name": "Brandon Allen",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4362452": {
+      "sleeper_id": "7537",
+      "name": "Jaret Patterson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "2576581": {
+      "sleeper_id": "3269",
+      "name": "Chris Moore",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "2511109": {
+      "sleeper_id": "2549",
+      "name": "Trevor Siemian",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4034779": {
+      "sleeper_id": "8484",
+      "name": "Ko Kieft",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3121427": {
+      "sleeper_id": "4082",
+      "name": "Curtis Samuel",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3932442": {
+      "sleeper_id": "5323",
+      "name": "Equanimeous St. Brown",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4362630": {
+      "sleeper_id": "7565",
+      "name": "Terrace Marshall Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3871102": {
+      "sleeper_id": "6154",
+      "name": "David Sills V",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4686104": {
+      "sleeper_id": "11636",
+      "name": "Johnny Wilson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4039034": {
+      "sleeper_id": "8002",
+      "name": "Shane Buechele",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4567506": {
+      "sleeper_id": "11821",
+      "name": "Tahj Washington",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3914307": {
+      "sleeper_id": "8921",
+      "name": "Maurice Alexander",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4430431": {
+      "sleeper_id": "12477",
+      "name": "Kurtis Rourke",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4035115": {
+      "sleeper_id": "6843",
+      "name": "Albert Okwuegbunam Jr.",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "2980453": {
+      "sleeper_id": "4149",
+      "name": "Jamaal Williams",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4239944": {
+      "sleeper_id": "7535",
+      "name": "Hunter Long",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4383440": {
+      "sleeper_id": "11433",
+      "name": "Nate Adkins",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4596439": {
+      "sleeper_id": "12732",
+      "name": "Dominic Lovett",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4039358": {
+      "sleeper_id": "6963",
+      "name": "Patrick Taylor Jr.",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4426479": {
+      "sleeper_id": "11815",
+      "name": "Cornelius Johnson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3052177": {
+      "sleeper_id": "4038",
+      "name": "John Ross",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4250360": {
+      "sleeper_id": "8157",
+      "name": "Bailey Zappe",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4426407": {
+      "sleeper_id": "9492",
+      "name": "Trey Palmer",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4432722": {
+      "sleeper_id": "13557",
+      "name": "Athan Kaliakmanis",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4361088": {
+      "sleeper_id": "11942",
+      "name": "Colson Yankoff",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4430723": {
+      "sleeper_id": "11595",
+      "name": "Jared Wiley",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3728262": {
+      "sleeper_id": "5096",
+      "name": "Ray-Ray McCloud III",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4242214": {
+      "sleeper_id": "6820",
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3115928": {
+      "sleeper_id": "5781",
+      "name": "Malik Turner",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4877203": {
+      "sleeper_id": "13101",
+      "name": "Gage Larvadain",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361112": {
+      "sleeper_id": "11820",
+      "name": "Devin Culp",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4391845": {
+      "sleeper_id": "11644",
+      "name": "Cody Schrader",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4686781": {
+      "sleeper_id": "11621",
+      "name": "Brenden Rice",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4242519": {
+      "sleeper_id": "11008",
+      "name": "Anders Carlson",
+      "position": "K",
+      "matched_by": "name_pos"
+    },
+    "3128390": {
+      "sleeper_id": "5185",
+      "name": "Allen Lazard",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4428811": {
+      "sleeper_id": "11921",
+      "name": "Xavier Weaver",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3128444": {
+      "sleeper_id": "6268",
+      "name": "Matthew Wright",
+      "position": "K",
+      "matched_by": "espn_id"
+    },
+    "4035693": {
+      "sleeper_id": "14076",
+      "name": "Velus Jones Jr.",
+      "position": "RB",
+      "matched_by": "last_pos_team"
+    },
+    "4035676": {
+      "sleeper_id": "6845",
+      "name": "Zack Moss",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "2511973": {
+      "sleeper_id": "2755",
+      "name": "Eric Tomlinson",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4693331": {
+      "sleeper_id": "12688",
+      "name": "Cam Miller",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4363551": {
+      "sleeper_id": "11474",
+      "name": "Dylan Drummond",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4775196": {
+      "sleeper_id": "12690",
+      "name": "Tommy Mellott",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685110": {
+      "sleeper_id": "13582",
+      "name": "Anthony Smith",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4429121": {
+      "sleeper_id": "12516",
+      "name": "Kalel Mullings",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4044111": {
+      "sleeper_id": "8413",
+      "name": "Chris Oladokun",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4369886": {
+      "sleeper_id": "7521",
+      "name": "Chris Blair",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4259308": {
+      "sleeper_id": "8255",
+      "name": "Raheem Blackshear",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4027873": {
+      "sleeper_id": "8235",
+      "name": "Samori Toure",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3120590": {
+      "sleeper_id": "6185",
+      "name": "Easton Stick",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "2508256": {
+      "sleeper_id": "2446",
+      "name": "MyCole Pruitt",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "15880": {
+      "sleeper_id": "1352",
+      "name": "Robert Woods",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4431453": {
+      "sleeper_id": "9505",
+      "name": "Deuce Vaughn",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4372063": {
+      "sleeper_id": "10221",
+      "name": "Ronnie Bell",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3929637": {
+      "sleeper_id": "7357",
+      "name": "Dan Chisena",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3929636": {
+      "sleeper_id": "8861",
+      "name": "Irv Charles",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4572786": {
+      "sleeper_id": "8801",
+      "name": "Dennis Houston",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4431479": {
+      "sleeper_id": "12475",
+      "name": "Ricky White III",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4427391": {
+      "sleeper_id": "10216",
+      "name": "Kenny McIntosh",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4689546": {
+      "sleeper_id": "8176",
+      "name": "Danny Gray",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4374045": {
+      "sleeper_id": "8227",
+      "name": "Teagan Quitoriano",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4372026": {
+      "sleeper_id": "10210",
+      "name": "Cameron Latu",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4243004": {
+      "sleeper_id": "11378",
+      "name": "Jordan Mims",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4431431": {
+      "sleeper_id": "12491",
+      "name": "Corey Kiner",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4691688": {
+      "sleeper_id": "12656",
+      "name": "Robbie Ouzts",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "2971281": {
+      "sleeper_id": "4443",
+      "name": "Pharaoh Brown",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4890373": {
+      "sleeper_id": "13308",
+      "name": "Bauer Sharp",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4259592": {
+      "sleeper_id": "10983",
+      "name": "Sean Clifford",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4245131": {
+      "sleeper_id": "8013",
+      "name": "Tim Jones",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4431506": {
+      "sleeper_id": "12532",
+      "name": "Ja'Corey Brooks",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2580216": {
+      "sleeper_id": "2750",
+      "name": "DeAndre Carter",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3948283": {
+      "sleeper_id": "6451",
+      "name": "Stephen Carlson",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4429466": {
+      "sleeper_id": "13210",
+      "name": "Drake Dabney",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4374187": {
+      "sleeper_id": "8253",
+      "name": "Deven Thompkins",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4036419": {
+      "sleeper_id": "8206",
+      "name": "Skylar Thompson",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "3045169": {
+      "sleeper_id": "5257",
+      "name": "Tim Boyle",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "3917612": {
+      "sleeper_id": "6885",
+      "name": "Ke'Shawn Vaughn",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3045144": {
+      "sleeper_id": "3225",
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4243322": {
+      "sleeper_id": "10215",
+      "name": "Jake Haener",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "3051381": {
+      "sleeper_id": "5089",
+      "name": "Mike White",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4362019": {
+      "sleeper_id": "10863",
+      "name": "A.T. Perry",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2565969": {
+      "sleeper_id": "2711",
+      "name": "Taylor Heinicke",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "3135321": {
+      "sleeper_id": "5955",
+      "name": "Hunter Renfrow",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4360175": {
+      "sleeper_id": "10217",
+      "name": "Clayton Tune",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "5085189": {
+      "sleeper_id": "13282",
+      "name": "Jack Endries",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4714379": {
+      "sleeper_id": "13429",
+      "name": "Seydou Traore",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3059722": {
+      "sleeper_id": "4080",
+      "name": "Zay Jones",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3127292": {
+      "sleeper_id": "5010",
+      "name": "Will Dissly",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4362162": {
+      "sleeper_id": "11104",
+      "name": "SaRodorick Thompson Jr.",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "2971618": {
+      "sleeper_id": "2325",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4360290": {
+      "sleeper_id": "10224",
+      "name": "Brayden Willis",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4360231": {
+      "sleeper_id": "8249",
+      "name": "Lucas Krull",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4569156": {
+      "sleeper_id": "11943",
+      "name": "Michael Wiley",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4689988": {
+      "sleeper_id": "11311",
+      "name": "Jason Brownlee",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4362504": {
+      "sleeper_id": "7568",
+      "name": "Brevin Jordan",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "2574576": {
+      "sleeper_id": "2460",
+      "name": "C.J. Uzomah",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3121410": {
+      "sleeper_id": "5880",
+      "name": "Parris Campbell",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3121409": {
+      "sleeper_id": "4234",
+      "name": "Noah Brown",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4567216": {
+      "sleeper_id": "11989",
+      "name": "D.J. Williams",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4698301": {
+      "sleeper_id": "11897",
+      "name": "Jermaine Jackson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3049698": {
+      "sleeper_id": "4435",
+      "name": "Anthony Firkser",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4428116": {
+      "sleeper_id": "13074",
+      "name": "Isaiah Neyor",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4428119": {
+      "sleeper_id": "9510",
+      "name": "Lew Nichols",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "5208436": {
+      "sleeper_id": "11652",
+      "name": "Louis Rees-Zammit",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4362617": {
+      "sleeper_id": "11959",
+      "name": "Bryce Oliver",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3115306": {
+      "sleeper_id": "4171",
+      "name": "Josh Reynolds",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "2574630": {
+      "sleeper_id": "3362",
+      "name": "Jeff Driskel",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4241802": {
+      "sleeper_id": "6798",
+      "name": "Jalen Reagor",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4372758": {
+      "sleeper_id": "8200",
+      "name": "Kevin Austin Jr.",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4034946": {
+      "sleeper_id": "7605",
+      "name": "Kyle Trask",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4430104": {
+      "sleeper_id": "8220",
+      "name": "Sincere McCormick",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3115394": {
+      "sleeper_id": "4951",
+      "name": "DJ Chark",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "2576716": {
+      "sleeper_id": "2410",
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "16763": {
+      "sleeper_id": "1800",
+      "name": "Jordan Matthews",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4432338": {
+      "sleeper_id": "12725",
+      "name": "Luke Lachey",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "16799": {
+      "sleeper_id": "1992",
+      "name": "Allen Robinson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3051926": {
+      "sleeper_id": "5248",
+      "name": "Gus Edwards",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4248068": {
+      "sleeper_id": "8809",
+      "name": "Aaron Shampklin",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4569609": {
+      "sleeper_id": "9220",
+      "name": "Evan Hull",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4039160": {
+      "sleeper_id": "7602",
+      "name": "Kylen Granson",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4241820": {
+      "sleeper_id": "7583",
+      "name": "Sam Ehlinger",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "2574808": {
+      "sleeper_id": "3423",
+      "name": "Robbie Chosen",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4244049": {
+      "sleeper_id": "7536",
+      "name": "Quintin Morris",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4426335": {
+      "sleeper_id": "12705",
+      "name": "Graham Mertz",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4426364": {
+      "sleeper_id": "12256",
+      "name": "Baylor Cupp",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4878878": {
+      "sleeper_id": "12928",
+      "name": "Amar Johnson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4360739": {
+      "sleeper_id": "7812",
+      "name": "Simi Fehoko",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4430388": {
+      "sleeper_id": "9512",
+      "name": "DeWayne McBride",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4590292": {
+      "sleeper_id": "12715",
+      "name": "Thomas Fidone II",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4877034": {
+      "sleeper_id": "13422",
+      "name": "Jaren Kanak",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4428512": {
+      "sleeper_id": "11648",
+      "name": "Kedon Slovis",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4035222": {
+      "sleeper_id": "6144",
+      "name": "Trayveon Williams",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3916430": {
+      "sleeper_id": "5347",
+      "name": "Nyheim Hines",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4035312": {
+      "sleeper_id": "8241",
+      "name": "Anthony Brown Jr.",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "3932905": {
+      "sleeper_id": "5937",
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4240069": {
+      "sleeper_id": "10860",
+      "name": "Malik Cunningham",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4248425": {
+      "sleeper_id": "11186",
+      "name": "Carlos Washington Jr.",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "5159802": {
+      "sleeper_id": "13577",
+      "name": "Dallen Bentley",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4428678": {
+      "sleeper_id": "11633",
+      "name": "Jamari Thrash",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "5065495": {
+      "sleeper_id": "8755",
+      "name": "Kaden Davis",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3124092": {
+      "sleeper_id": "5806",
+      "name": "John Wolford",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4367178": {
+      "sleeper_id": "10862",
+      "name": "Dorian Thompson-Robinson",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4039607": {
+      "sleeper_id": "6973",
+      "name": "J.J. Taylor",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4428796": {
+      "sleeper_id": "11806",
+      "name": "Casey Washington",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3910544": {
+      "sleeper_id": "7045",
+      "name": "Joshua Kelley",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4242442": {
+      "sleeper_id": "11508",
+      "name": "Princeton Fant",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3050487": {
+      "sleeper_id": "5013",
+      "name": "Anthony Miller",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4565908": {
+      "sleeper_id": "9490",
+      "name": "Tyler Scott",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4613050": {
+      "sleeper_id": "12907",
+      "name": "Quentin Skinner",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361332": {
+      "sleeper_id": "11257",
+      "name": "Shedrick Jackson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4373632": {
+      "sleeper_id": "9231",
+      "name": "Jaren Hall",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "3722362": {
+      "sleeper_id": "6037",
+      "name": "Brett Rypien",
+      "position": "QB",
+      "matched_by": "espn_id"
+    },
+    "4244688": {
+      "sleeper_id": "8938",
+      "name": "Nathan Rourke",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4361426": {
+      "sleeper_id": "9489",
+      "name": "Justin Shorter",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4429012": {
+      "sleeper_id": "11649",
+      "name": "Kendall Milton",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4429033": {
+      "sleeper_id": "11640",
+      "name": "Jermaine Burton",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4250764": {
+      "sleeper_id": "8583",
+      "name": "Stone Smartt",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4428943": {
+      "sleeper_id": "13047",
+      "name": "Jacardia Wright",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4240573": {
+      "sleeper_id": "7559",
+      "name": "Ihmir Smith-Marsette",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4240577": {
+      "sleeper_id": "7865",
+      "name": "Brandon Smith",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361417": {
+      "sleeper_id": "9483",
+      "name": "Zack Kuntz",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4427105": {
+      "sleeper_id": "10233",
+      "name": "Max Duggan",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4244856": {
+      "sleeper_id": "7746",
+      "name": "Austin Trammell",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4048244": {
+      "sleeper_id": "5987",
+      "name": "Alexander Mattison",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4363554": {
+      "sleeper_id": "8924",
+      "name": "Thomas Odukoya",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4250945": {
+      "sleeper_id": "11046",
+      "name": "Colton Dowell",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3923392": {
+      "sleeper_id": "6894",
+      "name": "Mitchell Wilcox",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4036026": {
+      "sleeper_id": "7729",
+      "name": "Dez Fitzpatrick",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4431342": {
+      "sleeper_id": "13011",
+      "name": "Brennan Presley",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4259324": {
+      "sleeper_id": "11381",
+      "name": "Travis Vokolek",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4877824": {
+      "sleeper_id": "13110",
+      "name": "Zach Horton",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3139033": {
+      "sleeper_id": "5209",
+      "name": "Mike Boone",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4384171": {
+      "sleeper_id": "11598",
+      "name": "Tanner McLachlan",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4249030": {
+      "sleeper_id": "6453",
+      "name": "D.J. Montgomery",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4875912": {
+      "sleeper_id": "11802",
+      "name": "Tejhaun Palmer",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4427278": {
+      "sleeper_id": "11306",
+      "name": "Xavier Gipson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4408854": {
+      "sleeper_id": "6665",
+      "name": "Jody Fortson",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3915381": {
+      "sleeper_id": "5076",
+      "name": "John Kelly Jr.",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4036211": {
+      "sleeper_id": "7989",
+      "name": "DJ Turner",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4243160": {
+      "sleeper_id": "6814",
+      "name": "Laviska Shenault Jr.",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4876006": {
+      "sleeper_id": "8799",
+      "name": "Zaire Mitchell-Paden",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4036275": {
+      "sleeper_id": "6964",
+      "name": "Sean McKeon",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4685540": {
+      "sleeper_id": "13580",
+      "name": "Carsen Ryan",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3919510": {
+      "sleeper_id": "6386",
+      "name": "Alex Bachman",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4361988": {
+      "sleeper_id": "8170",
+      "name": "James Mitchell",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4245144": {
+      "sleeper_id": "8250",
+      "name": "Tay Martin",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3886818": {
+      "sleeper_id": "5980",
+      "name": "Myles Gaskin",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3886809": {
+      "sleeper_id": "7233",
+      "name": "Andre Baccellia",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4362087": {
+      "sleeper_id": "8221",
+      "name": "Keaontay Ingram",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4243319": {
+      "sleeper_id": "11115",
+      "name": "Terrell Bynum",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3122976": {
+      "sleeper_id": "5284",
+      "name": "Jeff Wilson Jr.",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3061612": {
+      "sleeper_id": "4198",
+      "name": "Jamal Agnew",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3125116": {
+      "sleeper_id": "4111",
+      "name": "D'Onta Foreman",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4036448": {
+      "sleeper_id": "8416",
+      "name": "Jalen Virgil",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4427575": {
+      "sleeper_id": "11808",
+      "name": "Jha'Quan Jackson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4390717": {
+      "sleeper_id": "8051",
+      "name": "Josh Johnson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4046676": {
+      "sleeper_id": "6984",
+      "name": "Tony Jones Jr.",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4421446": {
+      "sleeper_id": "6659",
+      "name": "Craig Reynolds",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4036431": {
+      "sleeper_id": "7064",
+      "name": "Darrynton Evans",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4360174": {
+      "sleeper_id": "8202",
+      "name": "Michael Woods II",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4362227": {
+      "sleeper_id": "9499",
+      "name": "Bryce Ford-Wheaton",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4241401": {
+      "sleeper_id": "7593",
+      "name": "Trey Sermon",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "2977800": {
+      "sleeper_id": "3433",
+      "name": "Alex Erickson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3127306": {
+      "sleeper_id": "4992",
+      "name": "Dante Pettis",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4362186": {
+      "sleeper_id": "8114",
+      "name": "Erik Ezukanma",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4040774": {
+      "sleeper_id": "6850",
+      "name": "Harrison Bryant",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3915821": {
+      "sleeper_id": "7078",
+      "name": "Tony Brown",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3139602": {
+      "sleeper_id": "6694",
+      "name": "D'Ernest Johnson",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "3917849": {
+      "sleeper_id": "7106",
+      "name": "Lawrence Cager",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4249616": {
+      "sleeper_id": "11384",
+      "name": "Owen Wright",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3917960": {
+      "sleeper_id": "6402",
+      "name": "Steven Sims",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4249624": {
+      "sleeper_id": "8523",
+      "name": "Nick Muse",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4433959": {
+      "sleeper_id": "13121",
+      "name": "Ben Yurosek",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4372526": {
+      "sleeper_id": "10870",
+      "name": "Deneric Prince",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4567095": {
+      "sleeper_id": "11773",
+      "name": "Keilan Robinson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4692022": {
+      "sleeper_id": "11645",
+      "name": "Javon Baker",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4573243": {
+      "sleeper_id": "12908",
+      "name": "Chandler Brayboy",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "2578533": {
+      "sleeper_id": "2381",
+      "name": "Chris Conley",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3119195": {
+      "sleeper_id": "5000",
+      "name": "Chase Edmonds",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4362489": {
+      "sleeper_id": "11511",
+      "name": "John Stephens Jr.",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4043016": {
+      "sleeper_id": "7612",
+      "name": "Dee Eskridge",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3115255": {
+      "sleeper_id": "5695",
+      "name": "Brandon Powell",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "5083297": {
+      "sleeper_id": "13120",
+      "name": "Jacoby Jones",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4241588": {
+      "sleeper_id": "11139",
+      "name": "Elijah Cooks",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4432208": {
+      "sleeper_id": "12735",
+      "name": "Caleb Lohner",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4608362": {
+      "sleeper_id": "8041",
+      "name": "Shane Zylstra",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "2978109": {
+      "sleeper_id": "4319",
+      "name": "Zach Pascal",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4362603": {
+      "sleeper_id": "12374",
+      "name": "Brenden Bates",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4040980": {
+      "sleeper_id": "6126",
+      "name": "Irv Smith Jr.",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4034948": {
+      "sleeper_id": "7531",
+      "name": "Feleipe Franks",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4039043": {
+      "sleeper_id": "6857",
+      "name": "Collin Johnson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3115378": {
+      "sleeper_id": "5110",
+      "name": "Russell Gage Jr.",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4362523": {
+      "sleeper_id": "10220",
+      "name": "Will Mallory",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4569372": {
+      "sleeper_id": "13202",
+      "name": "Dalevon Campbell",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4569547": {
+      "sleeper_id": "13151",
+      "name": "Nick Kallerup",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3047876": {
+      "sleeper_id": "5773",
+      "name": "KhaDarel Hodge",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3916204": {
+      "sleeper_id": "6957",
+      "name": "James Proche II",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3914151": {
+      "sleeper_id": "7050",
+      "name": "Josiah Deguara",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3912092": {
+      "sleeper_id": "6074",
+      "name": "Donald Parham Jr.",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3924365": {
+      "sleeper_id": "4973",
+      "name": "Hayden Hurst",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4258248": {
+      "sleeper_id": "8197",
+      "name": "Peyton Hendershot",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4047422": {
+      "sleeper_id": "8849",
+      "name": "Tanner Conner",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4428396": {
+      "sleeper_id": "12389",
+      "name": "Hayden Rucci",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3052056": {
+      "sleeper_id": "4854",
+      "name": "River Cracraft",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "3910176": {
+      "sleeper_id": "7438",
+      "name": "Kristian Wilkerson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4035198": {
+      "sleeper_id": "8756",
+      "name": "Brandon Johnson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4700712": {
+      "sleeper_id": "12062",
+      "name": "Cam Grandy",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4039274": {
+      "sleeper_id": "7087",
+      "name": "Jonathan Ward",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4035170": {
+      "sleeper_id": "6989",
+      "name": "Marquez Callaway",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4426475": {
+      "sleeper_id": "8211",
+      "name": "Tyrion Davis-Price",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4428532": {
+      "sleeper_id": "11615",
+      "name": "Ainias Smith",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4379401": {
+      "sleeper_id": "8500",
+      "name": "John FitzPatrick",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4426399": {
+      "sleeper_id": "11885",
+      "name": "Ramel Keyton",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4688552": {
+      "sleeper_id": "12765",
+      "name": "Keleki Latu",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4426426": {
+      "sleeper_id": "11276",
+      "name": "Joseph Ngata",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4430681": {
+      "sleeper_id": "11056",
+      "name": "Jared Wayne",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4430684": {
+      "sleeper_id": "12079",
+      "name": "Treyton Welch",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4432731": {
+      "sleeper_id": "12480",
+      "name": "Moliki Matavao",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3916587": {
+      "sleeper_id": "7427",
+      "name": "Tyler Mabry",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3918639": {
+      "sleeper_id": "4089",
+      "name": "Gerald Everett",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3916564": {
+      "sleeper_id": "6040",
+      "name": "Tyree Jackson",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4379405": {
+      "sleeper_id": "11874",
+      "name": "Jaylen Johnson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4360978": {
+      "sleeper_id": "12357",
+      "name": "David Martin-Robinson",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "3928925": {
+      "sleeper_id": "6996",
+      "name": "JaMycal Hasty",
+      "position": "RB",
+      "matched_by": "espn_id"
+    },
+    "4035426": {
+      "sleeper_id": "6970",
+      "name": "Stephen Sullivan",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "3126115": {
+      "sleeper_id": "6171",
+      "name": "Cody Thompson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4361182": {
+      "sleeper_id": "11065",
+      "name": "Adrian Martinez",
+      "position": "QB",
+      "matched_by": "name_pos"
+    },
+    "4240350": {
+      "sleeper_id": "10861",
+      "name": "Xazavian Valladay",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4248557": {
+      "sleeper_id": "11304",
+      "name": "E.J. Jenkins",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "5155825": {
+      "sleeper_id": "13122",
+      "name": "Carter Runyon",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4570242": {
+      "sleeper_id": "12478",
+      "name": "Nick Nash",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4242558": {
+      "sleeper_id": "8885",
+      "name": "Tucker Fisk",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4373634": {
+      "sleeper_id": "11606",
+      "name": "Dallin Holker",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4916349": {
+      "sleeper_id": "8107",
+      "name": "Nikola Kalinic",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4578436": {
+      "sleeper_id": "12829",
+      "name": "Coleman Owen",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3128452": {
+      "sleeper_id": "5032",
+      "name": "Jordan Akins",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4369466": {
+      "sleeper_id": "11421",
+      "name": "Ryan Miller",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4035776": {
+      "sleeper_id": "8783",
+      "name": "Kendric Pryor",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685016": {
+      "sleeper_id": "11483",
+      "name": "Ellis Merriweather",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3120303": {
+      "sleeper_id": "5285",
+      "name": "Ross Dwelley",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4361438": {
+      "sleeper_id": "8214",
+      "name": "Cole Turner",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4426990": {
+      "sleeper_id": "11506",
+      "name": "Jalen Moreno-Cropper",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4248822": {
+      "sleeper_id": "8475",
+      "name": "Montrell Washington",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4426893": {
+      "sleeper_id": "12114",
+      "name": "Joshua Cephus",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4367510": {
+      "sleeper_id": "11654",
+      "name": "Dante Miller",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3931391": {
+      "sleeper_id": "6598",
+      "name": "Trenton Irwin",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4429001": {
+      "sleeper_id": "11590",
+      "name": "Jase McClellan",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3040569": {
+      "sleeper_id": "4218",
+      "name": "Trent Taylor",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4248909": {
+      "sleeper_id": "11114",
+      "name": "Elijah Dotson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "3046704": {
+      "sleeper_id": "2545",
+      "name": "Geoff Swaim",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4250969": {
+      "sleeper_id": "8757",
+      "name": "Rodney Williams",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4431210": {
+      "sleeper_id": "12889",
+      "name": "Beaux Collins",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4240750": {
+      "sleeper_id": "10651",
+      "name": "Mohamed Ibrahim",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4887918": {
+      "sleeper_id": "12743",
+      "name": "Junior Bergen",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "3144991": {
+      "sleeper_id": "6662",
+      "name": "Parker Hesse",
+      "position": "TE",
+      "matched_by": "espn_id"
+    },
+    "4361604": {
+      "sleeper_id": "11568",
+      "name": "Blake Watson",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4048259": {
+      "sleeper_id": "7809",
+      "name": "Avery Williams",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4044144": {
+      "sleeper_id": "7597",
+      "name": "Kenny Yeboah",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4431142": {
+      "sleeper_id": "13173",
+      "name": "Jimmy Holiday",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4570409": {
+      "sleeper_id": "8118",
+      "name": "David Bell",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4879650": {
+      "sleeper_id": "11024",
+      "name": "Grant DuBose",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4689334": {
+      "sleeper_id": "11210",
+      "name": "Malik Heath",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4361778": {
+      "sleeper_id": "11099",
+      "name": "Kearis Jackson",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4274040": {
+      "sleeper_id": "8820",
+      "name": "Troy Hairston",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4046715": {
+      "sleeper_id": "7009",
+      "name": "Trishton Jackson",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4411193": {
+      "sleeper_id": "6234",
+      "name": "Deonte Harty",
+      "position": "WR",
+      "matched_by": "espn_id"
+    },
+    "4360306": {
+      "sleeper_id": "8140",
+      "name": "Justyn Ross",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4243830": {
+      "sleeper_id": "7713",
+      "name": "Jaelon Darden",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4746079": {
+      "sleeper_id": "7943",
+      "name": "Zach Davidson",
+      "position": "TE",
+      "matched_by": "name_pos"
+    },
+    "4373266": {
+      "sleeper_id": "11053",
+      "name": "Antoine Green",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4429006": {
+      "sleeper_id": "9495",
+      "name": "Rakim Jarrett",
+      "position": "WR",
+      "matched_by": "name_pos"
+    },
+    "4685035": {
+      "sleeper_id": "9222",
+      "name": "Zach Evans",
+      "position": "RB",
+      "matched_by": "name_pos"
+    },
+    "4570296": {
+      "sleeper_id": "12888",
+      "name": "Dalen Cambre",
+      "position": "WR",
+      "matched_by": "name_pos"
+    }
+  }
+}
