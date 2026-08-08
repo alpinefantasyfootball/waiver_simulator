@@ -1,8 +1,9 @@
 {
   "season": 2026,
   "espn_players": 1026,
-  "matched": 973,
+  "matched": 1005,
   "tiers": {
+    "def_team": 32,
     "espn_id": 319,
     "name_pos": 649,
     "name_pos_team": 1,
@@ -207,6 +208,12 @@
       "position": "RB",
       "matched_by": "name_pos"
     },
+    "-16034": {
+      "sleeper_id": "HOU",
+      "name": "Texans D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4241478": {
       "sleeper_id": "7525",
       "name": "DeVonta Smith",
@@ -218,6 +225,12 @@
       "name": "Chase Brown",
       "position": "RB",
       "matched_by": "name_pos"
+    },
+    "-16007": {
+      "sleeper_id": "DEN",
+      "name": "Broncos D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4426348": {
       "sleeper_id": "11566",
@@ -278,6 +291,12 @@
       "name": "Javonte Williams",
       "position": "RB",
       "matched_by": "name_pos"
+    },
+    "-16026": {
+      "sleeper_id": "SEA",
+      "name": "Seahawks D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4430737": {
       "sleeper_id": "8150",
@@ -363,11 +382,23 @@
       "position": "TE",
       "matched_by": "name_pos"
     },
+    "-16014": {
+      "sleeper_id": "LAR",
+      "name": "Rams D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4426388": {
       "sleeper_id": "8148",
       "name": "Jameson Williams",
       "position": "WR",
       "matched_by": "name_pos"
+    },
+    "-16023": {
+      "sleeper_id": "PIT",
+      "name": "Steelers D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4871023": {
       "sleeper_id": "13279",
@@ -549,6 +580,12 @@
       "position": "QB",
       "matched_by": "espn_id"
     },
+    "-16033": {
+      "sleeper_id": "BAL",
+      "name": "Ravens D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4242355": {
       "sleeper_id": "8110",
       "name": "Jake Ferguson",
@@ -584,6 +621,12 @@
       "name": "Chuba Hubbard",
       "position": "RB",
       "matched_by": "name_pos"
+    },
+    "-16021": {
+      "sleeper_id": "PHI",
+      "name": "Eagles D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4248528": {
       "sleeper_id": "8167",
@@ -711,6 +754,12 @@
       "position": "WR",
       "matched_by": "name_pos"
     },
+    "-16017": {
+      "sleeper_id": "NE",
+      "name": "Patriots D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4688813": {
       "sleeper_id": "9500",
       "name": "Josh Downs",
@@ -819,6 +868,18 @@
       "position": "RB",
       "matched_by": "name_pos"
     },
+    "-16008": {
+      "sleeper_id": "DET",
+      "name": "Lions D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
+    "-16005": {
+      "sleeper_id": "CLE",
+      "name": "Browns D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4385690": {
       "sleeper_id": "10236",
       "name": "Dalton Kincaid",
@@ -836,6 +897,12 @@
       "name": "Deebo Samuel Sr.",
       "position": "WR",
       "matched_by": "espn_id"
+    },
+    "-16030": {
+      "sleeper_id": "JAX",
+      "name": "Jaguars D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "3054850": {
       "sleeper_id": "4035",
@@ -878,6 +945,12 @@
       "name": "Stefon Diggs",
       "position": "WR",
       "matched_by": "espn_id"
+    },
+    "-16024": {
+      "sleeper_id": "LAC",
+      "name": "Chargers D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4428209": {
       "sleeper_id": "11638",
@@ -927,6 +1000,12 @@
       "position": "WR",
       "matched_by": "name_pos"
     },
+    "-16012": {
+      "sleeper_id": "KC",
+      "name": "Chiefs D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "17427": {
       "sleeper_id": "2020",
       "name": "Cairo Santos",
@@ -938,6 +1017,12 @@
       "name": "Will Reichard",
       "position": "K",
       "matched_by": "name_pos"
+    },
+    "-16016": {
+      "sleeper_id": "MIN",
+      "name": "Vikings D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4241463": {
       "sleeper_id": "6783",
@@ -1023,6 +1108,12 @@
       "position": "RB",
       "matched_by": "name_pos"
     },
+    "-16009": {
+      "sleeper_id": "GB",
+      "name": "Packers D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4430539": {
       "sleeper_id": "9480",
       "name": "Brenton Strange",
@@ -1107,6 +1198,12 @@
       "position": "WR",
       "matched_by": "espn_id"
     },
+    "-16006": {
+      "sleeper_id": "DAL",
+      "name": "Cowboys D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4360635": {
       "sleeper_id": "8210",
       "name": "Chig Okonkwo",
@@ -1118,6 +1215,18 @@
       "name": "De'Zhaun Stribling",
       "position": "WR",
       "matched_by": "name_pos"
+    },
+    "-16003": {
+      "sleeper_id": "CHI",
+      "name": "Bears D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
+    "-16027": {
+      "sleeper_id": "TB",
+      "name": "Buccaneers D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4685261": {
       "sleeper_id": "13274",
@@ -1136,6 +1245,12 @@
       "name": "Cooper Kupp",
       "position": "WR",
       "matched_by": "espn_id"
+    },
+    "-16025": {
+      "sleeper_id": "SF",
+      "name": "49ers D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4040655": {
       "sleeper_id": "7090",
@@ -1227,6 +1342,12 @@
       "position": "RB",
       "matched_by": "name_pos"
     },
+    "-16018": {
+      "sleeper_id": "NO",
+      "name": "Saints D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4038441": {
       "sleeper_id": "5995",
       "name": "Justice Hill",
@@ -1239,6 +1360,12 @@
       "position": "WR",
       "matched_by": "name_pos"
     },
+    "-16002": {
+      "sleeper_id": "BUF",
+      "name": "Bills D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4870612": {
       "sleeper_id": "13320",
       "name": "Zachariah Branch",
@@ -1250,6 +1377,12 @@
       "name": "Aaron Rodgers",
       "position": "QB",
       "matched_by": "espn_id"
+    },
+    "-16010": {
+      "sleeper_id": "TEN",
+      "name": "Titans D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "5123663": {
       "sleeper_id": "12535",
@@ -1299,6 +1432,12 @@
       "position": "WR",
       "matched_by": "name_pos"
     },
+    "-16011": {
+      "sleeper_id": "IND",
+      "name": "Colts D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4686728": {
       "sleeper_id": "12502",
       "name": "Gunnar Helm",
@@ -1310,6 +1449,12 @@
       "name": "Andy Borregales",
       "position": "K",
       "matched_by": "name_pos"
+    },
+    "-16019": {
+      "sleeper_id": "NYG",
+      "name": "Giants D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4702555": {
       "sleeper_id": "13345",
@@ -1382,6 +1527,12 @@
       "name": "Geno Smith",
       "position": "QB",
       "matched_by": "espn_id"
+    },
+    "-16004": {
+      "sleeper_id": "CIN",
+      "name": "Bengals D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4243331": {
       "sleeper_id": "8111",
@@ -1472,6 +1623,24 @@
       "name": "Tua Tagovailoa",
       "position": "QB",
       "matched_by": "espn_id"
+    },
+    "-16013": {
+      "sleeper_id": "LV",
+      "name": "Raiders D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
+    "-16029": {
+      "sleeper_id": "CAR",
+      "name": "Panthers D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
+    "-16001": {
+      "sleeper_id": "ATL",
+      "name": "Falcons D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4430968": {
       "sleeper_id": "11647",
@@ -1569,11 +1738,23 @@
       "position": "TE",
       "matched_by": "name_pos"
     },
+    "-16020": {
+      "sleeper_id": "NYJ",
+      "name": "Jets D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
+    },
     "4430841": {
       "sleeper_id": "13272",
       "name": "Carson Beck",
       "position": "QB",
       "matched_by": "name_pos"
+    },
+    "-16028": {
+      "sleeper_id": "WAS",
+      "name": "Commanders D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4569559": {
       "sleeper_id": "11834",
@@ -1676,6 +1857,12 @@
       "name": "KaVontae Turpin",
       "position": "WR",
       "matched_by": "name_pos"
+    },
+    "-16015": {
+      "sleeper_id": "MIA",
+      "name": "Dolphins D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4258595": {
       "sleeper_id": "6826",
@@ -1862,6 +2049,12 @@
       "name": "Ja'Tavion Sanders",
       "position": "TE",
       "matched_by": "name_pos"
+    },
+    "-16022": {
+      "sleeper_id": "ARI",
+      "name": "Cardinals D/ST",
+      "position": "DEF",
+      "matched_by": "def_team"
     },
     "4695404": {
       "sleeper_id": "11571",
