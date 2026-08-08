@@ -1,0 +1,54 @@
+name: Build crosswalk
+
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Season to pull the ESPN player universe from"
+        required: true
+        default: "2026"
+      league_id:
+        description: "Any league you can read -- only used to reach the player pool"
+        required: true
+        default: "65142363"
+      player_limit:
+        description: "How many ESPN players to pull"
+        required: true
+        default: "1500"
+
+permissions:
+  contents: write
+
+jobs:
+  crosswalk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build crosswalk
+        env:
+          ESPN_SEASON: ${{ inputs.season }}
+          ESPN_LEAGUE_ID: ${{ inputs.league_id }}
+          ESPN_PLAYER_LIMIT: ${{ inputs.player_limit }}
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+        run: python scripts/build_crosswalk.py
+
+      - name: Commit crosswalk
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/crosswalk.json
+          if git diff --staged --quiet; then
+            echo "Nothing changed -- no commit."
+          else
+            git commit -m "Rebuild ESPN/Sleeper crosswalk"
+            git push
+            echo "Committed."
+          fi
