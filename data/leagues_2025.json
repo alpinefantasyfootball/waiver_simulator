@@ -1,0 +1,2403 @@
+{
+  "generated_at": "2026-08-09T00:43:42+00:00",
+  "season": 2025,
+  "leagues": [
+    {
+      "key": "dtown",
+      "platform": "espn",
+      "platform_league_id": "65142363",
+      "season": 2025,
+      "name": "D-Town Boogie",
+      "size": 10,
+      "is_public": true,
+      "current_week": 19,
+      "scoring": {
+        "flavour": "full_ppr",
+        "reception_value": 1.0,
+        "rank_type": "PPR",
+        "scoring_type": "H2H_POINTS",
+        "items": {
+          "38": 4.0,
+          "56": 2.0,
+          "121": 0.0,
+          "134": 0.0,
+          "25": 6.0,
+          "53": 1.0,
+          "72": -2.0,
+          "135": 0.0,
+          "136": 0.0,
+          "43": 6.0,
+          "102": 6.0,
+          "24": 0.1,
+          "103": 6.0,
+          "101": 6.0,
+          "104": 6.0,
+          "128": 0.0,
+          "129": 0.0,
+          "86": 1.0,
+          "132": 0.0,
+          "125": 0.0,
+          "42": 0.1,
+          "130": 0.0,
+          "88": -1.0,
+          "4": 6.0,
+          "124": 0.0,
+          "131": 0.0,
+          "89": 0.0,
+          "90": 0.0,
+          "206": 2.0,
+          "98": 0.0,
+          "209": 1.0,
+          "95": 0.0,
+          "92": 0.0,
+          "93": 6.0,
+          "16": 2.0,
+          "91": 0.0,
+          "96": 0.0,
+          "97": 0.0,
+          "19": 2.0,
+          "20": -2.0,
+          "63": 6.0,
+          "80": 3.0,
+          "26": 2.0,
+          "77": 4.0,
+          "99": 0.0,
+          "36": 2.0,
+          "37": 2.0,
+          "57": 4.0,
+          "44": 2.0,
+          "46": 2.0,
+          "3": 0.05,
+          "201": 6.0,
+          "198": 5.0
+        }
+      },
+      "lineup": {
+        "slots": {
+          "QB": 1,
+          "RB": 2,
+          "WR": 2,
+          "TE": 1,
+          "DST": 1,
+          "K": 1,
+          "BENCH": 5,
+          "IR": 1,
+          "FLEX": 1
+        },
+        "starting_spots": 9,
+        "bench_spots": 5,
+        "ir_spots": 1,
+        "roster_size": 14,
+        "position_limits": {
+          "QB": 3,
+          "RB": 6,
+          "WR": 6,
+          "TE": 3,
+          "K": 2,
+          "DST": 2
+        }
+      },
+      "waivers": {
+        "mode": "rolling",
+        "order_resets": false,
+        "uses_budget": false,
+        "process_days": [
+          "THURSDAY",
+          "MONDAY",
+          "WEDNESDAY",
+          "SATURDAY",
+          "SUNDAY",
+          "FRIDAY"
+        ],
+        "process_hour": 11,
+        "waiver_hours": 24,
+        "acquisition_limit": -1
+      },
+      "teams": [
+        {
+          "team_id": 1,
+          "name": "Bobby Boucher Jr.",
+          "abbrev": "BOBY",
+          "owner_id": "{98392D47-D5D1-439A-91A3-B339033756E9}",
+          "waiver_rank": 10,
+          "playoff_seed": 1,
+          "record": {
+            "wins": 11,
+            "losses": 3,
+            "ties": 0,
+            "points_for": 1977.5999999999997
+          },
+          "activity": {
+            "acquisitions": 19,
+            "drops": 18,
+            "trades": 0
+          },
+          "roster": [
+            {
+              "player_id": 4430807,
+              "name": "Bijan Robinson",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4242335,
+              "name": "Jonathan Taylor",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4239993,
+              "name": "Tee Higgins",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4569618,
+              "name": "Garrett Wilson",
+              "position": "WR",
+              "slot": "IR",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4426388,
+              "name": "Jameson Williams",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4567750,
+              "name": "Emeka Egbuka",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4038941,
+              "name": "Justin Herbert",
+              "position": "QB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4362081,
+              "name": "Cameron Dicker",
+              "position": "K",
+              "slot": "K",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "K",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16017,
+              "name": "Patriots D/ST",
+              "position": "DST",
+              "slot": "DST",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4242355,
+              "name": "Jake Ferguson",
+              "position": "TE",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4569587,
+              "name": "Wan'Dale Robinson",
+              "position": "WR",
+              "slot": "FLEX",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3915511,
+              "name": "Joe Burrow",
+              "position": "QB",
+              "slot": "QB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16023,
+              "name": "Steelers D/ST",
+              "position": "DST",
+              "slot": "BENCH",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 2468609,
+              "name": "Taysom Hill",
+              "position": "TE",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4259147,
+              "name": "Jake Tonges",
+              "position": "TE",
+              "slot": "TE",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            }
+          ]
+        },
+        {
+          "team_id": 2,
+          "name": "Team Hanahan",
+          "abbrev": "HANA",
+          "owner_id": "{C5CE0FC4-3AD4-4D13-8E0F-C43AD4CD131C}",
+          "waiver_rank": 1,
+          "playoff_seed": 4,
+          "record": {
+            "wins": 7,
+            "losses": 7,
+            "ties": 0,
+            "points_for": 1923.2
+          },
+          "activity": {
+            "acquisitions": 12,
+            "drops": 12,
+            "trades": 0
+          },
+          "roster": [
+            {
+              "player_id": 4374302,
+              "name": "Amon-Ra St. Brown",
+              "position": "WR",
+              "slot": "FLEX",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4361307,
+              "name": "Trey McBride",
+              "position": "TE",
+              "slot": "TE",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4612826,
+              "name": "Ladd McConkey",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4427366,
+              "name": "Breece Hall",
+              "position": "RB",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4428331,
+              "name": "Rashee Rice",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4361370,
+              "name": "Chris Olave",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4361579,
+              "name": "Javonte Williams",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16026,
+              "name": "Seahawks D/ST",
+              "position": "DST",
+              "slot": "DST",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3150744,
+              "name": "Chase McLaughlin",
+              "position": "K",
+              "slot": "K",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "K",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3046779,
+              "name": "Jared Goff",
+              "position": "QB",
+              "slot": "QB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4361432,
+              "name": "Romeo Doubs",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3917792,
+              "name": "Daniel Jones",
+              "position": "QB",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4429059,
+              "name": "Woody Marks",
+              "position": "RB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4371733,
+              "name": "Kenneth Gainwell",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            }
+          ]
+        },
+        {
+          "team_id": 3,
+          "name": "Team Braden",
+          "abbrev": "KB",
+          "owner_id": "{F893961C-CFC8-487C-BFE9-B6BF15806FC4}",
+          "waiver_rank": 2,
+          "playoff_seed": 8,
+          "record": {
+            "wins": 5,
+            "losses": 9,
+            "ties": 0,
+            "points_for": 1779.25
+          },
+          "activity": {
+            "acquisitions": 14,
+            "drops": 14,
+            "trades": 0
+          },
+          "roster": [
+            {
+              "player_id": 4262921,
+              "name": "Justin Jefferson",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4047365,
+              "name": "Josh Jacobs",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3918298,
+              "name": "Josh Allen",
+              "position": "QB",
+              "slot": "QB",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4683062,
+              "name": "Xavier Worthy",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4689936,
+              "name": "Jake Bates",
+              "position": "K",
+              "slot": "K",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "K",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16007,
+              "name": "Broncos D/ST",
+              "position": "DST",
+              "slot": "DST",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4373678,
+              "name": "Khalil Shakir",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4239996,
+              "name": "Travis Etienne Jr.",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4241478,
+              "name": "DeVonta Smith",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4360516,
+              "name": "Tyrone Tracy Jr.",
+              "position": "RB",
+              "slot": "FLEX",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4595342,
+              "name": "Oronde Gadsden",
+              "position": "TE",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16006,
+              "name": "Cowboys D/ST",
+              "position": "DST",
+              "slot": "BENCH",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4362619,
+              "name": "Chris Rodriguez Jr.",
+              "position": "RB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4723086,
+              "name": "Colston Loveland",
+              "position": "TE",
+              "slot": "TE",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "SLOT25",
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            }
+          ]
+        },
+        {
+          "team_id": 4,
+          "name": "Team Heston",
+          "abbrev": "HEST",
+          "owner_id": "{05C7CAB1-4829-4A3E-87CA-B148295A3EB4}",
+          "waiver_rank": 4,
+          "playoff_seed": 9,
+          "record": {
+            "wins": 5,
+            "losses": 9,
+            "ties": 0,
+            "points_for": 1603.8499999999997
+          },
+          "activity": {
+            "acquisitions": 17,
+            "drops": 19,
+            "trades": 0
+          },
+          "roster": [
+            {
+              "player_id": 3929630,
+              "name": "Saquon Barkley",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4432773,
+              "name": "Brian Thomas Jr.",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3040151,
+              "name": "George Kittle",
+              "position": "TE",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4035538,
+              "name": "David Montgomery",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4426354,
+              "name": "George Pickens",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16011,
+              "name": "Colts D/ST",
+              "position": "DST",
+              "slot": "DST",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4428718,
+              "name": "Tre Tucker",
+              "position": "WR",
+              "slot": "FLEX",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4431280,
+              "name": "Troy Franklin",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4427728,
+              "name": "Bam Knight",
+              "position": "RB",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4241463,
+              "name": "Jerry Jeudy",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 2977187,
+              "name": "Cooper Kupp",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 5083076,
+              "name": "Harold Fannin Jr.",
+              "position": "TE",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "SLOT25",
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4432577,
+              "name": "C.J. Stroud",
+              "position": "QB",
+              "slot": "QB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 17372,
+              "name": "Chris Boswell",
+              "position": "K",
+              "slot": "K",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "K",
+                "BENCH",
+                "IR"
+              ]
+            }
+          ]
+        },
+        {
+          "team_id": 5,
+          "name": "Team Trap",
+          "abbrev": "TT",
+          "owner_id": "{4ADD4E81-98CB-4997-9D4E-8198CB6997AB}",
+          "waiver_rank": 3,
+          "playoff_seed": 10,
+          "record": {
+            "wins": 4,
+            "losses": 10,
+            "ties": 0,
+            "points_for": 1755.05
+          },
+          "activity": {
+            "acquisitions": 6,
+            "drops": 6,
+            "trades": 0
+          },
+          "roster": [
+            {
+              "player_id": 4429795,
+              "name": "Jahmyr Gibbs",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4047646,
+              "name": "A.J. Brown",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4362238,
+              "name": "Chase Brown",
+              "position": "RB",
+              "slot": "FLEX",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3121422,
+              "name": "Terry McLaurin",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4567048,
+              "name": "Kenneth Walker III",
+              "position": "RB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3052587,
+              "name": "Baker Mayfield",
+              "position": "QB",
+              "slot": "QB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4569987,
+              "name": "Jaylen Warren",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4431459,
+              "name": "Tyler Warren",
+              "position": "TE",
+              "slot": "TE",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3886598,
+              "name": "Jauan Jennings",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16009,
+              "name": "Packers D/ST",
+              "position": "DST",
+              "slot": "DST",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4688813,
+              "name": "Josh Downs",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4036378,
+              "name": "Jordan Love",
+              "position": "QB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 2473037,
+              "name": "Jason Myers",
+              "position": "K",
+              "slot": "K",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "K",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3117256,
+              "name": "Dalton Schultz",
+              "position": "TE",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            }
+          ]
+        },
+        {
+          "team_id": 6,
+          "name": "CWALK2THIS \ud83d\udca9",
+          "abbrev": "CWLk",
+          "owner_id": "{97BB7CD7-DF19-48C3-B58E-6107512A86C4}",
+          "waiver_rank": 6,
+          "playoff_seed": 2,
+          "record": {
+            "wins": 10,
+            "losses": 4,
+            "ties": 0,
+            "points_for": 1975.6999999999998
+          },
+          "activity": {
+            "acquisitions": 8,
+            "drops": 8,
+            "trades": 0
+          },
+          "roster": [
+            {
+              "player_id": 4426515,
+              "name": "Puka Nacua",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4429160,
+              "name": "De'Von Achane",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4379399,
+              "name": "James Cook III",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3915416,
+              "name": "DJ Moore",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4259545,
+              "name": "D'Andre Swift",
+              "position": "RB",
+              "slot": "FLEX",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4426338,
+              "name": "Bo Nix",
+              "position": "QB",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4035687,
+              "name": "Michael Pittman Jr.",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 2976212,
+              "name": "Stefon Diggs",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3953687,
+              "name": "Brandon Aubrey",
+              "position": "K",
+              "slot": "K",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "K",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 2577417,
+              "name": "Dak Prescott",
+              "position": "QB",
+              "slot": "QB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3121023,
+              "name": "Dallas Goedert",
+              "position": "TE",
+              "slot": "TE",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4429148,
+              "name": "Theo Johnson",
+              "position": "TE",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3929645,
+              "name": "Juwan Johnson",
+              "position": "TE",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16018,
+              "name": "Saints D/ST",
+              "position": "DST",
+              "slot": "DST",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            }
+          ]
+        },
+        {
+          "team_id": 7,
+          "name": "Who Else Want Some?",
+          "abbrev": "D-Bo",
+          "owner_id": "{A5A90C25-2E3E-4DDD-A90C-252E3E5DDD97}",
+          "waiver_rank": 9,
+          "playoff_seed": 5,
+          "record": {
+            "wins": 7,
+            "losses": 7,
+            "ties": 0,
+            "points_for": 1831.8999999999996
+          },
+          "activity": {
+            "acquisitions": 29,
+            "drops": 28,
+            "trades": 2
+          },
+          "roster": [
+            {
+              "player_id": 3043078,
+              "name": "Derrick Henry",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4040715,
+              "name": "Jalen Hurts",
+              "position": "QB",
+              "slot": "QB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4432708,
+              "name": "Marvin Harrison Jr.",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4047650,
+              "name": "DK Metcalf",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4685472,
+              "name": "Tetairoa McMillan",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4685702,
+              "name": "Quinshon Judkins",
+              "position": "RB",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "SLOT25",
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3117251,
+              "name": "Christian McCaffrey",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3912547,
+              "name": "Sam Darnold",
+              "position": "QB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4429615,
+              "name": "Zay Flowers",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4686361,
+              "name": "Cam Little",
+              "position": "K",
+              "slot": "K",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "K",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16030,
+              "name": "Jaguars D/ST",
+              "position": "DST",
+              "slot": "DST",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3916148,
+              "name": "Tony Pollard",
+              "position": "RB",
+              "slot": "FLEX",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4576297,
+              "name": "AJ Barner",
+              "position": "TE",
+              "slot": "TE",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4429086,
+              "name": "Michael Mayer",
+              "position": "TE",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            }
+          ]
+        },
+        {
+          "team_id": 8,
+          "name": "Boom Shaka laka",
+          "abbrev": "BACK",
+          "owner_id": "{AA6148E2-0F15-42C8-B63B-3EE823017748}",
+          "waiver_rank": 7,
+          "playoff_seed": 7,
+          "record": {
+            "wins": 6,
+            "losses": 8,
+            "ties": 0,
+            "points_for": 1661.5
+          },
+          "activity": {
+            "acquisitions": 19,
+            "drops": 19,
+            "trades": 1
+          },
+          "roster": [
+            {
+              "player_id": 4241389,
+              "name": "CeeDee Lamb",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4258173,
+              "name": "Nico Collins",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 15847,
+              "name": "Travis Kelce",
+              "position": "TE",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4241985,
+              "name": "J.K. Dobbins",
+              "position": "RB",
+              "slot": "IR",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4372016,
+              "name": "Jaylen Waddle",
+              "position": "WR",
+              "slot": "FLEX",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 12483,
+              "name": "Matthew Stafford",
+              "position": "QB",
+              "slot": "QB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3059915,
+              "name": "Kareem Hunt",
+              "position": "RB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4697745,
+              "name": "Tyler Loop",
+              "position": "K",
+              "slot": "K",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "K",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4360248,
+              "name": "Kyle Pitts Sr.",
+              "position": "TE",
+              "slot": "TE",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4568490,
+              "name": "RJ Harvey",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16005,
+              "name": "Browns D/ST",
+              "position": "DST",
+              "slot": "BENCH",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4569173,
+              "name": "Rhamondre Stevenson",
+              "position": "RB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4240657,
+              "name": "Michael Carter",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16008,
+              "name": "Lions D/ST",
+              "position": "DST",
+              "slot": "DST",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            }
+          ]
+        },
+        {
+          "team_id": 9,
+          "name": "Season Over Already",
+          "abbrev": "CC",
+          "owner_id": "{C6FFA11F-20B2-4F69-821C-F8A50F46298E}",
+          "waiver_rank": 8,
+          "playoff_seed": 3,
+          "record": {
+            "wins": 8,
+            "losses": 6,
+            "ties": 0,
+            "points_for": 1991.6499999999999
+          },
+          "activity": {
+            "acquisitions": 61,
+            "drops": 62,
+            "trades": 0
+          },
+          "roster": [
+            {
+              "player_id": 4362628,
+              "name": "Ja'Marr Chase",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4596448,
+              "name": "Bucky Irving",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3916387,
+              "name": "Lamar Jackson",
+              "position": "QB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4430878,
+              "name": "Jaxon Smith-Njigba",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4038815,
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4431452,
+              "name": "Drake Maye",
+              "position": "QB",
+              "slot": "QB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4432710,
+              "name": "TreVeyon Henderson",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4360761,
+              "name": "Michael Wilson",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 2971573,
+              "name": "Ka'imi Fairbairn",
+              "position": "K",
+              "slot": "K",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "K",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 16737,
+              "name": "Mike Evans",
+              "position": "WR",
+              "slot": "FLEX",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3916433,
+              "name": "Jakobi Meyers",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3042519,
+              "name": "Aaron Jones Sr.",
+              "position": "RB",
+              "slot": "BENCH",
+              "injury_status": "QUESTIONABLE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16034,
+              "name": "Texans D/ST",
+              "position": "DST",
+              "slot": "DST",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4430539,
+              "name": "Brenton Strange",
+              "position": "TE",
+              "slot": "TE",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            }
+          ]
+        },
+        {
+          "team_id": 10,
+          "name": "Sicko  Mode",
+          "abbrev": "KNIG",
+          "owner_id": "{0613A4ED-8C59-4FCC-B8C3-76207F66B756}",
+          "waiver_rank": 5,
+          "playoff_seed": 6,
+          "record": {
+            "wins": 7,
+            "losses": 7,
+            "ties": 0,
+            "points_for": 1723.1999999999996
+          },
+          "activity": {
+            "acquisitions": 52,
+            "drops": 53,
+            "trades": 1
+          },
+          "roster": [
+            {
+              "player_id": 4426502,
+              "name": "Drake London",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4685382,
+              "name": "Omarion Hampton",
+              "position": "RB",
+              "slot": "FLEX",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3128429,
+              "name": "Courtland Sutton",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4431299,
+              "name": "Rome Odunze",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3126486,
+              "name": "Deebo Samuel",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4430737,
+              "name": "Kyren Williams",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4890973,
+              "name": "Ashton Jeanty",
+              "position": "RB",
+              "slot": "RB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "RB",
+                "RB/WR",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4689114,
+              "name": "Jaxson Dart",
+              "position": "QB",
+              "slot": "QB",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "SLOT25",
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4248528,
+              "name": "Christian Watson",
+              "position": "WR",
+              "slot": "WR",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4360310,
+              "name": "Trevor Lawrence",
+              "position": "QB",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "QB",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3116165,
+              "name": "Chris Godwin Jr.",
+              "position": "WR",
+              "slot": "BENCH",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "RB/WR",
+                "WR",
+                "WR/TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 4360234,
+              "name": "Evan McPherson",
+              "position": "K",
+              "slot": "K",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "K",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": -16021,
+              "name": "Eagles D/ST",
+              "position": "DST",
+              "slot": "DST",
+              "injury_status": null,
+              "eligible_slots": [
+                "DST",
+                "BENCH",
+                "IR"
+              ]
+            },
+            {
+              "player_id": 3046439,
+              "name": "Hunter Henry",
+              "position": "TE",
+              "slot": "TE",
+              "injury_status": "ACTIVE",
+              "eligible_slots": [
+                "WR/TE",
+                "TE",
+                "FLEX",
+                "OP",
+                "BENCH",
+                "IR"
+              ]
+            }
+          ]
+        }
+      ],
+      "captured_at": "2026-08-09T00:43:42+00:00"
+    }
+  ]
+}
