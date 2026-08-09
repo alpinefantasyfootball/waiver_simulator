@@ -1,0 +1,52 @@
+name: Run engine
+
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Season to evaluate (2025 = backtest against real rosters)"
+        required: true
+        default: "2025"
+      weeks:
+        description: "Weeks to evaluate, comma-separated (blank = all available)"
+        required: false
+        default: "15,16,17"
+      top_n:
+        description: "How many add/drop pairings to keep per team"
+        required: true
+        default: "15"
+
+permissions:
+  contents: write
+
+jobs:
+  engine:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run engine
+        env:
+          ENGINE_SEASON: ${{ inputs.season }}
+          ENGINE_WEEKS: ${{ inputs.weeks }}
+          ENGINE_TOP_N: ${{ inputs.top_n }}
+        run: python scripts/engine.py
+
+      - name: Commit data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Nothing changed -- no commit."
+          else
+            git commit -m "Run engine"
+            git push
+            echo "Committed."
+          fi
