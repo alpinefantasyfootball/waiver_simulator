@@ -33,7 +33,7 @@
       "position": "WR",
       "team": "LV",
       "snap_share": 0.9762,
-      "target_share": 0.2304,
+      "target_share": 0.1712,
       "pts_ppr": 8.2333
     },
     {
@@ -41,7 +41,7 @@
       "position": "WR",
       "team": "MIN",
       "snap_share": 0.9653,
-      "target_share": 0.3557,
+      "target_share": 0.2795,
       "pts_ppr": 13.3
     },
     {
@@ -49,7 +49,7 @@
       "position": "TE",
       "team": "LV",
       "snap_share": 0.9621,
-      "target_share": 0.0794,
+      "target_share": 0.189,
       "pts_ppr": 12.5667
     },
     {
@@ -57,7 +57,7 @@
       "position": "WR",
       "team": "IND",
       "snap_share": 0.9597,
-      "target_share": 0.1975,
+      "target_share": 0.1495,
       "pts_ppr": 18.8
     },
     {
@@ -65,7 +65,7 @@
       "position": "TE",
       "team": "TB",
       "snap_share": 0.9543,
-      "target_share": 0.1684,
+      "target_share": 0.1748,
       "pts_ppr": 11.0667
     },
     {
@@ -73,7 +73,7 @@
       "position": "TE",
       "team": "ARI",
       "snap_share": 0.9513,
-      "target_share": 0.34,
+      "target_share": 0.2708,
       "pts_ppr": 14.6
     },
     {
@@ -81,7 +81,7 @@
       "position": "WR",
       "team": "BUF",
       "snap_share": 0.9187,
-      "target_share": 0.1514,
+      "target_share": 0.0734,
       "pts_ppr": 8.5667
     },
     {
@@ -89,7 +89,7 @@
       "position": "WR",
       "team": "DET",
       "snap_share": 0.9181,
-      "target_share": 0.3695,
+      "target_share": 0.2403,
       "pts_ppr": 16.3667
     },
     {
@@ -97,7 +97,7 @@
       "position": "TE",
       "team": "ATL",
       "snap_share": 0.9174,
-      "target_share": 0.2337,
+      "target_share": 0.2161,
       "pts_ppr": 11.3667
     },
     {
@@ -105,7 +105,7 @@
       "position": "TE",
       "team": "KC",
       "snap_share": 0.9127,
-      "target_share": 0.3033,
+      "target_share": 0.2659,
       "pts_ppr": 4.8
     },
     {
@@ -113,7 +113,7 @@
       "position": "TE",
       "team": "DET",
       "snap_share": 0.9092,
-      "target_share": 0.0,
+      "target_share": 0.0875,
       "pts_ppr": 12.1667
     },
     {
@@ -121,7 +121,7 @@
       "position": "WR",
       "team": "PIT",
       "snap_share": 0.9087,
-      "target_share": 0.1963,
+      "target_share": 0.1453,
       "pts_ppr": 4.6333
     },
     {
@@ -129,7 +129,7 @@
       "position": "TE",
       "team": "NYG",
       "snap_share": 0.9076,
-      "target_share": 0.181,
+      "target_share": 0.176,
       "pts_ppr": 8.9333
     },
     {
@@ -137,7 +137,7 @@
       "position": "WR",
       "team": "TEN",
       "snap_share": 0.9058,
-      "target_share": 0.1938,
+      "target_share": 0.2683,
       "pts_ppr": 14.6333
     },
     {
@@ -145,7 +145,7 @@
       "position": "WR",
       "team": "DET",
       "snap_share": 0.8934,
-      "target_share": 0.1747,
+      "target_share": 0.1162,
       "pts_ppr": 10.3667
     }
   ]
