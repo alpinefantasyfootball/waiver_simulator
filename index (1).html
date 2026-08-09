@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wire Room &middot; Fantasy Waiver Simulator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0E1116;
+  --panel:#161B22;
+  --panel-2:#1C232C;
+  --line:#262E38;
+  --line-2:#333D49;
+  --text:#E4E9EF;
+  --text-2:#95A2B1;
+  --text-3:#63707E;
+  --accent:#4CC2D4;
+  --accent-dim:#1D5E6B;
+  --good:#5BC98D;
+  --warn:#E0A24A;
+  --bad:#E5695F;
+  --sans:'Archivo',system-ui,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:var(--sans);font-size:15px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent)}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+
+/* header */
+header{border-bottom:1px solid var(--line);background:var(--panel)}
+.head-top{display:flex;align-items:baseline;gap:14px;padding:20px 0 16px;flex-wrap:wrap}
+.mark{
+  font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--accent)
+}
+h1{font-size:20px;font-weight:600;letter-spacing:-.01em;margin:0}
+.spacer{flex:1}
+.seasons{display:flex;gap:0;border:1px solid var(--line-2);border-radius:4px;overflow:hidden}
+.seasons button{
+  font-family:var(--sans);font-size:12px;font-weight:500;padding:6px 13px;
+  background:transparent;color:var(--text-2);border:0;cursor:pointer
+}
+.seasons button.on{background:var(--accent);color:#08131a;font-weight:600}
+.tabs{display:flex;gap:2px;overflow-x:auto}
+.tabs button{
+  font-family:var(--sans);font-size:14px;font-weight:500;padding:10px 16px;
+  background:transparent;color:var(--text-2);border:0;border-bottom:2px solid transparent;
+  cursor:pointer;white-space:nowrap
+}
+.tabs button:hover{color:var(--text)}
+.tabs button.on{color:var(--text);border-bottom-color:var(--accent)}
+
+/* status strip */
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1px;background:var(--line);border:1px solid var(--line);
+  border-radius:6px;overflow:hidden;margin:24px 0}
+.cell{background:var(--panel);padding:13px 16px}
+.cell dt{
+  font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--text-3);margin:0 0 5px}
+.cell dd{margin:0;font-size:15px;font-weight:500}
+.cell dd small{display:block;font-size:12px;font-weight:400;color:var(--text-2);margin-top:2px}
+.mono{font-family:var(--mono)}
+
+h2{font-size:17px;font-weight:600;margin:34px 0 4px;letter-spacing:-.01em}
+.sub{color:var(--text-2);font-size:13.5px;margin:0 0 16px;max-width:70ch}
+
+/* claim board */
+.board{border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--panel)}
+.row{
+  display:grid;grid-template-columns:34px 1fr 120px 92px;gap:14px;align-items:center;
+  padding:13px 16px;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:0}
+.row.head{
+  background:var(--panel-2);padding:9px 16px;font-size:10px;font-weight:700;
+  letter-spacing:.11em;text-transform:uppercase;color:var(--text-3)}
+.rank{font-family:var(--mono);font-size:14px;color:var(--text-3)}
+.who{font-size:14.5px;font-weight:600;line-height:1.3}
+.who .pos{
+  font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--accent);
+  border:1px solid var(--accent-dim);border-radius:2px;padding:1px 4px;margin-right:7px}
+.who small{display:block;font-weight:400;font-size:12.5px;color:var(--text-2);margin-top:3px}
+.usage{font-family:var(--mono);font-size:11.5px;color:var(--text-2)}
+.bar{height:5px;background:var(--panel-2);border-radius:3px;overflow:hidden;margin-bottom:5px}
+.bar i{display:block;height:100%;background:var(--accent)}
+.delta{font-family:var(--mono);font-size:15px;font-weight:500;text-align:right;color:var(--good)}
+.flag{
+  display:inline-block;font-size:10px;font-weight:600;letter-spacing:.05em;
+  text-transform:uppercase;padding:1px 5px;border-radius:2px;margin-left:6px;
+  background:rgba(224,162,74,.14);color:var(--warn)}
+
+/* roster */
+.roster{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.slotcard{background:var(--panel);padding:11px 14px;display:flex;gap:11px;align-items:baseline}
+.slotcard .slot{
+  font-family:var(--mono);font-size:10.5px;font-weight:700;color:var(--text-3);
+  min-width:42px;letter-spacing:.06em}
+.slotcard .nm{font-size:13.5px;font-weight:500;line-height:1.3}
+.slotcard.bench{background:var(--panel-2)}
+.slotcard.bench .nm{color:var(--text-2);font-weight:400}
+
+.empty{
+  border:1px dashed var(--line-2);border-radius:6px;padding:30px 24px;text-align:center;
+  color:var(--text-2);background:var(--panel)}
+.empty strong{display:block;color:var(--text);font-size:15px;margin-bottom:6px}
+
+.note{
+  border-left:2px solid var(--accent-dim);padding:11px 0 11px 15px;margin:20px 0;
+  color:var(--text-2);font-size:13.5px;max-width:74ch}
+
+footer{border-top:1px solid var(--line);margin-top:56px;padding:20px 0 46px;
+  color:var(--text-3);font-size:12px;font-family:var(--mono)}
+
+@media(max-width:720px){
+  .row{grid-template-columns:26px 1fr;row-gap:8px}
+  .row .usage,.row .delta{grid-column:2}
+  .row .delta{text-align:left}
+  .row.head{display:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="head-top">
+      <span class="mark">Fantasy waiver simulator</span>
+      <h1>Wire Room</h1>
+      <span class="spacer"></span>
+      <div class="seasons" id="seasons"></div>
+    </div>
+    <div class="tabs" id="tabs"></div>
+  </div>
+</header>
+
+<div class="wrap" id="app">
+  <p class="sub" style="margin-top:28px">Loading league data&hellip;</p>
+</div>
+
+<footer><div class="wrap" id="footer"></div></footer>
+
+<script>
+const SEASONS = [
+  { label: "2026 · live", season: "2026",
+    leagues: "data/leagues.json", recs: "data/recommendations.json" },
+  { label: "2025 · backtest", season: "2025",
+    leagues: "data/leagues_2025.json", recs: "data/recommendations_2025.json" }
+];
+
+const state = { seasonIndex: 0, leagueKey: null, data: null };
+
+async function loadJSON(path) {
+  try {
+    const response = await fetch(path, { cache: "no-store" });
+    if (!response.ok) return null;
+    return await response.json();
+  } catch (err) {
+    return null;
+  }
+}
+
+async function loadSeason(index) {
+  const config = SEASONS[index];
+  const [leagues, recs] = await Promise.all([
+    loadJSON(config.leagues), loadJSON(config.recs)
+  ]);
+  state.seasonIndex = index;
+  state.data = { config, leagues, recs };
+  if (leagues && leagues.leagues && leagues.leagues.length) {
+    const keys = leagues.leagues.map(l => l.key);
+    if (!keys.includes(state.leagueKey)) state.leagueKey = keys[0];
+  }
+  render();
+}
+
+function currentLeague() {
+  const leagues = (state.data.leagues || {}).leagues || [];
+  return leagues.find(l => l.key === state.leagueKey) || leagues[0] || null;
+}
+
+function recsFor(league) {
+  const all = (state.data.recs || {}).leagues || [];
+  const match = all.find(r => r.key === league.key || r.league === league.name);
+  if (!match) return null;
+  const mine = league.teams.find(t => t.is_me);
+  if (!mine) return null;
+  return match.teams ? match.teams[String(mine.team_id)] : null;
+}
+
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g,
+  c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+const pct = v => v == null ? "&mdash;" : (v * 100).toFixed(0) + "%";
+
+function ordinal(n) {
+  if (n == null) return "—";
+  const s = ["th", "st", "nd", "rd"], v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
+function renderTabs() {
+  const seasons = document.getElementById("seasons");
+  seasons.innerHTML = SEASONS.map((s, i) =>
+    `<button class="${i === state.seasonIndex ? "on" : ""}" data-season="${i}">${esc(s.label)}</button>`
+  ).join("");
+  seasons.querySelectorAll("button").forEach(b =>
+    b.onclick = () => loadSeason(Number(b.dataset.season)));
+
+  const leagues = (state.data.leagues || {}).leagues || [];
+  const tabs = document.getElementById("tabs");
+  tabs.innerHTML = leagues.map(l =>
+    `<button class="${l.key === state.leagueKey ? "on" : ""}" data-key="${esc(l.key)}">${esc(l.name)}</button>`
+  ).join("");
+  tabs.querySelectorAll("button").forEach(b =>
+    b.onclick = () => { state.leagueKey = b.dataset.key; render(); });
+}
+
+function renderStrip(league, mine) {
+  const w = league.waivers || {};
+  const scoring = league.scoring || {};
+  const lineup = league.lineup || {};
+  const modeLabel = w.mode === "rolling"
+    ? "Move to last after claim" : w.mode === "weekly_reset"
+    ? "Resets weekly to standings" : (w.mode || "—");
+  const flavour = scoring.flavour === "full_ppr" ? "Full PPR"
+    : scoring.flavour === "half_ppr" ? "Half PPR"
+    : (scoring.flavour || "—");
+
+  const cells = [
+    ["Your team", mine ? esc(mine.name) : "Not identified",
+      mine ? "team " + mine.team_id : "no owner match"],
+    ["Waiver priority", mine ? ordinal(mine.waiver_rank) : "—",
+      "of " + (league.size || "—")],
+    ["Waiver format", modeLabel,
+      (w.process_days || []).length + " runs a week · " + (w.waiver_hours || "—") + "h period"],
+    ["Scoring", flavour, (lineup.starting_spots || "—") + " starters · "
+      + (lineup.bench_spots || "—") + " bench"],
+  ];
+  return `<dl class="strip">` + cells.map(([k, v, s]) =>
+    `<div class="cell"><dt>${k}</dt><dd>${v}${s ? `<small>${esc(s)}</small>` : ""}</dd></div>`
+  ).join("") + `</dl>`;
+}
+
+function renderBoard(rec) {
+  const rows = (rec && rec.recommendations) || [];
+  if (!rows.length) {
+    return `<div class="empty"><strong>No recommendations yet</strong>
+      The engine needs drafted rosters and current projections before it can
+      value anything. Both arrive once the season starts.</div>`;
+  }
+  const top = Math.max(...rows.map(r => r.net_points)) || 1;
+  const head = `<div class="row head"><div>#</div><div>Add / drop</div>
+    <div>Recent usage</div><div>Net pts</div></div>`;
+  const body = rows.map((r, i) => {
+    const blind = r.drop_projected_weeks === 0
+      ? `<span class="flag">no data on drop</span>` : "";
+    const inj = r.injury_status && r.injury_status !== "ACTIVE"
+      ? `<span class="flag">${esc(r.injury_status)}</span>` : "";
+    return `<div class="row">
+      <div class="rank">${i + 1}</div>
+      <div class="who"><span class="pos">${esc(r.position)}</span>${esc(r.add)}${inj}
+        <small>drop: ${esc(r.drop)}${blind}</small></div>
+      <div class="usage">
+        <div class="bar"><i style="width:${Math.round((r.snap_share || 0) * 100)}%"></i></div>
+        ${pct(r.snap_share)} snaps · ${pct(r.target_share)} tgt</div>
+      <div class="delta">+${r.net_points.toFixed(1)}</div>
+    </div>`;
+  }).join("");
+  return `<div class="board">${head}${body}</div>`;
+}
+
+function renderRoster(mine) {
+  const roster = (mine && mine.roster) || [];
+  if (!roster.length) {
+    return `<div class="empty"><strong>Roster is empty</strong>
+      This league hasn't drafted yet.</div>`;
+  }
+  const order = { QB: 1, RB: 2, WR: 3, TE: 4, FLEX: 5, DST: 6, K: 7, BENCH: 8, IR: 9 };
+  const sorted = roster.slice().sort((a, b) =>
+    (order[a.slot] || 99) - (order[b.slot] || 99));
+  return `<div class="roster">` + sorted.map(p =>
+    `<div class="slotcard ${p.slot === "BENCH" || p.slot === "IR" ? "bench" : ""}">
+      <span class="slot">${esc(p.slot)}</span>
+      <span class="nm">${esc(p.name)}</span></div>`
+  ).join("") + `</div>`;
+}
+
+function render() {
+  renderTabs();
+  const app = document.getElementById("app");
+  const foot = document.getElementById("footer");
+
+  if (!state.data.leagues) {
+    app.innerHTML = `<div class="empty" style="margin-top:28px">
+      <strong>No data for this season</strong>
+      Run the "Refresh league data" workflow with this season selected.</div>`;
+    foot.textContent = "";
+    return;
+  }
+
+  const league = currentLeague();
+  if (!league) { app.innerHTML = `<div class="empty">No leagues found.</div>`; return; }
+
+  const mine = (league.teams || []).find(t => t.is_me);
+  const rec = recsFor(league);
+  const w = league.waivers || {};
+
+  let html = renderStrip(league, mine);
+
+  html += `<h2>Claim board</h2>`;
+  html += `<p class="sub">Ranked by how much each add changes your projected
+    starting lineup after the paired drop &mdash; not by how good the player is.</p>`;
+  html += renderBoard(rec);
+
+  if (rec) {
+    html += `<div class="note">Baseline lineup projects
+      <strong class="mono">${rec.baseline_points}</strong> points across the
+      evaluated weeks. ${rec.droppable} bench players are droppable
+      ${rec.droppable_without_projections
+        ? `, of which <strong>${rec.droppable_without_projections}</strong> have no
+           projection at all &mdash; those look free to drop because the data is
+           missing, not because they're worthless.` : "."}</div>`;
+  }
+
+  if (state.data.config.season !== "2026") {
+    html += `<div class="note"><strong>Backtest view.</strong> These rosters are
+      end-of-season state, so the free agent pool is who was unowned in January
+      rather than who was actually available that week. Useful for checking the
+      engine behaves sensibly; not a guide to what you should have claimed.</div>`;
+  }
+
+  html += `<h2>Your roster</h2>`;
+  html += `<p class="sub">${esc(mine ? mine.name : "—")} &middot;
+    ${(league.lineup || {}).roster_size || "—"} spots</p>`;
+  html += renderRoster(mine);
+
+  html += `<h2>League rules</h2><dl class="strip">
+    <div class="cell"><dt>Process days</dt><dd style="font-size:13px">
+      ${(w.process_days || []).join(", ") || "—"}
+      <small>hour ${w.process_hour == null ? "—" : w.process_hour}</small></dd></div>
+    <div class="cell"><dt>Order resets</dt><dd>${w.order_resets ? "Yes" : "No"}
+      <small>${w.uses_budget ? "FAAB" : "no budget"}</small></dd></div>
+    <div class="cell"><dt>Position limits</dt><dd style="font-size:13px">
+      ${Object.entries((league.lineup || {}).position_limits || {})
+        .map(([k, v]) => k + " " + v).join(" · ") || "—"}</dd></div>
+    <div class="cell"><dt>League</dt><dd style="font-size:13px">${esc(league.name)}
+      <small>${league.is_public ? "public" : "private"} · id ${esc(league.platform_league_id)}</small></dd></div>
+  </dl>`;
+
+  app.innerHTML = html;
+
+  const generated = (state.data.leagues || {}).generated_at;
+  foot.textContent = "league data " + (generated || "unknown")
+    + (state.data.recs ? "  ·  engine " + (state.data.recs.season || "") : "  ·  engine not run for this season");
+}
+
+loadSeason(0);
+</script>
+</body>
+</html>
