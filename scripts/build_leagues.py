@@ -48,6 +48,11 @@ LEAGUES = [
 
 SEASON = int(os.environ.get("ESPN_SEASON", "2026"))
 
+# The live season. Anything else is a backtest and goes to its own file so
+# a historical pull can never overwrite current league state.
+LIVE_SEASON = int(os.environ.get("ESPN_LIVE_SEASON", "2026"))
+IS_BACKTEST = SEASON != LIVE_SEASON
+
 BASE = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl"
 VIEWS = ["mSettings", "mTeam", "mRoster"]
 
@@ -324,7 +329,8 @@ def main():
     captured_at = datetime.datetime.now(
         datetime.timezone.utc).replace(microsecond=0).isoformat()
 
-    print("season {}   captured_at {}".format(SEASON, captured_at))
+    print("season {}   captured_at {}{}".format(
+        SEASON, captured_at, "   [BACKTEST]" if IS_BACKTEST else ""))
     print("auth: {}\n".format(
         "cookies present" if (ESPN_S2 and SWID) else "ANONYMOUS"))
 
@@ -365,9 +371,12 @@ def main():
             len(league["teams"]),
             sum(len(t["roster"]) for t in league["teams"])))
 
-        path, created = write_snapshot(league)
-        print("  snapshot: {} {}".format(
-            path, "written" if created else "(already exists this hour)"))
+        if IS_BACKTEST:
+            print("  snapshot: skipped (backtest season)")
+        else:
+            path, created = write_snapshot(league)
+            print("  snapshot: {} {}".format(
+                path, "written" if created else "(already exists this hour)"))
 
     if not leagues:
         print("\nNo leagues normalized. Nothing written.")
@@ -379,7 +388,9 @@ def main():
         "season": SEASON,
         "leagues": leagues,
     }
-    path = DATA / "leagues.json"
+    filename = ("leagues_{}.json".format(SEASON) if IS_BACKTEST
+                else "leagues.json")
+    path = DATA / filename
     path.write_text(json.dumps(output, indent=2))
 
     print("\n" + "=" * 68)
