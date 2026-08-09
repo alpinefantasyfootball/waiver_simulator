@@ -17,8 +17,8 @@ on:
         default: "18"
       projection_weeks:
         description: "Comma-separated weeks to pull projections for (blank to skip)"
-        required: false
-        default: ""
+        required: true
+        default: "15,16,17"
 
 permissions:
   contents: write
