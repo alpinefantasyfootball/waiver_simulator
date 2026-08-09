@@ -1,0 +1,57 @@
+name: Build players
+
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Season to pull stats from (2025 has completed weeks)"
+        required: true
+        default: "2025"
+      first_week:
+        description: "First week of results"
+        required: true
+        default: "1"
+      last_week:
+        description: "Last week of results"
+        required: true
+        default: "18"
+      projection_weeks:
+        description: "Comma-separated weeks to pull projections for (blank to skip)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  players:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build players
+        env:
+          SLEEPER_SEASON: ${{ inputs.season }}
+          SLEEPER_FIRST_WEEK: ${{ inputs.first_week }}
+          SLEEPER_LAST_WEEK: ${{ inputs.last_week }}
+          SLEEPER_PROJECTION_WEEKS: ${{ inputs.projection_weeks }}
+        run: python scripts/build_players.py
+
+      - name: Commit data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Nothing changed -- no commit."
+          else
+            git commit -m "Rebuild player file"
+            git push
+            echo "Committed."
+          fi
