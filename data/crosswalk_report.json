@@ -1,0 +1,163 @@
+{
+  "season": 2026,
+  "espn_players": 1026,
+  "matched": 1005,
+  "unmatched_count": 21,
+  "match_rate_pct": 98.0,
+  "tiers": {
+    "def_team": 32,
+    "espn_id": 319,
+    "name_pos": 649,
+    "name_pos_team": 1,
+    "last_pos_team": 4
+  },
+  "unmatched": [
+    {
+      "espn_id": 16002,
+      "name": "Kyle Juszczyk",
+      "position": "RB",
+      "team": "SF",
+      "percent_owned": 0.6
+    },
+    {
+      "espn_id": 4383396,
+      "name": "Hunter Luepke",
+      "position": "RB",
+      "team": "DAL",
+      "percent_owned": 0.2
+    },
+    {
+      "espn_id": 2975417,
+      "name": "Patrick Ricard",
+      "position": "RB",
+      "team": "NYG",
+      "percent_owned": 0.1
+    },
+    {
+      "espn_id": 4693370,
+      "name": "Riley Nowakowski",
+      "position": "RB",
+      "team": "PIT",
+      "percent_owned": 0.1
+    },
+    {
+      "espn_id": 3917668,
+      "name": "Alec Ingold",
+      "position": "RB",
+      "team": "LAC",
+      "percent_owned": 0.1
+    },
+    {
+      "espn_id": 4241961,
+      "name": "Connor Heyward",
+      "position": "RB",
+      "team": "LV",
+      "percent_owned": 0.1
+    },
+    {
+      "espn_id": 3929914,
+      "name": "Adam Prentice",
+      "position": "RB",
+      "team": "DEN",
+      "percent_owned": 0.1
+    },
+    {
+      "espn_id": 4878695,
+      "name": "Max Bredeson",
+      "position": "RB",
+      "team": "MIN",
+      "percent_owned": 0.1
+    },
+    {
+      "espn_id": 2515270,
+      "name": "Michael Burton",
+      "position": "RB",
+      "team": "CLE",
+      "percent_owned": 0.1
+    },
+    {
+      "espn_id": 4012556,
+      "name": "C.J. Ham",
+      "position": "RB",
+      "team": "MIN",
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 4361100,
+      "name": "Jack Westover",
+      "position": "RB",
+      "team": "NE",
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 4373684,
+      "name": "Scott Matlock",
+      "position": "RB",
+      "team": "LAC",
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 4372070,
+      "name": "Ben VanSumeren",
+      "position": "RB",
+      "team": "BUF",
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 4243176,
+      "name": "Brady Russell",
+      "position": "RB",
+      "team": "SEA",
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 3115349,
+      "name": "Jakob Johnson",
+      "position": "RB",
+      "team": null,
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 4589248,
+      "name": "Tyreik McAllister",
+      "position": "WR",
+      "team": null,
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 4360794,
+      "name": "Henry Pearson",
+      "position": "TE",
+      "team": null,
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 4367186,
+      "name": "Chase Cota",
+      "position": "WR",
+      "team": null,
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 4602788,
+      "name": "Jackson Meeks",
+      "position": "TE",
+      "team": "DET",
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 3122154,
+      "name": "Khari Blasingame",
+      "position": "RB",
+      "team": null,
+      "percent_owned": 0.0
+    },
+    {
+      "espn_id": 3916749,
+      "name": "Giovanni Ricci",
+      "position": "TE",
+      "team": null,
+      "percent_owned": 0.0
+    }
+  ]
+}
