@@ -25,8 +25,12 @@
   "players_with_snap_share": 689,
   "players_with_espn_id": 1005,
   "players_with_depth_chart": 780,
-  "projection_weeks": [],
-  "players_with_projections": 0,
+  "projection_weeks": [
+    15,
+    16,
+    17
+  ],
+  "players_with_projections": 3299,
   "top_snap_share_last_3": [
     {
       "name": "Tre Tucker",
