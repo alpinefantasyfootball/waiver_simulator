@@ -1,0 +1,22 @@
+name: Test waiver rules
+
+# Pure computation -- no APIs, no secrets, nothing to commit. This runs
+# the scenarios in waivers.py and fails the job if any assertion breaks,
+# so the rules engine can't quietly regress as it gets wired in.
+on:
+  workflow_dispatch:
+
+jobs:
+  rules:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run waiver rule scenarios
+        run: python scripts/waivers.py
