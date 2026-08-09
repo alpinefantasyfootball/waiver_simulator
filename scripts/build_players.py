@@ -108,22 +108,50 @@ def load_week(kind, week):
 # ---------------------------------------------------------------------------
 
 
+TEAM_KEYS = ("team", "tm", "po_team", "team_abbr")
+
+
+def week_team_of(pid, line, players):
+    """
+    Which team a player was on *that week* -- not today.
+
+    Sleeper's player metadata carries the current team, which is wrong for
+    any historical week after a player moved. If the stat line names a
+    team, trust it. Otherwise fall back to tm_off_snp: every player on the
+    same offense shares that value in a given week, so it works as a team
+    key without needing to know a field name.
+    """
+    for key in TEAM_KEYS:
+        value = line.get(key)
+        if value:
+            return str(value).upper()
+
+    snaps = line.get("tm_off_snp")
+    if snaps:
+        return "snp:{}".format(snaps)
+
+    player = players.get(pid) or {}
+    return player.get("team")
+
+
 def team_target_totals(week_stats, players):
     """
-    Sleeper reports targets per player but not per team, so total them
+    Sleeper reports targets per player but never per team, so total them
     here. Target share is only meaningful against a team denominator.
+
+    Only players with a real rec_tgt value contribute; a missing value is
+    absent data, not zero targets.
     """
     totals = {}
     for pid, line in week_stats.items():
         if not line:
             continue
-        player = players.get(pid)
-        if not player:
+        if line.get("rec_tgt") is None:
             continue
-        team = player.get("team")
+        team = week_team_of(pid, line, players)
         if not team:
             continue
-        totals[team] = totals.get(team, 0) + (line.get("rec_tgt") or 0)
+        totals[team] = totals.get(team, 0) + line["rec_tgt"]
     return totals
 
 
@@ -146,8 +174,7 @@ def build_weekly(players, crosswalk):
         for pid, line in stats.items():
             if pid not in weekly or not line:
                 continue
-            player = players[pid]
-            team = player.get("team")
+            week_team = week_team_of(pid, line, players)
             off_snp = line.get("off_snp")
             tm_off_snp = line.get("tm_off_snp")
 
@@ -160,13 +187,23 @@ def build_weekly(players, crosswalk):
                 "off_snp": off_snp,
                 "tm_off_snp": tm_off_snp,
                 "snap_share": safe_div(off_snp or 0, tm_off_snp),
-                "target_share": safe_div(
-                    line.get("rec_tgt") or 0, targets.get(team)),
+                "target_share": (
+                    None if line.get("rec_tgt") is None
+                    else safe_div(line["rec_tgt"], targets.get(week_team))),
             }
             counted += 1
 
         weeks_with_data.append(week)
-        print("  week {:>2}: {:,} player lines".format(week, counted))
+        if week == FIRST_WEEK:
+            sample = next((l for l in stats.values() if l), {})
+            named = [k for k in TEAM_KEYS if k in sample]
+            print("  stat line team keys present: {}".format(
+                ", ".join(named) if named else
+                "none -- grouping by tm_off_snp instead"))
+            print("  distinct team groups this week: {} (expect ~32)".format(
+                len(targets)))
+        print("  week {:>2}: {:,} player lines, {} team groups".format(
+            week, counted, len(targets)))
 
     return weekly, weeks_with_data
 
