@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T13:14:59+00:00",
+  "generated_at": "2026-08-09T01:01:50+00:00",
   "season": 2026,
   "leagues": [
     {
@@ -119,6 +119,7 @@
           "name": "Bobby Boucher Jr.",
           "abbrev": "BOBY",
           "owner_id": "{98392D47-D5D1-439A-91A3-B339033756E9}",
+          "is_me": false,
           "waiver_rank": 10,
           "playoff_seed": 0,
           "record": {
@@ -139,6 +140,7 @@
           "name": "Team Hanahan",
           "abbrev": "HANA",
           "owner_id": "{C5CE0FC4-3AD4-4D13-8E0F-C43AD4CD131C}",
+          "is_me": false,
           "waiver_rank": 1,
           "playoff_seed": 0,
           "record": {
@@ -159,6 +161,7 @@
           "name": "Team Braden",
           "abbrev": "KB",
           "owner_id": "{F893961C-CFC8-487C-BFE9-B6BF15806FC4}",
+          "is_me": false,
           "waiver_rank": 2,
           "playoff_seed": 0,
           "record": {
@@ -179,6 +182,7 @@
           "name": "Team Heston",
           "abbrev": "HEST",
           "owner_id": "{05C7CAB1-4829-4A3E-87CA-B148295A3EB4}",
+          "is_me": false,
           "waiver_rank": 4,
           "playoff_seed": 0,
           "record": {
@@ -199,6 +203,7 @@
           "name": "Team Trap",
           "abbrev": "TT",
           "owner_id": "{4ADD4E81-98CB-4997-9D4E-8198CB6997AB}",
+          "is_me": false,
           "waiver_rank": 3,
           "playoff_seed": 0,
           "record": {
@@ -219,6 +224,7 @@
           "name": "CWALK2THIS \ud83d\udca9",
           "abbrev": "CWLk",
           "owner_id": "{97BB7CD7-DF19-48C3-B58E-6107512A86C4}",
+          "is_me": false,
           "waiver_rank": 6,
           "playoff_seed": 0,
           "record": {
@@ -239,6 +245,7 @@
           "name": "Who Else Want Some?",
           "abbrev": "D-Bo",
           "owner_id": "{A5A90C25-2E3E-4DDD-A90C-252E3E5DDD97}",
+          "is_me": false,
           "waiver_rank": 9,
           "playoff_seed": 0,
           "record": {
@@ -259,6 +266,7 @@
           "name": "Boom Shaka laka",
           "abbrev": "BACK",
           "owner_id": "{AA6148E2-0F15-42C8-B63B-3EE823017748}",
+          "is_me": false,
           "waiver_rank": 7,
           "playoff_seed": 0,
           "record": {
@@ -279,6 +287,7 @@
           "name": "Season Over Already",
           "abbrev": "CC",
           "owner_id": "{C6FFA11F-20B2-4F69-821C-F8A50F46298E}",
+          "is_me": true,
           "waiver_rank": 8,
           "playoff_seed": 0,
           "record": {
@@ -299,6 +308,7 @@
           "name": "Sicko  Mode",
           "abbrev": "KNIG",
           "owner_id": "{0613A4ED-8C59-4FCC-B8C3-76207F66B756}",
+          "is_me": false,
           "waiver_rank": 5,
           "playoff_seed": 0,
           "record": {
@@ -315,7 +325,7 @@
           "roster": []
         }
       ],
-      "captured_at": "2026-08-06T13:14:59+00:00"
+      "captured_at": "2026-08-09T01:01:50+00:00"
     },
     {
       "key": "alpine",
@@ -419,6 +429,7 @@
           "name": "Return of The Snek",
           "abbrev": "RTS",
           "owner_id": "{A08B7CA8-2652-4D3B-93B7-6E463A288EE0}",
+          "is_me": false,
           "waiver_rank": 1,
           "playoff_seed": 0,
           "record": {
@@ -439,6 +450,7 @@
           "name": "Labenjamin's Team",
           "abbrev": "BBT",
           "owner_id": "{5794125A-9977-426C-9412-5A9977126C26}",
+          "is_me": false,
           "waiver_rank": 2,
           "playoff_seed": 0,
           "record": {
@@ -459,6 +471,7 @@
           "name": "The Gumes",
           "abbrev": "GUME",
           "owner_id": "{8A3EA0F4-796D-4374-BEA0-F4796D037407}",
+          "is_me": false,
           "waiver_rank": 3,
           "playoff_seed": 0,
           "record": {
@@ -479,6 +492,7 @@
           "name": "Dak, Dak, Goose",
           "abbrev": "DDG",
           "owner_id": "{2A01469A-34DD-4F25-BD41-2C5F580A56FF}",
+          "is_me": false,
           "waiver_rank": 4,
           "playoff_seed": 0,
           "record": {
@@ -499,6 +513,7 @@
           "name": "Team 5",
           "abbrev": "TM5",
           "owner_id": null,
+          "is_me": false,
           "waiver_rank": 5,
           "playoff_seed": 0,
           "record": {
@@ -519,6 +534,7 @@
           "name": "Team 6",
           "abbrev": "TM6",
           "owner_id": null,
+          "is_me": false,
           "waiver_rank": 6,
           "playoff_seed": 0,
           "record": {
@@ -539,6 +555,7 @@
           "name": "Team 7",
           "abbrev": "TM7",
           "owner_id": null,
+          "is_me": false,
           "waiver_rank": 7,
           "playoff_seed": 0,
           "record": {
@@ -559,6 +576,7 @@
           "name": "Team 8",
           "abbrev": "TM8",
           "owner_id": null,
+          "is_me": false,
           "waiver_rank": 8,
           "playoff_seed": 0,
           "record": {
@@ -579,6 +597,7 @@
           "name": "To Infinity and Bijan",
           "abbrev": "TIB",
           "owner_id": "{C6FFA11F-20B2-4F69-821C-F8A50F46298E}",
+          "is_me": true,
           "waiver_rank": 9,
           "playoff_seed": 0,
           "record": {
@@ -599,6 +618,7 @@
           "name": "Team 10",
           "abbrev": "TM10",
           "owner_id": null,
+          "is_me": false,
           "waiver_rank": 10,
           "playoff_seed": 0,
           "record": {
@@ -615,7 +635,7 @@
           "roster": []
         }
       ],
-      "captured_at": "2026-08-06T13:14:59+00:00"
+      "captured_at": "2026-08-09T01:01:50+00:00"
     }
   ]
 }
