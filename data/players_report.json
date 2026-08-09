@@ -1,0 +1,152 @@
+{
+  "season": "2025",
+  "weeks_pulled": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "players_total": 3299,
+  "players_with_stats": 926,
+  "players_with_snap_share": 689,
+  "players_with_espn_id": 1005,
+  "players_with_depth_chart": 780,
+  "projection_weeks": [],
+  "players_with_projections": 0,
+  "top_snap_share_last_3": [
+    {
+      "name": "Tre Tucker",
+      "position": "WR",
+      "team": "LV",
+      "snap_share": 0.9762,
+      "target_share": 0.2304,
+      "pts_ppr": 8.2333
+    },
+    {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "snap_share": 0.9653,
+      "target_share": 0.3557,
+      "pts_ppr": 13.3
+    },
+    {
+      "name": "Brock Bowers",
+      "position": "TE",
+      "team": "LV",
+      "snap_share": 0.9621,
+      "target_share": 0.0794,
+      "pts_ppr": 12.5667
+    },
+    {
+      "name": "Alec Pierce",
+      "position": "WR",
+      "team": "IND",
+      "snap_share": 0.9597,
+      "target_share": 0.1975,
+      "pts_ppr": 18.8
+    },
+    {
+      "name": "Cade Otton",
+      "position": "TE",
+      "team": "TB",
+      "snap_share": 0.9543,
+      "target_share": 0.1684,
+      "pts_ppr": 11.0667
+    },
+    {
+      "name": "Trey McBride",
+      "position": "TE",
+      "team": "ARI",
+      "snap_share": 0.9513,
+      "target_share": 0.34,
+      "pts_ppr": 14.6
+    },
+    {
+      "name": "DJ Moore",
+      "position": "WR",
+      "team": "BUF",
+      "snap_share": 0.9187,
+      "target_share": 0.1514,
+      "pts_ppr": 8.5667
+    },
+    {
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "snap_share": 0.9181,
+      "target_share": 0.3695,
+      "pts_ppr": 16.3667
+    },
+    {
+      "name": "Kyle Pitts",
+      "position": "TE",
+      "team": "ATL",
+      "snap_share": 0.9174,
+      "target_share": 0.2337,
+      "pts_ppr": 11.3667
+    },
+    {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "team": "KC",
+      "snap_share": 0.9127,
+      "target_share": 0.3033,
+      "pts_ppr": 4.8
+    },
+    {
+      "name": "Sam LaPorta",
+      "position": "TE",
+      "team": "DET",
+      "snap_share": 0.9092,
+      "target_share": 0.0,
+      "pts_ppr": 12.1667
+    },
+    {
+      "name": "Michael Pittman",
+      "position": "WR",
+      "team": "PIT",
+      "snap_share": 0.9087,
+      "target_share": 0.1963,
+      "pts_ppr": 4.6333
+    },
+    {
+      "name": "Theo Johnson",
+      "position": "TE",
+      "team": "NYG",
+      "snap_share": 0.9076,
+      "target_share": 0.181,
+      "pts_ppr": 8.9333
+    },
+    {
+      "name": "Wan'Dale Robinson",
+      "position": "WR",
+      "team": "TEN",
+      "snap_share": 0.9058,
+      "target_share": 0.1938,
+      "pts_ppr": 14.6333
+    },
+    {
+      "name": "Jameson Williams",
+      "position": "WR",
+      "team": "DET",
+      "snap_share": 0.8934,
+      "target_share": 0.1747,
+      "pts_ppr": 10.3667
+    }
+  ]
+}
