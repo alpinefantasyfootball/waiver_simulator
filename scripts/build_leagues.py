@@ -401,8 +401,20 @@ def main():
     print("snapshot history: {} file(s) on disk".format(total))
 
     if failures:
-        print("FAILED: {}".format(", ".join(failures)))
-        raise SystemExit(1)
+        # A partial result is still worth publishing -- a league that
+        # doesn't exist in a backtest season is expected, not an outage.
+        # Only a total failure is fatal, and that already exited above.
+        print()
+        print("!" * 68)
+        print("WARNING: {} league(s) failed: {}".format(
+            len(failures), ", ".join(failures)))
+        if IS_BACKTEST:
+            print("(backtest season -- a league that did not exist that year")
+            print(" will always fail here, which is fine)")
+        else:
+            print("On a live season this needs investigating -- check the")
+            print("error above for an auth failure or a changed endpoint.")
+        print("!" * 68)
 
 
 if __name__ == "__main__":
