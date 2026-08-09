@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T00:43:42+00:00",
+  "generated_at": "2026-08-09T01:02:16+00:00",
   "season": 2025,
   "leagues": [
     {
@@ -119,6 +119,7 @@
           "name": "Bobby Boucher Jr.",
           "abbrev": "BOBY",
           "owner_id": "{98392D47-D5D1-439A-91A3-B339033756E9}",
+          "is_me": false,
           "waiver_rank": 10,
           "playoff_seed": 1,
           "record": {
@@ -358,6 +359,7 @@
           "name": "Team Hanahan",
           "abbrev": "HANA",
           "owner_id": "{C5CE0FC4-3AD4-4D13-8E0F-C43AD4CD131C}",
+          "is_me": false,
           "waiver_rank": 1,
           "playoff_seed": 4,
           "record": {
@@ -585,6 +587,7 @@
           "name": "Team Braden",
           "abbrev": "KB",
           "owner_id": "{F893961C-CFC8-487C-BFE9-B6BF15806FC4}",
+          "is_me": false,
           "waiver_rank": 2,
           "playoff_seed": 8,
           "record": {
@@ -811,6 +814,7 @@
           "name": "Team Heston",
           "abbrev": "HEST",
           "owner_id": "{05C7CAB1-4829-4A3E-87CA-B148295A3EB4}",
+          "is_me": false,
           "waiver_rank": 4,
           "playoff_seed": 9,
           "record": {
@@ -1041,6 +1045,7 @@
           "name": "Team Trap",
           "abbrev": "TT",
           "owner_id": "{4ADD4E81-98CB-4997-9D4E-8198CB6997AB}",
+          "is_me": false,
           "waiver_rank": 3,
           "playoff_seed": 10,
           "record": {
@@ -1267,6 +1272,7 @@
           "name": "CWALK2THIS \ud83d\udca9",
           "abbrev": "CWLk",
           "owner_id": "{97BB7CD7-DF19-48C3-B58E-6107512A86C4}",
+          "is_me": false,
           "waiver_rank": 6,
           "playoff_seed": 2,
           "record": {
@@ -1492,6 +1498,7 @@
           "name": "Who Else Want Some?",
           "abbrev": "D-Bo",
           "owner_id": "{A5A90C25-2E3E-4DDD-A90C-252E3E5DDD97}",
+          "is_me": false,
           "waiver_rank": 9,
           "playoff_seed": 5,
           "record": {
@@ -1719,6 +1726,7 @@
           "name": "Boom Shaka laka",
           "abbrev": "BACK",
           "owner_id": "{AA6148E2-0F15-42C8-B63B-3EE823017748}",
+          "is_me": false,
           "waiver_rank": 7,
           "playoff_seed": 7,
           "record": {
@@ -1944,6 +1952,7 @@
           "name": "Season Over Already",
           "abbrev": "CC",
           "owner_id": "{C6FFA11F-20B2-4F69-821C-F8A50F46298E}",
+          "is_me": true,
           "waiver_rank": 8,
           "playoff_seed": 3,
           "record": {
@@ -2171,6 +2180,7 @@
           "name": "Sicko  Mode",
           "abbrev": "KNIG",
           "owner_id": "{0613A4ED-8C59-4FCC-B8C3-76207F66B756}",
+          "is_me": false,
           "waiver_rank": 5,
           "playoff_seed": 6,
           "record": {
@@ -2397,7 +2407,7 @@
           ]
         }
       ],
-      "captured_at": "2026-08-09T00:43:42+00:00"
+      "captured_at": "2026-08-09T01:02:16+00:00"
     }
   ]
 }
