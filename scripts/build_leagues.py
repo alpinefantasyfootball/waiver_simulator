@@ -220,6 +220,16 @@ def normalize_waivers(settings):
     }
 
 
+def normalize_owner(value):
+    """Compare owner GUIDs without caring about braces or case."""
+    if not value:
+        return None
+    return str(value).strip().strip("{}").upper()
+
+
+MY_OWNER_ID = normalize_owner(SWID)
+
+
 def normalize_team(team):
     entries = (team.get("roster") or {}).get("entries") or []
     roster = []
@@ -243,11 +253,17 @@ def normalize_team(team):
     name = team.get("name") or " ".join(
         p for p in (team.get("location", ""), team.get("nickname", "")) if p)
 
+    owner_id = owners[0] if owners else team.get("primaryOwner")
+
     return {
         "team_id": team.get("id"),
         "name": (name or "").strip() or "(unnamed)",
         "abbrev": team.get("abbrev"),
-        "owner_id": (owners[0] if owners else team.get("primaryOwner")),
+        "owner_id": owner_id,
+        # Your SWID cookie is your owner GUID, so the team you manage
+        # identifies itself. No config field to keep in sync.
+        "is_me": bool(MY_OWNER_ID)
+                 and normalize_owner(owner_id) == MY_OWNER_ID,
         "waiver_rank": team.get("waiverRank"),
         "playoff_seed": team.get("playoffSeed"),
         "record": {
@@ -370,6 +386,15 @@ def main():
         print("  teams:    {} normalized, {} rostered players".format(
             len(league["teams"]),
             sum(len(t["roster"]) for t in league["teams"])))
+        mine = [t for t in league["teams"] if t.get("is_me")]
+        if mine:
+            print("  your team: {} (id {})".format(
+                mine[0]["name"], mine[0]["team_id"]))
+        elif MY_OWNER_ID:
+            print("  your team: NOT FOUND -- no team owner matches the SWID "
+                  "secret")
+        else:
+            print("  your team: unknown (no SWID configured)")
 
         if IS_BACKTEST:
             print("  snapshot: skipped (backtest season)")
