@@ -147,6 +147,20 @@ def best_pairing(roster, add, droppable, points_by_week, lineup_config):
 # ---------------------------------------------------------------------------
 
 
+def display_name(pid, record):
+    """Sleeper gives team defenses no full_name -- use the team code."""
+    name = record.get("name")
+    if name:
+        return name
+    if record.get("position") == "DEF":
+        return "{} D/ST".format(record.get("team") or pid)
+    return str(pid)
+
+
+def projection_weeks_for(pid, by_week):
+    return sum(1 for points in by_week.values() if pid in points)
+
+
 def load(name):
     path = DATA / name
     if not path.exists():
@@ -216,13 +230,18 @@ def evaluate_league(league, crosswalk, players):
     teams = league.get("teams") or []
     rostered = set()
     team_rosters = {}
+    unresolved_all = []
     for team in teams:
         roster, unresolved = roster_players(team, crosswalk, players)
         team_rosters[team["team_id"]] = roster
         rostered.update(p["id"] for p in roster)
+        unresolved_all.extend(unresolved)
         if unresolved:
-            print("  team {}: {} unresolved player(s)".format(
-                team["team_id"], len(unresolved)))
+            print("  team {}: {} unresolved -- {}".format(
+                team["team_id"], len(unresolved), ", ".join(
+                    str(u) for u in unresolved[:5])))
+    print("  rostered players resolved: {}, unresolved: {}".format(
+        len(rostered), len(unresolved_all)))
 
     sizes = [len(r) for r in team_rosters.values()]
     print("  rosters: {} teams, {}-{} players each".format(
@@ -244,7 +263,7 @@ def evaluate_league(league, crosswalk, players):
         pool.append({
             "id": pid,
             "espn_id": record.get("espn_id"),
-            "name": record.get("name"),
+            "name": display_name(pid, record),
             "position": record.get("position"),
             "injury_status": record.get("injury_status"),
             "snap_share": (record.get("trend") or {}).get("snap_share"),
@@ -267,6 +286,15 @@ def evaluate_league(league, crosswalk, players):
         starting_ids = {p["id"] for _, p in starters}
         droppable = [p for p in roster if p["id"] not in starting_ids] or roster
 
+        # A player with no projection scores zero in the solver, which makes
+        # him look like a free drop when in truth we simply don't know. Note
+        # the coverage so a recommendation resting on absent data is visible
+        # rather than silently confident.
+        for player in roster:
+            player["projected_weeks"] = projection_weeks_for(
+                player["id"], by_week)
+        blind_drops = sum(1 for p in droppable if not p["projected_weeks"])
+
         scored = []
         for candidate in pool:
             pairing = best_pairing(
@@ -280,6 +308,7 @@ def evaluate_league(league, crosswalk, players):
                 "position": candidate["position"],
                 "drop": drop["name"],
                 "drop_id": drop["id"],
+                "drop_projected_weeks": drop.get("projected_weeks"),
                 "net_points": value,
                 "snap_share": candidate["snap_share"],
                 "target_share": candidate["target_share"],
@@ -292,6 +321,7 @@ def evaluate_league(league, crosswalk, players):
             "baseline_points": base,
             "roster_size": len(roster),
             "droppable": len(droppable),
+            "droppable_without_projections": blind_drops,
             "recommendations": scored[:TOP_N],
         }
 
@@ -301,6 +331,9 @@ def evaluate_league(league, crosswalk, players):
         "scoring_field": field,
         "weeks": weeks,
         "pool_size": len(pool),
+        "rostered_resolved": len(rostered),
+        "rostered_unresolved": len(unresolved_all),
+        "unresolved_sample": [str(u) for u in unresolved_all[:10]],
         "teams": results,
     }
 
@@ -344,6 +377,11 @@ def main():
             "weeks": result["weeks"],
             "pool_size": result["pool_size"],
             "teams_evaluated": len(result["teams"]),
+            "rostered_resolved": result["rostered_resolved"],
+            "rostered_unresolved": result["rostered_unresolved"],
+            "unresolved_sample": result["unresolved_sample"],
+            "sample_droppable_without_projections":
+                first and first.get("droppable_without_projections"),
             "sample_team": first and first["team_name"],
             "sample_baseline_points": first and first["baseline_points"],
             "sample_top_pairings": (first or {}).get("recommendations", [])[:8],
