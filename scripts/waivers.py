@@ -120,16 +120,27 @@ def recovery_runs(from_slot, to_slot, claims_per_run):
     return round(distance / claims_per_run, 2)
 
 
-def claims_per_run_from_activity(teams, runs_per_week, weeks_played):
+def claims_per_run_from_activity(teams, runs_per_week, weeks_played,
+                                 exclude_team=None):
     """
-    Fit league claim volume from transactionCounter totals.
+    Fit claim volume from transactionCounter totals.
 
-    Coarse -- acquisitions lump waiver claims together with free agent
-    adds, and only claims move the order. Treated as an upper bound until
-    real transaction history exists.
+    Your own claims must be excluded. Winning sends you to the back of the
+    order; you only climb when somebody *else* wins. Counting your own
+    activity here would make a busy manager look like they recover faster
+    than they do, when the opposite is true.
+
+    Coarse in the other direction -- acquisitions lump waiver claims
+    together with free agent adds, and only claims move the order. Treat
+    it as an upper bound until real transaction history exists.
     """
-    total = sum((t.get("activity") or {}).get("acquisitions") or 0
-                for t in teams)
+    total = 0
+    for team in teams:
+        if exclude_team is not None and team.get("team_id") == exclude_team:
+            continue
+        if exclude_team is None and team.get("is_me"):
+            continue
+        total += (team.get("activity") or {}).get("acquisitions") or 0
     runs = max(1, runs_per_week * max(1, weeks_played))
     return round(total / runs, 3)
 
