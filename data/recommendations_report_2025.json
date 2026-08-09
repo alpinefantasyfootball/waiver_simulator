@@ -1,0 +1,109 @@
+{
+  "season": "2025",
+  "backtest": true,
+  "leagues": [
+    {
+      "league": "D-Town Boogie",
+      "scoring_field": "pts_ppr",
+      "weeks": [
+        "15",
+        "16",
+        "17"
+      ],
+      "pool_size": 355,
+      "teams_evaluated": 10,
+      "sample_team": "Bobby Boucher Jr.",
+      "sample_baseline_points": 396.37,
+      "sample_top_pairings": [
+        {
+          "add": "Brock Bowers",
+          "add_id": "11604",
+          "position": "TE",
+          "drop": "Garrett Wilson",
+          "drop_id": "8146",
+          "net_points": 6.72,
+          "snap_share": 0.9621,
+          "target_share": 0.189,
+          "injury_status": null
+        },
+        {
+          "add": "Davante Adams",
+          "add_id": "2133",
+          "position": "WR",
+          "drop": "Garrett Wilson",
+          "drop_id": "8146",
+          "net_points": 4.34,
+          "snap_share": 0.5456,
+          "target_share": 0.1251,
+          "injury_status": null
+        },
+        {
+          "add": "Brock Purdy",
+          "add_id": "8183",
+          "position": "QB",
+          "drop": "Garrett Wilson",
+          "drop_id": "8146",
+          "net_points": 2.81,
+          "snap_share": 0.9848,
+          "target_share": null,
+          "injury_status": null
+        },
+        {
+          "add": "Patrick Mahomes",
+          "add_id": "4046",
+          "position": "QB",
+          "drop": "Garrett Wilson",
+          "drop_id": "8146",
+          "net_points": 2.17,
+          "snap_share": 0.9727,
+          "target_share": 0.0072,
+          "injury_status": "Questionable"
+        },
+        {
+          "add": "Devin Neal",
+          "add_id": "12476",
+          "position": "RB",
+          "drop": "Garrett Wilson",
+          "drop_id": "8146",
+          "net_points": 1.86,
+          "snap_share": 0.615,
+          "target_share": 0.0246,
+          "injury_status": "Questionable"
+        },
+        {
+          "add": null,
+          "add_id": "SF",
+          "position": "DEF",
+          "drop": "Garrett Wilson",
+          "drop_id": "8146",
+          "net_points": 1.7,
+          "snap_share": null,
+          "target_share": null,
+          "injury_status": null
+        },
+        {
+          "add": null,
+          "add_id": "KC",
+          "position": "DEF",
+          "drop": "Garrett Wilson",
+          "drop_id": "8146",
+          "net_points": 1.65,
+          "snap_share": null,
+          "target_share": null,
+          "injury_status": null
+        },
+        {
+          "add": null,
+          "add_id": "BUF",
+          "position": "DEF",
+          "drop": "Garrett Wilson",
+          "drop_id": "8146",
+          "net_points": 1.61,
+          "snap_share": null,
+          "target_share": null,
+          "injury_status": null
+        }
+      ]
+    }
+  ]
+}
